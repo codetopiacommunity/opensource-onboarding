@@ -90,4 +90,4 @@ The more detail you give, the faster you get unstuck.
 
 ## Let's Go
 
-Open `week-01/day-01.md` and start.
+Open [week-01/day-01.md](./week-01/day-01.md) and start.
