@@ -19,31 +19,6 @@
 
 ---
 
-## How to Navigate This Repo
-
-```
-open-source-get-started/
-├── week-01/        ← Start here
-│   ├── day-01.md   ← Terminal basics
-│   ├── day-02.md   ← Git install + first commit
-│   ├── day-03.md   ← GitHub + fork + clone
-│   ├── day-04.md   ← First PR
-│   └── day-05.md   ← Review someone else's PR
-├── week-02/
-│   ├── day-01.md   ← Markdown basics
-│   ├── day-02.md   ← Write your MDX profile + submit PR
-│   ├── day-03.md   ← Get reviewed, make changes, get merged
-│   └── day-04.md   ← Buffer / catch up
-├── profiles/       ← Where your profile lives after it's merged
-│   └── template.mdx
-└── .github/
-    └── PULL_REQUEST_TEMPLATE.md
-```
-
-Start with `week-01/day-01.md`. Do not skip ahead.
-
----
-
 ## Rules
 
 1. **Do not skip days.** Each day builds on the last.
