@@ -316,4 +316,4 @@ Day 02 ✅
 
 Tomorrow you create a GitHub account, push your work online, and the rest of the world can see it for the first time.
 
-See you on Day 03.
+See you on [Day 03](./day-03.md).

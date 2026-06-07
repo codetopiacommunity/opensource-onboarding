@@ -238,4 +238,4 @@ If you are stuck on anything, drop it in the group immediately. Do not sit on a 
 
 Tomorrow we install Git and make your first commit. The real stuff begins.
 
-See you on Day 02.
+See you on [Day 02](./day-02.md).
