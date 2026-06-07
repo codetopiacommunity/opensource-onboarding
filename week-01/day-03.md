@@ -217,4 +217,4 @@ Day 03 ✅
 
 Tomorrow you make a real change to this repo and open your first Pull Request.
 
-See you on Day 04.
+See you on [Day 04](./day-04.md).
