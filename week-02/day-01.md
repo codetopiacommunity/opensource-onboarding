@@ -264,6 +264,6 @@ Day 01 ✅ (Week 02)
 
 ## What Is Next
 
-Tomorrow you use what you just learned to write your first real MDX contribution to the Codetopia open source project.
+Tomorrow you learn what MDX is, understand frontmatter, and read your own profile file with fresh eyes.
 
 See you on [Day 02](./day-02.md).
