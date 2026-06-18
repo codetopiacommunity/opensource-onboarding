@@ -146,4 +146,4 @@ You just completed Week 01. You went from zero to opening and reviewing Pull Req
 
 Next week you learn Markdown and write your first real MDX contribution to the Codetopia open source project.
 
-See you in Week 02.
+See you in [Week 02, Day 01](../week-02/day-01.md).
