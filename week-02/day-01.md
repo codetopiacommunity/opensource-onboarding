@@ -178,7 +178,7 @@ code practice.md
 
 Write the following inside the file. Replace the placeholder values with real ones:
 
-```markdown
+````markdown
 # My Markdown Practice
 
 ## About Me
@@ -202,7 +202,7 @@ My name is **[your name]** and I am learning open source at Codetopia.
 ```bash
 git status
 ```
-```
+````
 
 Save the file.
 
