@@ -1,0 +1,243 @@
+# Finding and Claiming an Issue
+
+You have opened a pull request and reviewed one. Now you make a more
+targeted contribution: finding a real problem in the repo, claiming it
+so no one else duplicates your work, and submitting a fix.
+
+This is the most common way people contribute to open source in
+practice. Most projects do not expect you to invent new features from
+scratch. They have a list of known problems waiting for someone to
+pick them up and fix them.
+
+---
+## What you will do in this guide
+
+- Browse open issues on the practice repo
+- Claim an issue by leaving a comment
+- Sync your fork with the latest changes from upstream
+- Fix the problem on a new branch
+- Open a pull request that automatically closes the issue when merged
+
+---
+## Step 1: Browse the open issues
+
+Go to the original practice repo on GitHub:
+
+```
+https://github.com/codetopiacommunity/open-source-practice
+```
+
+Click the **Issues** tab at the top.
+
+<!-- IMAGE: The top navigation of the open-source-practice repo on GitHub. The "Issues" tab is highlighted and shows a count of open issues. Target path: images/issues-tab.png -->
+
+What you should see: a list of open issues. Each one describes a small
+problem: a typo, a broken link, or a similar fix. Each issue has a
+title, a description, and the name of the file where the problem is.
+
+Read through them carefully.
+
+> [!TIP]
+> Check the comments on each issue before picking one. If someone has
+> already commented saying they are working on it, pick a different one.
+
+> [!NOTE]
+> If the Issues tab is empty, it means all current issues have been
+> claimed or there are none open right now. That happens. Post in the
+> <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Discord community</a>
+> and someone will point you to the next available one, or file a new
+> issue for you to pick up.
+
+---
+## Step 2: Claim your issue
+
+Once you find an issue you want to fix, leave a comment on it:
+
+```
+I would like to work on this one.
+```
+
+That is all you need to say. A Codetopia maintainer will assign the
+issue to you. Once you see your GitHub username appear in the
+"Assignees" section on the right side of the issue page, it is yours.
+
+Do not start working before you are assigned. This prevents two people
+from fixing the same issue and submitting conflicting pull requests.
+
+<!-- IMAGE: An issue page on GitHub. The right-hand sidebar shows the "Assignees" section with a GitHub username assigned to the issue. Target path: images/issue-assignees.png -->
+
+> [!TIP]
+> Only claim one issue at a time. Finish and close your current one
+> before picking up another.
+
+---
+## Step 3: Sync your fork with upstream
+
+Before starting any work, bring your local repo up to date with the
+latest changes from the original repo.
+
+Remember from guide 03: `upstream` is your remote connection to the
+original repo. Any new commits that other contributors have merged
+since you last synced are sitting in `upstream`. You need to pull them
+in before branching off, otherwise your branch will be based on an
+outdated version of the project.
+
+Navigate to your local clone:
+
+```bash
+cd ~/codetopia-community/open-source-practice
+```
+
+Make sure you are on `main`:
+
+```bash
+git checkout main
+```
+
+Fetch the latest from the original repo:
+
+```bash
+git fetch upstream
+```
+
+What you should see:
+
+```
+From github.com:codetopiacommunity/open-source-practice
+   abc1234..def5678  main -> upstream/main
+```
+
+Or nothing if there are no new commits. Either way is fine.
+
+Merge those changes into your local `main`:
+
+```bash
+git merge upstream/main
+```
+
+What you should see:
+
+```
+Already up to date.
+```
+
+Or a list of files that were updated. Either way, your local `main`
+is now current.
+
+Push the synced state to your fork too:
+
+```bash
+git push origin main
+```
+
+Now all three are in sync: the original repo, your local machine, and
+your fork on GitHub.
+
+---
+## Step 4: Create a branch for your fix
+
+Name your branch to describe the fix. For example, if you are fixing
+a typo and the issue number is 1:
+
+```bash
+git checkout -b fix/typo-in-about
+```
+
+The issue number is visible in the URL when you open the issue on
+GitHub. For example, if the URL is
+`https://github.com/.../issues/1`, the number is `1`.
+
+> [!TIP]
+> A descriptive branch name like `fix/typo-in-about` tells a reviewer
+> at a glance what the branch is for, before they even open it.
+
+---
+## Step 5: Make the fix
+
+Open the file mentioned in the issue and fix the problem. Save the
+file when you are done.
+
+Before moving on, read the file again and make sure you only changed
+what the issue described. Do not fix other things you notice, even if
+they look wrong. Each fix should be its own separate issue and pull
+request.
+
+---
+## Step 6: Commit and push
+
+Check what changed:
+
+```bash
+git status
+```
+
+<!-- IMAGE: Terminal showing git status output. Under "Changes not staged for commit" one file (e.g. docs/about.md) is listed as modified. Target path: images/git-status-modified.png -->
+
+Stage the file you changed:
+
+```bash
+git add docs/about.md
+```
+
+Replace `docs/about.md` with the actual path to the file you edited.
+For example, if you fixed a broken link in `docs/resources.md`, run
+`git add docs/resources.md` instead.
+
+Commit it with a message that references the issue number. Use
+`Closes #N` where `N` is the issue number:
+
+```bash
+git commit -m "fix: correct typo in about (closes #1)"
+```
+
+Replace `1` with your actual issue number. When GitHub sees
+`Closes #1` in a commit message or pull request description, it
+automatically closes that issue when the pull request is merged.
+
+Push your branch to your fork:
+
+```bash
+git push origin fix/typo-in-about
+```
+
+---
+## Step 7: Open a pull request
+
+Go to your fork on GitHub and open a pull request the same way you
+did in guide 04. Click the yellow **Compare and pull request** banner.
+
+In the pull request description, include the issue number:
+
+```
+Fixes the typo in docs/about.md ("exsits" changed to "exists").
+
+Closes #1
+```
+
+Replace the details with your actual fix and issue number.
+
+Click **Create pull request**.
+
+What you should see: your pull request is open and the linked issue
+appears in the "Development" section on the right side panel, showing
+it will be closed automatically when your pull request is merged.
+
+<!-- IMAGE: An open pull request page on GitHub. The right-hand sidebar shows the "Development" section with the linked issue number and title listed below it. Target path: images/pr-linked-issue.png -->
+
+---
+## Quick reference
+
+| Action | What to do |
+|---|---|
+| Find an issue | Issues tab on the original repo |
+| Claim it | Leave a comment, wait to be assigned |
+| Sync before starting | `git fetch upstream`, `git merge upstream/main`, `git push origin main` |
+| Reference the issue | `Closes #N` in the commit message or PR description |
+
+---
+## What's next?
+
+Next, you practice one of the most common and most misunderstood
+things in collaborative development: resolving a merge conflict.
+
+🔗 [Resolving a Merge Conflict](./07-resolving-a-merge-conflict.md)

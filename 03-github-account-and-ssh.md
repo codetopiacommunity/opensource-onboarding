@@ -1,0 +1,318 @@
+# GitHub Account and SSH
+
+You installed Git and made your first commit on your local machine.
+Now you take your work online.
+
+Git lives on your computer. GitHub is the online platform where
+developers store, share, and collaborate on Git projects. Think of Git
+as your local save system and GitHub as the cloud version that the
+whole world can see and contribute to.
+
+In this guide, you create a GitHub account, connect Git to GitHub, and
+bring a real practice repository down to your machine so you are ready
+to contribute.
+
+---
+## What you will do in this guide
+
+- Create a GitHub account
+- Connect Git to GitHub using SSH
+- Fork the practice repository
+- Clone your fork to your machine
+- Understand what `origin` and `upstream` mean
+- Add the original repo as a second remote
+
+---
+## Step 1: Create a GitHub account
+
+Go to https://github.com and sign up.
+
+<!-- IMAGE: The GitHub sign-up page at github.com showing the username, email, and password fields. Target path: images/github-signup.png -->
+
+Use the same email you used when configuring Git in the previous guide.
+This matters: GitHub uses your email to link your commits to your
+account.
+
+Pick a clean, professional username. This is your identity in open
+source. People will see it on every contribution you make.
+
+> [!TIP]
+> Avoid usernames with random numbers or characters. Something like
+> `johndoe` or `john-doe` is clean and professional.
+
+Once you sign up, verify your email address. GitHub sends you a
+confirmation link.
+
+---
+## Step 2: Connect Git to GitHub using SSH
+
+Right now, your computer and GitHub do not know each other. SSH is a
+secure way to connect them so you can push your work to GitHub without
+typing your password every time.
+
+**Check if you already have an SSH key**
+
+```bash
+ls ~/.ssh
+```
+
+If you see files named `id_rsa` and `id_rsa.pub`, or `id_ed25519` and
+`id_ed25519.pub`, you already have a key. Skip ahead to "Add your SSH
+key to GitHub" below.
+
+If you see "No such file or directory" or an empty result, you need to
+create one.
+
+**Create an SSH key**
+
+Run this command with your GitHub email:
+
+```bash
+ssh-keygen -t ed25519 -C "your@email.com"
+```
+
+Replace `your@email.com` with your actual GitHub email.
+
+What you should see:
+
+```
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/yourname/.ssh/id_ed25519):
+```
+
+Press Enter to accept the default location.
+
+It then asks for a passphrase:
+
+```
+Enter passphrase (empty for no passphrase):
+```
+
+Press Enter twice to skip the passphrase for now. Skipping it is fine and means you will not be prompted for a password when you push. If you want extra security on your key later, you can always add a passphrase using `ssh-keygen -p`.
+
+What you should see after:
+
+```
+Your identification has been saved in /home/yourname/.ssh/id_ed25519
+Your public key has been saved in /home/yourname/.ssh/id_ed25519.pub
+```
+
+What it means: Git created two files. One is your private key, never
+share this with anyone. The other is your public key, this is what
+you give to GitHub.
+
+> [!TIP]
+> Think of the public key as a lock you give to GitHub, and the private
+> key as the only key that opens it. GitHub uses your public key to
+> confirm it is really you when you connect.
+
+**Copy your public key**
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+What you should see: a long line of text starting with `ssh-ed25519`.
+Select all of it and copy it.
+
+**Add your SSH key to GitHub**
+
+1. Go to https://github.com/settings/keys
+2. Click **New SSH key**
+3. Give it a title like "My Laptop"
+4. Paste your public key into the Key field
+5. Click **Add SSH key**
+
+<!-- IMAGE: GitHub Settings > SSH and GPG keys page. The "New SSH key" button is highlighted in the top right. Target path: images/ssh-keys-settings.png -->
+
+**Test the connection**
+
+```bash
+ssh -T git@github.com
+```
+
+What you should see:
+
+```
+Hi yourusername! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+What it means: your computer and GitHub are now connected. You will
+not need to enter a password when pushing your work.
+
+> [!TIP]
+> If you see "Permission denied," your SSH key was not added correctly.
+> Go back and make sure you copied the full public key, including the
+> `ssh-ed25519` at the start.
+
+---
+## Step 3: Fork the practice repository
+
+A fork is your own personal copy of a repository on GitHub. When you
+fork a repo, GitHub creates an identical copy under your account. You
+can make changes to your fork without affecting the original.
+
+1. Go to `https://github.com/codetopiacommunity/open-source-practice`
+2. Click the **Fork** button at the top right of the page
+3. Leave all settings as they are and click **Create fork**
+
+<!-- IMAGE: The open-source-practice repo page on GitHub. The "Fork" button is highlighted in the top-right corner of the page. Target path: images/fork-button.png -->
+
+What you should see: GitHub takes you to your fork. The URL changes to:
+
+```
+https://github.com/your-username/open-source-practice
+```
+
+That is now your copy of the repo. It lives under your GitHub account.
+
+> [!TIP]
+> You will always make your changes on your fork, never directly on the
+> original repository. This is how open source collaboration works.
+> Everyone works on their own fork and submits changes for review.
+
+---
+## Step 4: Clone your fork
+
+Cloning means downloading a copy of a GitHub repository to your local
+machine so you can work on it.
+
+First go to your Codetopia Community folder:
+
+```bash
+cd ~/codetopia-community
+```
+
+Now clone your fork. Go to your fork on GitHub, click the green
+**Code** button, select **SSH**, and copy the link. It looks like:
+
+```
+git@github.com:your-username/open-source-practice.git
+```
+
+<!-- IMAGE: The green "Code" button dropdown on a GitHub repo page. The "SSH" tab is selected and the SSH clone URL is visible and highlighted. Target path: images/clone-ssh.png -->
+
+Now run:
+
+```bash
+git clone git@github.com:your-username/open-source-practice.git
+```
+
+What you should see:
+
+```
+Cloning into 'open-source-practice'...
+remote: Enumerating objects...
+remote: Counting objects...
+Receiving objects: 100%
+```
+
+What it means: GitHub sent the entire repo to your machine. You now
+have a local copy you can work on.
+
+Move into the folder:
+
+```bash
+cd open-source-practice
+```
+
+> [!TIP]
+> Always clone using the SSH link, not the HTTPS link. With HTTPS,
+> GitHub asks for your password every time you push. SSH handles this
+> automatically, since you already added your key.
+
+---
+## Step 5: Understand origin
+
+When you cloned your fork, Git automatically created a connection back
+to it. That connection has a name: `origin`.
+
+Run this to see it:
+
+```bash
+git remote -v
+```
+
+What you should see:
+
+```
+origin  git@github.com:your-username/open-source-practice.git (fetch)
+origin  git@github.com:your-username/open-source-practice.git (push)
+```
+
+A "remote" is just a named connection to a repo that lives somewhere
+else, usually on GitHub. `origin` is the standard name Git gives to
+the repo you cloned from. In this case, that is your fork.
+
+From now on, every time you run `git push origin` or `git pull origin`,
+you are talking to your fork on GitHub. That is all `origin` means:
+your fork.
+
+---
+## Step 6: Add upstream
+
+Right now your Git only knows about your fork. But there is also the
+original repo you forked from: `codetopiacommunity/open-source-practice`.
+
+That original repo is called **upstream** by convention. You need a
+connection to it so you can pull in new changes whenever the original
+repo is updated, which will happen as other contributors merge their
+work.
+
+Add it as a second remote now:
+
+```bash
+git remote add upstream git@github.com:codetopiacommunity/open-source-practice.git
+```
+
+Verify both remotes are there:
+
+```bash
+git remote -v
+```
+
+What you should see:
+
+```
+origin    git@github.com:your-username/open-source-practice.git (fetch)
+origin    git@github.com:your-username/open-source-practice.git (push)
+upstream  git@github.com:codetopiacommunity/open-source-practice.git (fetch)
+upstream  git@github.com:codetopiacommunity/open-source-practice.git (push)
+```
+
+<!-- IMAGE: Terminal showing the output of git remote -v with both origin and upstream remotes listed. Target path: images/remotes-origin-upstream.png -->
+
+What it means:
+
+- `origin` points to your fork (your personal copy on GitHub)
+- `upstream` points to the original repo (the one owned by Codetopia)
+
+Think of it this way: `upstream` is the source of truth for the
+project. `origin` is your personal workspace on GitHub. Your local
+machine is where you do the actual work.
+
+You will use both throughout the rest of this guide. Every time you
+start new work, you will pull the latest changes from `upstream` first
+to make sure your fork is not behind. You will push your own changes
+to `origin`. And your pull requests go from `origin` into the original
+repo.
+
+---
+## Quick reference
+
+| Term | What it means |
+|---|---|
+| GitHub | Online platform for storing and sharing Git repos |
+| SSH | Secure connection between your computer and GitHub |
+| Fork | Your personal copy of someone else's repo on GitHub |
+| Clone | Downloading a GitHub repo to your local machine |
+| `origin` | The remote pointing to your fork |
+| `upstream` | The remote pointing to the original repo |
+
+---
+## What's next?
+
+Next, you make a real change to this repo and open your first pull
+request.
+
+🔗 [Your First Pull Request](./04-your-first-pull-request.md)
