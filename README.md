@@ -1,68 +1,53 @@
 # Codetopia Community Open Source Onboarding
 
-> **Before you do anything else, read this entire README. It takes 5 minutes and will save you a lot of confusion.**
+Welcome. If you have never opened a terminal, never touched Git, and
+never made a pull request in your life, you are in the right place.
+This guide takes you from zero to making a real contribution to an
+active open source project, one small step at a time.
 
-> This onboarding was created for new interns joining the Codetopia Community open source team. It takes you from zero (no terminal, no Git, no GitHub) to making your first real contribution to an active open source project.
->
-> If you stumbled on this repo on your own and want to learn open source from scratch, we are building the full learning path for you at community.codetopia.org/opensource (coming soon).
->
-> Note: This repo will be archived once community.codetopia.org/opensource is stable. All content will move there.
-
----
-
-## How It Works
-
-- Everything is async. Work at your own pace.
-- Each day has one task file. Follow it step by step.
-- At the end of each day, drop your update in the WhatsApp group.
-- Stuck? Ask in the group immediately. Don't sit on a blocker alone.
+You do not need to be a programmer to start. You do not need to know
+what half those words mean yet. That is what this guide is for.
 
 ---
+## Who this is for
 
-## Rules
-
-1. **Do not skip days.** Each day builds on the last.
-2. **One PR per task.** Don't bundle multiple days into one PR.
-3. **Ask publicly.** If you're stuck, ask in the WhatsApp group — not in a private message. Someone else is probably stuck on the same thing.
-4. **Done means submitted.** A day isn't done until your update is in the group.
-
----
-
-## How to Submit Your Work
-
-Every task that requires a submission will tell you exactly what to do. Generally:
-
-1. Fork this repo
-2. Make your changes on your fork
-3. Open a Pull Request back to this repo
-4. Wait for a review
-
-If you don't know what any of that means yet — don't worry. `week-01/day-03.md` will walk you through it.
+Anyone in Codetopia Community who wants to learn open source
+contribution from the ground up. You could be brand new to computers
+beyond browsing the web, or you could already know some of this and
+just want a refresher. Either way, start at the beginning. It moves
+fast once the basics click.
 
 ---
+## How this works
 
-## How to Get Help
-
-Drop your question in the WhatsApp group with as much detail as possible:
-
-```
-Stuck on: [day and step]
-What I tried: [what you did]
-Error or result: [what happened]
-```
-
-For example:
-
-```
-Stuck on: Week 01, Day 02, Step 3
-What I tried: ran "git commit -m first commit" in the terminal
-Error or result: error: pathspec 'commit' did not match any file(s) known to git
-```
-
-The more detail you give, the faster you get unstuck.
+- Everything here is self paced. There is no schedule and no deadline.
+- Each guide builds on the one before it. Do them in order the first
+  time through.
+- Every guide tells you exactly what to type and exactly what you
+  should see happen. If what you see does not match, that is useful
+  information, not a failure.
+- Stuck? Ask in the
+  <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Discord community</a>.
+  Someone else has almost certainly been stuck on the exact same thing.
 
 ---
+## What you will learn
 
-## Let's Go
+1. [Your Computer and the Terminal](./01-your-computer-and-the-terminal.md)
+2. [Installing and Configuring Git](./02-installing-and-configuring-git.md)
+3. [GitHub Account and SSH](./03-github-account-and-ssh.md)
+4. [Your First Pull Request](./04-your-first-pull-request.md)
+5. [Reviewing a Pull Request](./05-reviewing-a-pull-request.md)
+6. [Finding and Claiming an Issue](./06-finding-and-claiming-an-issue.md)
+7. [Resolving a Merge Conflict](./07-resolving-a-merge-conflict.md)
+8. [Keeping Your Fork in Sync](./08-keeping-your-fork-in-sync.md)
 
-Open [week-01/day-01.md](./week-01/day-01.md) and start.
+By the end, you will have opened a real pull request, reviewed someone
+else's, resolved a merge conflict, and know how to keep your fork in
+sync with the original project.
+
+---
+## Let's go
+
+Open [01-your-computer-and-the-terminal.md](./01-your-computer-and-the-terminal.md)
+and start.

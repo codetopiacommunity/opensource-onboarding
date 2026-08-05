@@ -1,0 +1,284 @@
+# Your Computer and the Terminal
+
+Welcome to open source onboarding. This is not a course. No videos, no
+long theory. You will be doing things from the very first page: real
+things that real developers do every day.
+
+Today we start at the very beginning, before Git, before GitHub, before
+any of it. We start with the terminal.
+
+---
+## What is a terminal, really?
+
+Most of the time, you talk to your computer through a graphical
+interface (or GUI): you click icons, open folders by double clicking
+them, and drag files around with your mouse. That is one way to give
+your computer instructions.
+
+A terminal is another way to do the exact same thing, except you type
+instructions instead of clicking them. Instead of double clicking a
+folder to open it, you type a command that means "open this folder."
+Instead of dragging a file into a new folder, you type a command that
+means "move this file here."
+
+It looks intimidating because it is just text on a plain background
+with no icons and no buttons. But every single thing you can do by
+clicking, you can also do by typing. Developers use the terminal
+because typing a command is often faster than clicking through several
+menus, and because it lets you do the exact same thing the exact same
+way every time, which matters a lot when you are working with other
+people on the same project.
+
+You are not learning a new skill from scratch here. You already know
+what a file is and what a folder is. You already know that folders can
+have folders inside them. The terminal just asks you to say that out
+loud instead of pointing at it.
+
+---
+## What you will do in this guide
+
+- Find and open your terminal
+- Understand what a prompt is
+- Learn to navigate your computer using only the terminal
+- Know where you are on your machine at any point
+
+That is it. Just the terminal for now. Small win, solid foundation.
+
+---
+## Step 1: Open your terminal
+
+Find yours based on your operating system:
+
+**Windows**
+
+Search for **Git Bash** in your Start menu. If you do not have it,
+download Git from https://git-scm.com/downloads and install it. Git
+Bash comes bundled with it. Use Git Bash for everything in this guide,
+not Command Prompt and not PowerShell. They exist, but the commands
+here are written for Git Bash, and mixing them up will only confuse
+you early on.
+
+**macOS**
+
+Press `Cmd + Space`, type **Terminal**, and hit Enter.
+
+**Linux**
+
+Press `Ctrl + Alt + T`, or search for **Terminal** in your applications.
+
+<!-- IMAGE: side-by-side of opening a terminal on Windows (Git Bash in Start menu), macOS (Spotlight search), and Linux (applications menu). Target path: images/open-terminal.png -->
+
+Once it opens, you will see something like this:
+
+```
+yourname@computer:~$
+```
+
+That line is called the **prompt**. It is the terminal waiting for you
+to type something. It looks slightly different depending on your OS
+and setup, but it almost always ends with a `$` or `%` symbol.
+
+> [!TIP]
+> The prompt is not something you type. It is the terminal saying "I am
+> ready." You type your commands after the `$` symbol.
+
+---
+## Step 2: Where are you?
+
+Whenever you are in the terminal, you are always inside a folder on
+your computer, the same way you are always inside some folder when you
+open your file explorer. The terminal just does not show you this
+visually, so you have to ask.
+
+Type this exactly and hit Enter:
+
+```bash
+pwd
+```
+
+What you should see:
+
+```
+/home/yourname
+```
+
+or on macOS:
+
+```
+/Users/yourname
+```
+
+or on Windows (Git Bash):
+
+```
+/c/Users/yourname
+```
+
+What it means: `pwd` stands for "print working directory." It tells you
+the full path of the folder you are currently inside. This is your
+**home folder**, the starting point every time you open the terminal.
+
+> [!TIP]
+> If nothing shows up or you see an error, make sure you typed `pwd` in
+> lowercase. Commands are case sensitive.
+
+---
+## Step 3: Look around
+
+Now let us see what is inside the folder you are in.
+
+Type:
+
+```bash
+ls
+```
+
+What you should see: a list of files and folders inside your current
+location, something like:
+
+```
+Desktop  Documents  Downloads  Music  Pictures
+```
+
+What it means: `ls` stands for "list." It shows you everything inside
+your current folder, the same as opening your file explorer and
+looking inside a folder.
+
+> [!TIP]
+> If you see nothing, the folder is just empty. That is fine. You will
+> see more once you move into a folder like Desktop in the next step.
+
+---
+## Step 4: Move into a folder
+
+`cd` stands for "change directory." It is how you move into a folder.
+
+Move into your Desktop:
+
+```bash
+cd Desktop
+```
+
+What you should see: your prompt changes slightly. On most systems it
+now shows Desktop in the path:
+
+```
+yourname@computer:~/Desktop$
+```
+
+What it means: you are now inside the Desktop folder. Think of it as
+double clicking the Desktop folder in your file explorer.
+
+Now run `ls` again:
+
+```bash
+ls
+```
+
+You will see the files and folders sitting on your Desktop.
+
+> [!TIP]
+> If you get "No such file or directory," the folder name might be
+> spelled differently. Folder names are case sensitive. Try
+> `cd desktop` in lowercase, or run `ls` first to see the exact names
+> available.
+
+---
+## Step 5: Go back
+
+To go back one level, out of the folder you are currently in:
+
+```bash
+cd ..
+```
+
+What you should see: your prompt goes back to the previous path.
+
+What it means: two dots (`..`) always mean "go up one level." It does
+not matter where you are, `cd ..` takes you one step back.
+
+Run `pwd` to confirm you moved back.
+
+> [!TIP]
+> You can chain this to go up multiple levels at once. `cd ../..` goes
+> up two levels.
+
+---
+## Step 6: Go home from anywhere
+
+No matter where you are in the terminal, this command takes you
+straight back to your home folder:
+
+```bash
+cd ~
+```
+
+What you should see: your prompt goes back to showing just `~`.
+
+What it means: the tilde symbol (`~`) is shorthand for your home
+folder. You will use this a lot.
+
+> [!TIP]
+> If you ever feel lost in the terminal, run `cd ~` and you are back to
+> the beginning.
+
+---
+## Step 7: Create a folder for this onboarding
+
+Let us make a folder where all your work will live during this guide.
+First go home:
+
+```bash
+cd ~
+```
+
+Now create a new folder called `codetopia-community`:
+
+```bash
+mkdir codetopia-community
+```
+
+What you should see: nothing. No output means it worked.
+
+What it means: `mkdir` stands for "make directory." It creates a new
+folder. The lack of output is normal. The terminal only speaks up when
+something goes wrong.
+
+> [!TIP]
+> If you see "File exists," a folder with that name already exists.
+> That is fine, just move into it in the next step.
+
+Now move into it:
+
+```bash
+cd codetopia-community
+```
+
+Run `pwd` to confirm:
+
+```bash
+pwd
+```
+
+You should see something like `/home/yourname/codetopia-community`.
+This is your workspace for the rest of this guide. Everything lives
+here.
+
+---
+## Quick reference: commands you learned
+
+| Command | What it does |
+|---|---|
+| `pwd` | Show where you are |
+| `ls` | List files and folders here |
+| `cd foldername` | Move into a folder |
+| `cd ..` | Go back one level |
+| `cd ~` | Go back to home from anywhere |
+| `mkdir foldername` | Create a new folder |
+
+---
+## What's next?
+
+Next, you install Git and make your first commit. The real stuff begins.
+
+🔗 [Installing and Configuring Git](./02-installing-and-configuring-git.md)
