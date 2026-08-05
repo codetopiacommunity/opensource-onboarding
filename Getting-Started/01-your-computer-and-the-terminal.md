@@ -49,7 +49,7 @@ That is it. Just the terminal for now. Small win, solid foundation.
 
 Find yours based on your operating system:
 
-**Windows**
+### Windows
 
 Search for **Git Bash** in your Start menu. If you do not have it,
 download Git from https://git-scm.com/downloads and install it. Git
@@ -58,15 +58,19 @@ not Command Prompt and not PowerShell. They exist, but the commands
 here are written for Git Bash, and mixing them up will only confuse
 you early on.
 
-**macOS**
+<!-- IMAGE: Windows Start menu search showing "Git Bash" as the top result under Best match. Target path: images/01-open-terminal-windows.png -->
+
+### macOS
 
 Press `Cmd + Space`, type **Terminal**, and hit Enter.
 
-**Linux**
+<!-- IMAGE: macOS Spotlight search with "terminal" typed in, showing Terminal.app as the top result. Target path: images/01-open-terminal-macos.png -->
+
+### Linux
 
 Press `Ctrl + Alt + T`, or search for **Terminal** in your applications.
 
-<!-- IMAGE: side-by-side of opening a terminal on Windows (Git Bash in Start menu), macOS (Spotlight search), and Linux (applications menu). Target path: images/open-terminal.png -->
+<!-- IMAGE: Linux applications menu with Terminal highlighted under Accessories. Target path: images/01-open-terminal-linux.png -->
 
 Once it opens, you will see something like this:
 

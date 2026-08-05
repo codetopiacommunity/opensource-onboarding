@@ -33,14 +33,14 @@ fast once the basics click.
 ---
 ## What you will learn
 
-1. [Your Computer and the Terminal](./01-your-computer-and-the-terminal.md)
-2. [Installing and Configuring Git](./02-installing-and-configuring-git.md)
-3. [GitHub Account and SSH](./03-github-account-and-ssh.md)
-4. [Your First Pull Request](./04-your-first-pull-request.md)
-5. [Reviewing a Pull Request](./05-reviewing-a-pull-request.md)
-6. [Finding and Claiming an Issue](./06-finding-and-claiming-an-issue.md)
-7. [Resolving a Merge Conflict](./07-resolving-a-merge-conflict.md)
-8. [Keeping Your Fork in Sync](./08-keeping-your-fork-in-sync.md)
+1. [Your Computer and the Terminal](./Getting-Started/01-your-computer-and-the-terminal.md)
+2. [Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md)
+3. [GitHub Account and SSH](./Getting-Started/03-github-account-and-ssh.md)
+4. [Your First Pull Request](./Getting-Started/04-your-first-pull-request.md)
+5. [Reviewing a Pull Request](./Getting-Started/05-reviewing-a-pull-request.md)
+6. [Finding and Claiming an Issue](./Getting-Started/06-finding-and-claiming-an-issue.md)
+7. [Resolving a Merge Conflict](./Getting-Started/07-resolving-a-merge-conflict.md)
+8. [Keeping Your Fork in Sync](./Getting-Started/08-keeping-your-fork-in-sync.md)
 
 By the end, you will have opened a real pull request, reviewed someone
 else's, resolved a merge conflict, and know how to keep your fork in
@@ -49,5 +49,5 @@ sync with the original project.
 ---
 ## Let's go
 
-Open [01-your-computer-and-the-terminal.md](./01-your-computer-and-the-terminal.md)
+Open [01-your-computer-and-the-terminal.md](./Getting-Started/01-your-computer-and-the-terminal.md)
 and start.
