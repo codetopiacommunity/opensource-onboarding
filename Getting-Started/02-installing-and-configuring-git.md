@@ -38,13 +38,15 @@ What it means: Git is already installed. Skip to Step 2.
 If you see something like `command not found`, Git is not installed
 yet. Follow the instructions below for your OS.
 
-**Windows**
+### Windows
 
 Download Git from https://git-scm.com/downloads. Run the installer and
 use the default options. After it finishes, close Git Bash and open it
 again. Run `git --version` to confirm.
 
-**macOS**
+<!-- IMAGE: The Git for Windows installer open on Windows, showing the default options selected. Target path: images/02-install-git-windows.png -->
+
+### macOS
 
 Run this in your terminal:
 
@@ -55,7 +57,9 @@ xcode-select --install
 A popup will appear asking you to install developer tools. Click
 Install and wait for it to finish. It may take a few minutes.
 
-**Linux**
+<!-- IMAGE: macOS popup dialog asking to install developer tools, with the Install button highlighted. Target path: images/02-install-git-macos.png -->
+
+### Linux
 
 Run this in your terminal:
 

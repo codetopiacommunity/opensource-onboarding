@@ -175,23 +175,29 @@ The `*` is now on `add-my-name`. You are ready to make changes.
 
 Open `CONTRIBUTORS.md` in a text editor:
 
-**Windows (Git Bash)**
+### Windows (Git Bash)
 
 ```bash
 notepad CONTRIBUTORS.md
 ```
 
-**macOS**
+<!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/04-open-contributors-windows.png -->
+
+### macOS
 
 ```bash
 open -e CONTRIBUTORS.md
 ```
 
-**Linux**
+<!-- IMAGE: CONTRIBUTORS.md open in TextEdit on macOS. Target path: images/04-open-contributors-macos.png -->
+
+### Linux
 
 ```bash
 nano CONTRIBUTORS.md
 ```
+
+<!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/04-open-contributors-linux.png -->
 
 You will see a short list with one entry already in it. Add your name
 at the bottom, using the same format:

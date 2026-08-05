@@ -81,23 +81,29 @@ Switched to a new branch 'practice/merge-conflict'
 
 Open `docs/conflict-practice.md`:
 
-**Windows (Git Bash)**
+### Windows (Git Bash)
 
 ```bash
 notepad docs/conflict-practice.md
 ```
 
-**macOS**
+<!-- IMAGE: conflict-practice.md open in Notepad on Windows showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-windows.png -->
+
+### macOS
 
 ```bash
 open -e docs/conflict-practice.md
 ```
 
-**Linux**
+<!-- IMAGE: conflict-practice.md open in TextEdit on macOS showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-macos.png -->
+
+### Linux
 
 ```bash
 nano docs/conflict-practice.md
 ```
+
+<!-- IMAGE: conflict-practice.md open in nano in the Linux terminal showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-linux.png -->
 
 Find this line:
 
