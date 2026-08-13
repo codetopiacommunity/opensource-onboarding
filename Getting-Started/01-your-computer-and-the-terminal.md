@@ -53,10 +53,14 @@ Find yours based on your operating system:
 
 Search for **Git Bash** in your Start menu. If you do not have it,
 download Git from https://git-scm.com/downloads and install it. Git
-Bash comes bundled with it. Use Git Bash for everything in this guide,
-not Command Prompt and not PowerShell. They exist, but the commands
-here are written for Git Bash, and mixing them up will only confuse
-you early on.
+Bash comes bundled with it.
+
+> [!IMPORTANT]
+> We highly recommend Windows users do everything in this course in
+> **Git Bash**, not Command Prompt and not PowerShell. Those exist,
+> but every command in these guides is written for Git Bash. Typing
+> them into the wrong terminal will produce confusing errors that have
+> nothing to do with you doing something wrong.
 
 <!-- IMAGE: Windows Start menu search showing "Git Bash" as the top result under Best match. Target path: images/01-open-terminal-windows.png -->
 

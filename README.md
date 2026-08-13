@@ -30,6 +30,13 @@ fast once the basics click.
   <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Discord community</a>.
   Someone else has almost certainly been stuck on the exact same thing.
 
+> [!IMPORTANT]
+> **On Windows?** Use **Git Bash** for every guide here, not Command
+> Prompt and not PowerShell. Every command in this course is written
+> for Git Bash, and it comes free with Git (installed in guide 02). If
+> a command behaves strangely on Windows, the first thing to check is
+> that you are typing it into Git Bash.
+
 ---
 ## What you will learn
 

@@ -38,9 +38,14 @@ yet. Follow the instructions below for your OS.
 
 ### Windows
 
-Download Git from https://git-scm.com/downloads. Run the installer and
-use the default options. After it finishes, close Git Bash and open it
-again. Run `git --version` to confirm.
+If you are on Windows, you almost certainly did this already in guide
+01 when you installed Git Bash, because Git came bundled with it. Run
+`git --version` to confirm and move on to Step 2.
+
+If you somehow do not have it, download Git from
+https://git-scm.com/downloads. Run the installer and use the default
+options. After it finishes, close Git Bash and open it again. Run
+`git --version` to confirm.
 
 <!-- IMAGE: The Git for Windows installer open on Windows, showing the default options selected. Target path: images/02-install-git-windows.png -->
 
