@@ -40,6 +40,7 @@ fast once the basics click.
 ---
 ## What you will learn
 
+0. [What Is Open Source?](./Getting-Started/00-what-is-open-source.md)
 1. [Your Computer and the Terminal](./Getting-Started/01-your-computer-and-the-terminal.md)
 2. [Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md)
 3. [Your First Commit](./Getting-Started/03-your-first-commit.md)
@@ -57,5 +58,6 @@ sync with the original project.
 ---
 ## Let's go
 
-Open [01-your-computer-and-the-terminal.md](./Getting-Started/01-your-computer-and-the-terminal.md)
-and start.
+Open [00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md)
+and start. It is a five minute read with nothing to install, and it
+explains why everything after it is worth doing.
