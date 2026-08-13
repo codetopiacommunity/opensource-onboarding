@@ -181,7 +181,7 @@ Open `CONTRIBUTORS.md` in a text editor:
 notepad CONTRIBUTORS.md
 ```
 
-<!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/04-open-contributors-windows.png -->
+<!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/05-open-contributors-windows.png -->
 
 ### macOS
 
@@ -189,7 +189,7 @@ notepad CONTRIBUTORS.md
 open -e CONTRIBUTORS.md
 ```
 
-<!-- IMAGE: CONTRIBUTORS.md open in TextEdit on macOS. Target path: images/04-open-contributors-macos.png -->
+<!-- IMAGE: CONTRIBUTORS.md open in TextEdit on macOS. Target path: images/05-open-contributors-macos.png -->
 
 ### Linux
 
@@ -197,7 +197,7 @@ open -e CONTRIBUTORS.md
 nano CONTRIBUTORS.md
 ```
 
-<!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/04-open-contributors-linux.png -->
+<!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
 
 You will see a short list with one entry already in it. Add your name
 at the bottom, using the same format:
@@ -389,4 +389,4 @@ approve it, or ask you to fix something.
 Next, you get to see the other side of a pull request: reviewing
 someone else's.
 
-🔗 [Reviewing a Pull Request](./05-reviewing-a-pull-request.md)
+🔗 [Reviewing a Pull Request](./06-reviewing-a-pull-request.md)

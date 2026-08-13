@@ -160,4 +160,4 @@ the author and maintainers to see.
 Next, you go beyond adding your name and make a more targeted
 contribution: finding a real issue, claiming it, and fixing it.
 
-🔗 [Finding and Claiming an Issue](./06-finding-and-claiming-an-issue.md)
+🔗 [Finding and Claiming an Issue](./07-finding-and-claiming-an-issue.md)

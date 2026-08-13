@@ -87,7 +87,7 @@ Open `docs/conflict-practice.md`:
 notepad docs/conflict-practice.md
 ```
 
-<!-- IMAGE: conflict-practice.md open in Notepad on Windows showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-windows.png -->
+<!-- IMAGE: conflict-practice.md open in Notepad on Windows showing the "Favorite programming language: not set yet" line. Target path: images/08-open-conflict-file-windows.png -->
 
 ### macOS
 
@@ -95,7 +95,7 @@ notepad docs/conflict-practice.md
 open -e docs/conflict-practice.md
 ```
 
-<!-- IMAGE: conflict-practice.md open in TextEdit on macOS showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-macos.png -->
+<!-- IMAGE: conflict-practice.md open in TextEdit on macOS showing the "Favorite programming language: not set yet" line. Target path: images/08-open-conflict-file-macos.png -->
 
 ### Linux
 
@@ -103,7 +103,7 @@ open -e docs/conflict-practice.md
 nano docs/conflict-practice.md
 ```
 
-<!-- IMAGE: conflict-practice.md open in nano in the Linux terminal showing the "Favorite programming language: not set yet" line. Target path: images/07-open-conflict-file-linux.png -->
+<!-- IMAGE: conflict-practice.md open in nano in the Linux terminal showing the "Favorite programming language: not set yet" line. Target path: images/08-open-conflict-file-linux.png -->
 
 Find this line:
 
@@ -314,4 +314,4 @@ The last guide covers keeping your fork in sync over time as the
 original project keeps moving, and what to do when a reviewer asks
 you to update a pull request you already submitted.
 
-🔗 [Keeping Your Fork in Sync](./08-keeping-your-fork-in-sync.md)
+🔗 [Keeping Your Fork in Sync](./09-keeping-your-fork-in-sync.md)

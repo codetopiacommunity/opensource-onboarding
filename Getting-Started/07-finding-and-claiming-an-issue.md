@@ -76,7 +76,7 @@ from fixing the same issue and submitting conflicting pull requests.
 Before starting any work, bring your local repo up to date with the
 latest changes from the original repo.
 
-Remember from guide 03: `upstream` is your remote connection to the
+Remember from guide 04: `upstream` is your remote connection to the
 original repo. Any new commits that other contributors have merged
 since you last synced are sitting in `upstream`. You need to pull them
 in before branching off, otherwise your branch will be based on an
@@ -204,7 +204,7 @@ git push origin fix/typo-in-about
 ## Step 7: Open a pull request
 
 Go to your fork on GitHub and open a pull request the same way you
-did in guide 04. Click the yellow **Compare and pull request** banner.
+did in guide 05. Click the yellow **Compare and pull request** banner.
 
 In the pull request description, include the issue number:
 
@@ -240,4 +240,4 @@ it will be closed automatically when your pull request is merged.
 Next, you practice one of the most common and most misunderstood
 things in collaborative development: resolving a merge conflict.
 
-🔗 [Resolving a Merge Conflict](./07-resolving-a-merge-conflict.md)
+🔗 [Resolving a Merge Conflict](./08-resolving-a-merge-conflict.md)

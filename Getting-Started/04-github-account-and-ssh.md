@@ -29,7 +29,7 @@ Go to https://github.com and sign up.
 
 <!-- IMAGE: The GitHub sign-up page at github.com showing the username, email, and password fields. Target path: images/github-signup.png -->
 
-Use the same email you used when configuring Git in the previous guide.
+Use the same email you used when configuring Git in guide 02.
 This matters: GitHub uses your email to link your commits to your
 account.
 
@@ -315,4 +315,4 @@ repo.
 Next, you make a real change to this repo and open your first pull
 request.
 
-🔗 [Your First Pull Request](./04-your-first-pull-request.md)
+🔗 [Your First Pull Request](./05-your-first-pull-request.md)
