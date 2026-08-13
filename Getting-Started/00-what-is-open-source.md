@@ -51,7 +51,7 @@ Every open source project has:
 
 Here is how contributing actually works, start to finish.
 
-[Rosemary](https://portal.community.codetopia.org/@rosemaryboahemaa)
+<a href="https://portal.community.codetopia.org/@rosemaryboahemaa" target="_blank" rel="noopener noreferrer">Rosemary</a>
 is reading the documentation of a project she uses and notices the
 install instructions are missing a step. She is new. She has never
 contributed to anything.
