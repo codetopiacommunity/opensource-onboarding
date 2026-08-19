@@ -221,6 +221,33 @@ will show up here.
 | `git log` | See your commit history |
 
 ---
+## Stuck?
+
+**`fatal: not a git repository`.**
+You are not inside the folder you ran `git init` in. Run `pwd` to check
+where you are, `cd ~/codetopia-community/practice` to get back, and
+`ls -a` to confirm a `.git` folder is listed.
+
+**`git commit` opened a full screen editor you cannot escape.**
+You left off the `-m "message"` part, so Git opened an editor to ask
+for one. Press `Esc`, then type `:q!` and press Enter. Then run the
+commit again with `-m "my first commit"`.
+
+**Git says `Author identity unknown` or asks who you are.**
+You skipped step 2 of guide 02. Set your name and email, then commit
+again.
+
+**`git log` will not give you your prompt back.**
+Press `q` to quit. Git shows long output in a viewer you exit with `q`.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## What's next?
 
 Next, you create a GitHub account, push your work online, and the rest

@@ -308,6 +308,33 @@ need to be merged for the exercise to count as complete.
 | `git commit` after `git add` | Completes the merge |
 
 ---
+## Stuck?
+
+**`git merge` said `Already up to date` and no conflict appeared.**
+The fetch did not bring the other branch down, or you are on the wrong
+branch. Run `git fetch origin` again, check `git status` shows your
+practice branch, then merge again.
+
+**You committed while the `<<<<<<<` markers were still in the file.**
+Open the file, delete every marker line and the duplicated text, save,
+then run `git add` and `git commit` again. Nothing is broken.
+
+**You have lost track of what state the merge is in.**
+Run `git status`. During a conflict it names every file still needing
+resolution and tells you the next command.
+
+**You want to abandon the merge and start over.**
+`git merge --abort` puts everything back the way it was before you
+merged. It is safe, and it is there for exactly this.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## What's next?
 
 The last guide covers keeping your fork in sync over time as the

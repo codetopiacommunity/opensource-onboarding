@@ -173,6 +173,35 @@ reviewer's comment to let them know the fix is in.
 | `git rebase main` | Replay your branch on top of the updated main |
 
 ---
+## Stuck?
+
+**`upstream does not appear to be a git repository`.**
+The upstream remote is missing on this machine. Add it again following
+[guide 04, step 6](./04-github-account-and-ssh.md). Check with
+`git remote -v`, which should list both `origin` and `upstream`.
+
+**`git merge upstream/main` says `Already up to date`.**
+Not a problem. It means nothing new has been merged upstream since you
+last synced.
+
+**A conflict appears while syncing or rebasing.**
+Resolve it exactly the way you did in
+[guide 08](./08-resolving-a-merge-conflict.md). The markers and the fix
+are identical, whatever command produced them.
+
+**`git push origin main` is rejected.**
+Your fork's `main` has commits your local one does not, usually from
+committing directly on `main` earlier. Ask in the Discord before
+force pushing, so you do not lose work.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## You are done
 
 You went from never having opened a terminal to forking a real repo,
@@ -180,8 +209,8 @@ opening pull requests, reviewing someone else's, resolving a merge
 conflict, and keeping a fork in sync with the original project. That
 is the complete workflow every open source contributor uses every day.
 
-You are ready to contribute to Codetopia's actual projects. Check the
-community how-tos for more guides as the library grows, and ask in
-Discord if you want to know what to work on next.
+You are ready to contribute to Codetopia Community's actual projects.
+Check the community how-tos for more guides as the library grows, and
+ask in Discord if you want to know what to work on next.
 
 🔗 [How-To Guides](https://community.codetopia.org/howtos)

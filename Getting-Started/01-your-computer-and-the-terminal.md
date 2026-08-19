@@ -285,6 +285,32 @@ here.
 | `mkdir foldername` | Create a new folder |
 
 ---
+## Stuck?
+
+**You cannot find a terminal on your computer.**
+On Windows, search the Start menu for **Git Bash** (guide 02 installs
+it). On macOS, press `Cmd + Space` and type `Terminal`. On Linux, try
+`Ctrl + Alt + T`.
+
+**`cd Desktop` says `No such file or directory`.**
+You are not in the folder that contains Desktop. Run `cd ~` to go home,
+then `ls` to see what is actually there, then try again. On macOS and
+Linux, capital letters matter: `desktop` and `Desktop` are different.
+
+**`ls` prints nothing at all.**
+That is not an error. The folder is simply empty.
+
+**You typed a command and nothing happened.**
+Press Enter. The terminal only acts once you do.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## What's next?
 
 Next, you install Git and make your first commit. The real stuff begins.

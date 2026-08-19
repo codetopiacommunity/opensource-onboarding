@@ -285,7 +285,8 @@ upstream  git@github.com:codetopiacommunity/open-source-practice.git (push)
 What it means:
 
 - `origin` points to your fork (your personal copy on GitHub)
-- `upstream` points to the original repo (the one owned by Codetopia)
+- `upstream` points to the original repo (the one owned by Codetopia
+  Community)
 
 Think of it this way: `upstream` is the source of truth for the
 project. `origin` is your personal workspace on GitHub. Your local
@@ -308,6 +309,37 @@ repo.
 | Clone | Downloading a GitHub repo to your local machine |
 | `origin` | The remote pointing to your fork |
 | `upstream` | The remote pointing to the original repo |
+
+---
+## Stuck?
+
+**`Permission denied (publickey)`.**
+GitHub does not recognise your key. Check `cat ~/.ssh/id_ed25519.pub`
+prints a key, then confirm you pasted that exact text into GitHub under
+Settings, SSH and GPG keys. The whole line, including `ssh-ed25519` at
+the start.
+
+**`ssh-keygen` asks for a passphrase and typing shows nothing.**
+Normal. Passphrase characters are always hidden. Type it and press
+Enter, or press Enter twice to skip having one.
+
+**`ssh -T` asks "Are you sure you want to continue connecting?"**
+Type `yes` and press Enter. This appears once, the first time only.
+
+**`ls ~/.ssh` says `No such file or directory`.**
+You have no keys yet, which is expected before you run `ssh-keygen`.
+
+**Cloning says `repository not found`.**
+Either there is a typo in your username, or you copied the address of
+the original repo rather than your fork. The address must have your own
+username in it.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
 
 ---
 ## What's next?

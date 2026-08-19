@@ -133,6 +133,31 @@ of it, in order:
 By the end, Rosemary's story is your story.
 
 ---
+## Before you start: you will get stuck
+
+Not might. Will. Everyone does, including people who have been doing
+this for years. A command will fail, or an error will appear that means
+nothing to you. That is not a sign you are not cut out for this. It is
+the normal texture of the work.
+
+So here is the plan for when it happens:
+
+1. Every guide has a **Stuck?** section at the bottom listing what
+   commonly goes wrong at that step, with the fix.
+2. If that does not cover it, [Getting Help](../HELP.md) explains where
+   to ask and how to ask so you get a useful answer quickly.
+
+Read [Getting Help](../HELP.md) now, before you need it. It takes two
+minutes and it means you will not be hunting for it while frustrated.
+
+> [!TIP]
+> You will create a GitHub account in guide 04. If you would rather ask
+> your questions on GitHub than on Discord, there is nothing stopping
+> you making one now:
+> <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">github.com/signup</a>.
+> It is free and takes about two minutes.
+
+---
 ## What's next?
 
 Time to meet the tool you will use for everything: the terminal.

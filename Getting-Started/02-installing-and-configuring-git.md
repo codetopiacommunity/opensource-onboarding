@@ -133,6 +133,32 @@ will remember it from now on.
 | `git config --global --list` | See your saved Git settings |
 
 ---
+## Stuck?
+
+**You installed Git but `git --version` still is not recognised.**
+Close the terminal window completely and open a new one. A terminal
+only picks up newly installed programs when it starts.
+
+**On Windows, `git` works nowhere you try it.**
+Make sure you are in **Git Bash**, not Command Prompt or PowerShell.
+Every command in these guides assumes Git Bash.
+
+**`sudo apt install git` asks for a password and typing does nothing.**
+That is deliberate. Linux hides password characters as you type. Type
+it anyway and press Enter.
+
+**`git config --global --list` comes back empty.**
+The settings did not save. Run both `git config` commands again, and
+keep the quotes around your name and email exactly as shown.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## What's next?
 
 Git is installed and knows who you are. Next, you put it to work and

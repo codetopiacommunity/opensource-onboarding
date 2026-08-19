@@ -155,6 +155,29 @@ the author and maintainers to see.
 | Request changes | You flag issues that must be fixed before merging |
 
 ---
+## Stuck?
+
+**There are no open pull requests to review.**
+That happens when everyone's work has already been merged. Ask in the
+Discord and someone will point you at one, or open one yourself and
+review a partner's.
+
+**You cannot approve your own pull request.**
+GitHub does not allow it, by design. Review someone else's instead.
+Approving your own work is not review, and that is the point.
+
+**You cannot find the changes.**
+Open the **Files changed** tab at the top of the pull request. Red
+lines were removed, green lines were added.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
+
+---
 ## What's next?
 
 Next, you go beyond adding your name and make a more targeted

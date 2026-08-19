@@ -57,9 +57,10 @@ Once you find an issue you want to fix, leave a comment on it:
 I would like to work on this one.
 ```
 
-That is all you need to say. A Codetopia maintainer will assign the
-issue to you. Once you see your GitHub username appear in the
-"Assignees" section on the right side of the issue page, it is yours.
+That is all you need to say. A Codetopia Community maintainer will
+assign the issue to you. Once you see your GitHub username appear in
+the "Assignees" section on the right side of the issue page, it is
+yours.
 
 Do not start working before you are assigned. This prevents two people
 from fixing the same issue and submitting conflicting pull requests.
@@ -233,6 +234,32 @@ it will be closed automatically when your pull request is merged.
 | Claim it | Leave a comment, wait to be assigned |
 | Sync before starting | `git fetch upstream`, `git merge upstream/main`, `git push origin main` |
 | Reference the issue | `Closes #N` in the commit message or PR description |
+
+---
+## Stuck?
+
+**Someone claimed the issue you wanted while you were reading it.**
+Normal, and no harm done. Pick another one. Issues get added regularly.
+
+**`git fetch upstream` says `'upstream' does not appear to be a git
+repository`.**
+You have not added the upstream remote on this machine. Go back to
+[guide 04, step 6](./04-github-account-and-ssh.md), then try again.
+
+**Your branch contains changes you did not make.**
+You branched before syncing, so you picked up an old state. Run
+`git checkout main`, sync with upstream, then create your branch again.
+
+**You were never assigned, and it has been a while.**
+Post in the Discord with a link to the issue. Maintainers are
+volunteers and sometimes miss a comment.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
 
 ---
 ## What's next?

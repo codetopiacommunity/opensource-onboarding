@@ -215,7 +215,7 @@ your actual GitHub username. For example:
 
 Save the file.
 
-<!-- IMAGE: CONTRIBUTORS.md open in a text editor. The existing Codetopia entry is visible and a new line has been added at the bottom in the format "- [Jane Doe](https://github.com/janedoe)". Target path: images/contributors-md-edit.png -->
+<!-- IMAGE: CONTRIBUTORS.md open in a text editor. The existing Codetopia Community entry is visible and a new line has been added at the bottom in the format "- [Jane Doe](https://github.com/janedoe)". Target path: images/contributors-md-edit.png -->
 
 > [!TIP]
 > Only add your own line. Do not change anyone else's entry or any
@@ -243,8 +243,9 @@ Stage the file:
 git add CONTRIBUTORS.md
 ```
 
-Before you commit, a quick note on commit messages. Codetopia follows
-a standard called Conventional Commits. The format is:
+Before you commit, a quick note on commit messages. Codetopia
+Community follows a standard called Conventional Commits. The format
+is:
 
 ```
 type: short description
@@ -361,9 +362,9 @@ your title, description, and your change listed below.
 
 <!-- IMAGE: An open pull request page on GitHub showing the PR title, description, the "Open" badge, and the files changed section below. Target path: images/pr-open-page.png -->
 
-You have officially proposed your changes to the Codetopia maintainers.
-Now you wait. A maintainer will review your PR and either merge it,
-approve it, or ask you to fix something.
+You have officially proposed your changes to the Codetopia Community
+maintainers. Now you wait. A maintainer will review your PR and either
+merge it, approve it, or ask you to fix something.
 
 > [!TIP]
 > Do not close your PR after submitting it. If a reviewer asks for
@@ -382,6 +383,37 @@ approve it, or ask you to fix something.
 | Pull request | A proposal to merge your changes into the original repo |
 | `type/description` | Branch naming convention (e.g. `fix/typo-in-about`) |
 | `type: description` | Commit message convention (e.g. `fix: correct typo`) |
+
+---
+## Stuck?
+
+**`git push` is rejected, or says the remote has work you do not have.**
+Your fork has moved on since you branched. Go back to step 2 and sync
+with upstream, then push again.
+
+**Git asks for a username and password when you push.**
+Your repo is using HTTPS rather than SSH. Run `git remote -v`. If the
+address starts with `https://`, re-clone using the `git@github.com:`
+address from guide 04.
+
+**`nothing to commit, working tree clean` after you edited the file.**
+The change was never saved. Go back to the editor, save, and check
+`git status` again. In `nano`, save with `Ctrl+O`, Enter, then `Ctrl+X`.
+
+**There is no "Compare and pull request" banner on your fork.**
+Refresh the page. If it still is not there, open the **Branches** tab,
+find your branch, and click **New pull request** next to it.
+
+**You cannot find `CONTRIBUTORS.md`.**
+Run `pwd`. You must be inside
+`~/codetopia-community/open-source-practice`, not the folder above it.
+
+Still stuck, or hit something not listed here? See
+[Getting Help](../HELP.md) for how to ask so you get a fast answer, or
+go straight to the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
+New to Discord? It is free, works in your browser, and Getting Help
+walks you through joining.
 
 ---
 ## What's next?

@@ -185,7 +185,7 @@ Some rules for screenshots:
 ---
 ## Getting help
 
-Stuck on any of this, or unsure whether an idea is worth doing? Ask in
-the
-<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Discord community</a>.
+Stuck on any of this, or unsure whether an idea is worth doing? See
+[Getting Help](./HELP.md), or ask directly in the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
 Asking first is always welcome. Nobody here will mind.
