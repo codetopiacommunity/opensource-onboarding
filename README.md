@@ -49,6 +49,15 @@ else's, resolved a merge conflict, and know how to keep your fork in
 sync with the original project.
 
 ---
+## Found something to fix?
+
+This guide is open source too. If a step did not work for you, a
+command failed, or a paragraph confused you, you can fix it and every
+person after you benefits. See [CONTRIBUTING.md](./CONTRIBUTING.md)
+for how, and do not worry if that sounds out of reach right now. It
+will not by the time you finish guide 05.
+
+---
 ## Let's go
 
 Open [00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md)
