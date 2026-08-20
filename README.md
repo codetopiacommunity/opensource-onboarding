@@ -37,19 +37,19 @@ fast once the basics click.
   stuck on the exact same thing.
 
 ---
-## Worried about breaking something?
+## Reference pages
 
-You will not. Git is built to be undone, and
-[Fixing Mistakes](./FIXING-MISTAKES.md) shows you how to reverse
-anything you are likely to do wrong. Skim it once now so you know it
-exists, then come back to it when you need it.
+Three pages to dip into whenever you need them, in any order:
 
----
-## A word you do not recognise?
+- [Glossary](./GLOSSARY.md), every term these guides use, in plain
+  language.
+- [Fixing Mistakes](./FIXING-MISTAKES.md), how to undo anything you are
+  likely to do wrong.
+- [Markdown](./MARKDOWN.md), the formatting used in issues, pull
+  requests and every `.md` file here.
 
-Look it up in the [Glossary](./GLOSSARY.md). Every term these guides
-use is there in plain language, and you can jump in and out of it as
-you go. You are not expected to memorise anything.
+You are not expected to memorise any of it, or to read these before
+starting. They are there for the moment you need them.
 
 ---
 ## What you will learn

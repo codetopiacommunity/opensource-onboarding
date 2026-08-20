@@ -209,6 +209,59 @@ will show up here.
 > Press `q` to exit the `git log` view and return to your prompt.
 
 ---
+## One rule before you go further: never commit secrets
+
+Everything you commit becomes part of your project's permanent history.
+That is the whole point of Git, and it is also the one way to genuinely
+hurt yourself with it.
+
+A **secret** is anything that proves you are you, or that unlocks
+something. Passwords. API keys, which are long random-looking strings
+that let a program use a paid service on your behalf. Access tokens.
+Private SSH keys. Bank or payment details. Someone else's personal
+information.
+
+**Never put any of those in a file you commit.**
+
+Here is why it matters more than it first appears. Deleting a secret
+later does not remove it. Git keeps every version of every file
+forever, so the secret is still sitting in the history where anyone can
+read it. And once you have pushed to GitHub, it is public: there are
+programs that do nothing but scan public repositories for keys, and
+they find them within minutes.
+
+> [!IMPORTANT]
+> If you ever do commit a secret, deleting it in a new commit is not
+> enough. Treat it as compromised. Go to whatever service it belongs
+> to and cancel it, then create a new one. Do this first, before
+> tidying up the repository. Everyone senior has done this once.
+
+### How to keep a secret out by accident-proofing it
+
+Sometimes a project genuinely needs a file full of passwords to run on
+your machine. The answer is to keep the file and tell Git to ignore it.
+
+Create a file called `.gitignore` in the project folder. The leading
+dot is part of the name. Inside, list the things Git should pretend it
+cannot see, one per line:
+
+```
+.env
+secrets.txt
+```
+
+Git will now leave those files alone: they will not appear in
+`git status`, and `git add` will skip them. The `.gitignore` file
+itself does get committed, so everyone working on the project shares
+the same list.
+
+> [!NOTE]
+> `.env` is the name most projects use for the file holding their
+> secrets. If you see one, it should almost always be in `.gitignore`.
+> You will not need this in the practice repo, but you will meet it in
+> real projects, and now you will know what it is.
+
+---
 ## Quick reference: Git commands you learned
 
 | Command | What it does |

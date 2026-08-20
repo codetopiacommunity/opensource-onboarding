@@ -184,6 +184,13 @@ code CONTRIBUTORS.md
 Otherwise use the editor your computer came with. Open
 `CONTRIBUTORS.md` in a text editor:
 
+> [!NOTE]
+> The `.md` on the end means this is a **Markdown** file, the simple
+> formatting used all over GitHub. You do not need to learn it to
+> finish this step, just copy the pattern of the lines already in the
+> file. When you want it explained,
+> [Markdown](../MARKDOWN.md) covers the whole thing in a few minutes.
+
 ### Windows (Git Bash)
 
 ```bash
@@ -297,6 +304,15 @@ GitHub.
 
 ---
 ## Step 7: Push your branch to your fork
+
+> [!IMPORTANT]
+> This is the step that makes your work public. Before running it, take
+> one look at what you are about to send with `git status` and
+> `git diff`, and check there are no passwords, keys or personal
+> details in it. See
+> [never commit secrets](./03-your-first-commit.md) in guide 03. Making
+> this a habit now costs you five seconds a time and will save you one
+> day.
 
 Pushing means sending your local commits up to GitHub so they are
 visible online.

@@ -262,6 +262,11 @@ everything they need and gets out of the way.
 >
 > Screenshots are still perfect for things you can actually see, like a
 > broken layout or a button in the wrong place.
+>
+> The three-backtick trick is Markdown, the formatting GitHub uses
+> everywhere. [Markdown](../MARKDOWN.md) covers the rest of it, and
+> the **Preview** tab above the box shows you how your issue will look
+> before you post it.
 
 ---
 ## Step 6: One problem per issue

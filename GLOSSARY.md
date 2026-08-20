@@ -66,6 +66,13 @@ yet. It is the safe half of getting up to date: you look first, then
 decide. The command is `git fetch`. Taught in
 [guide 07](./Getting-Started/07-finding-and-claiming-an-issue.md).
 
+**`.gitignore`**
+A file listing things Git should ignore completely, one per line. Used
+to keep files full of passwords, and other things that do not belong in
+a project's history, out of it by accident-proofing rather than
+willpower. Explained in
+[guide 03](./Getting-Started/03-your-first-commit.md).
+
 **Fork**
 Your own personal copy of somebody else's repository, stored under your
 GitHub account. You cannot change other people's projects directly, so
@@ -122,7 +129,8 @@ time.
 A simple way of formatting text using ordinary characters. Surrounding
 a word with `**` makes it bold, a `#` at the start of a line makes a
 heading. GitHub uses it everywhere: issues, pull requests, and every
-file in this course ending in `.md`.
+file in this course ending in `.md`. Explained in
+[Markdown](./MARKDOWN.md).
 
 **Merge**
 To combine changes from one branch into another. When a maintainer
@@ -206,6 +214,13 @@ you, so you do not type a password every time you push. One half is
 public and you paste it into GitHub; the other half is private and you
 never share it with anyone. Set up in
 [guide 04](./Getting-Started/04-github-account-and-ssh.md).
+
+**Secret**
+Anything that proves you are you or unlocks something: a password, an
+API key, an access token, a private SSH key. Never commit one. Git
+history is permanent, so deleting it afterwards does not remove it.
+Explained in
+[guide 03](./Getting-Started/03-your-first-commit.md).
 
 **Stage** (also **staging area**)
 Choosing which changed files go into your next commit. You stage a file

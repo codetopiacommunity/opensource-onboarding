@@ -28,6 +28,13 @@ unstaging files, fixing commit messages, escaping a merge, and getting
 back to safety when you are completely lost.
 
 ---
+## If your text came out looking wrong
+
+Formatting on GitHub and Discord is done with a simple system called
+Markdown. [Markdown](./MARKDOWN.md) explains it in a few minutes,
+including how to paste an error so it stays readable.
+
+---
 ## If it is a word you do not know
 
 Look it up in the [Glossary](./GLOSSARY.md). Not understanding a word
