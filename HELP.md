@@ -20,6 +20,13 @@ The most common failure for each step is listed there with the fix.
 That solves most problems without needing to ask anyone.
 
 ---
+## If it is a word you do not know
+
+Look it up in the [Glossary](./GLOSSARY.md). Not understanding a word
+is a completely normal reason to be stuck, and it is the fastest kind
+to fix.
+
+---
 ## Problems that come up everywhere
 
 These four account for most of what goes wrong, in any guide.

@@ -37,6 +37,13 @@ fast once the basics click.
   stuck on the exact same thing.
 
 ---
+## A word you do not recognise?
+
+Look it up in the [Glossary](./GLOSSARY.md). Every term these guides
+use is there in plain language, and you can jump in and out of it as
+you go. You are not expected to memorise anything.
+
+---
 ## What you will learn
 
 0. [What Is Open Source?](./Getting-Started/00-what-is-open-source.md)

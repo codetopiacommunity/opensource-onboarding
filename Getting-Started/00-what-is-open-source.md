@@ -142,6 +142,10 @@ this for years. A command will fail, or an error will appear that means
 nothing to you. That is not a sign you are not cut out for this. It is
 the normal texture of the work.
 
+And if the problem is simply a word you have never seen, that is what
+the [Glossary](../GLOSSARY.md) is for. Every term in these guides is
+explained there in plain language.
+
 So here is the plan for when it happens:
 
 1. Every guide has a **Stuck?** section at the bottom listing what
