@@ -147,8 +147,15 @@ The second one can be answered immediately. The first one costs three
 messages of back and forth before anyone can even start.
 
 > [!TIP]
-> To paste code or an error into Discord or GitHub, wrap it in triple
-> backticks so it keeps its formatting:
+> To paste code or an error into Discord or GitHub and have it stay
+> looking like code, put three backticks on the line above it and three
+> on the line below it.
+>
+> A backtick is `` ` ``. It usually sits on the key to the left of the
+> `1` key, just above Tab. It is **not** an apostrophe or a quote mark,
+> and those will not work in its place.
+>
+> So you type this:
 >
 > ````
 > ```

@@ -20,7 +20,7 @@ to contribute.
 - Fork the practice repository
 - Clone your fork to your machine
 - Understand what `origin` and `upstream` mean
-- Add the original repo as a second remote
+- Add the original repository as a second remote
 
 ---
 ## Step 1: Create a GitHub account
@@ -147,6 +147,15 @@ not need to enter a password when pushing your work.
 
 ---
 ## Step 3: Fork the practice repository
+
+First, one word you will see everywhere from now on. A **repository**
+is a project as GitHub stores it: every file in the project, plus the
+complete history of every change ever made to it. It is really just a
+folder that remembers its own past.
+
+Almost nobody says the whole word. Everyone shortens it to **repo**,
+said "REP-oh". The two words mean exactly the same thing, and this
+course uses whichever reads better in the sentence.
 
 A fork is your own personal copy of a repository on GitHub. When you
 fork a repo, GitHub creates an identical copy under your account. You

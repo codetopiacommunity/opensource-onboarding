@@ -102,10 +102,12 @@ problem into the search box at the top of the list.
 
 <!-- IMAGE: The Issues tab of the open-source-practice repo. The search box above the issue list is highlighted with a search term typed into it. Target path: images/issues-search.png -->
 
-Search with the plainest words you can. If you found a broken link on
-the resources page, search `resources link`, not
-`hyperlink returns 404 on resources documentation page`. Fewer words
-find more.
+Search with the plainest words you can, and use as few as possible. If
+you found a link that does not work on the resources page, search
+`resources link`. Do not search
+`the link on the resources page does not open anything`. Search looks
+for issues containing all the words you type, so every extra word
+throws away more results. Two or three words is usually right.
 
 **Also search closed issues.** By default GitHub only shows open ones.
 In the search box you will see `is:issue is:open`. Delete the
@@ -161,7 +163,7 @@ Compare:
 |---|---|
 | `Broken link to the setup guide on the resources page` | Names the problem and where it is |
 | `Typo in docs/about.md: "exsits" should be "exists"` | Someone could fix this without opening it |
-| `Install steps are missing the "npm install" command` | Clear, specific, actionable |
+| `Setup guide is missing the step that adds the upstream remote` | Clear, specific, actionable |
 
 A good test: if someone read only your title, would they know roughly
 what needs doing? If yes, it is a good title.
@@ -189,9 +191,18 @@ gets fixed today and one that sits for a month. A maintainer who cannot
 see the problem cannot fix it.
 
 **4. Where it happened.**
-The file name, the page, or the URL. For something you ran on your own
-computer, say which operating system you are on and which versions you
-have, from `git --version`. This is called your **environment**.
+The file name, the page, or the web address.
+
+The web address, often called the **URL**, is the text in the bar at
+the very top of your browser, the part that starts with `https://`.
+Click it once and it highlights, then copy it. Giving someone the exact
+address of the page you were on saves them guessing.
+
+For something you ran on your own computer instead, say which operating
+system you are using, such as Windows 11 or macOS, and what
+`git --version` prints. All of that together is called your
+**environment**: the setup the problem happened in. The same command
+can behave differently on different machines, which is why it matters.
 
 **5. Anything extra that helps.**
 A screenshot for something visual. A guess at the cause, clearly
@@ -201,26 +212,27 @@ Here is the whole thing put together, for a documentation problem:
 
 ```
 **What I expected**
-Following the install steps in docs/setup.md should get the project
-running.
+Following the steps in docs/setup.md should leave me able to push my
+branch to my fork.
 
 **What happened**
-Step 3 says to run the project, but nothing has installed the
-dependencies yet, so it fails with "module not found".
+Step 4 says to run `git push origin my-branch`, but no earlier step
+ever connects the folder to my fork, so it fails with
+`fatal: 'origin' does not appear to be a git repository`.
 
 **Steps to reproduce**
 1. Open docs/setup.md
-2. Follow steps 1 to 3 exactly
-3. The command in step 3 fails
+2. Follow steps 1 to 4 exactly, in a brand new folder
+3. The command in step 4 fails
 
 **Where**
-docs/setup.md, step 3
+docs/setup.md, step 4
 
 **Environment**
 Windows 11, Git Bash, git version 2.44.0
 
-I think an "npm install" step is missing between steps 2 and 3, but I
-am new to this and may be wrong.
+I think a step is missing between steps 3 and 4, but I am new to this
+and may be wrong.
 ```
 
 Notice what that report does not do. It does not apologise, it does not
@@ -230,8 +242,17 @@ everything they need and gets out of the way.
 > [!TIP]
 > Paste error messages and commands as **text**, not as a screenshot of
 > text. Text can be searched, copied, and quoted back to you. A
-> screenshot of an error cannot. Wrap it in triple backticks to keep
-> the formatting:
+> screenshot of an error cannot.
+>
+> To keep an error looking like an error rather than turning into
+> ordinary words, put three backticks on the line above it and three on
+> the line below it.
+>
+> A backtick is `` ` ``. It usually sits on the key to the left of the
+> `1` key, just above Tab. It is **not** an apostrophe or a quote mark,
+> and those will not work in its place.
+>
+> So you type this:
 >
 > ````
 > ```
@@ -239,7 +260,7 @@ everything they need and gets out of the way.
 > ```
 > ````
 >
-> Screenshots are perfect for things you can actually see, like a
+> Screenshots are still perfect for things you can actually see, like a
 > broken layout or a button in the wrong place.
 
 ---
@@ -315,7 +336,7 @@ understand. Then move on to the next one.
 | Before writing | Search open **and** closed issues for duplicates |
 | Title | Summarise the problem, specifically |
 | Description | Expected, actual, steps to reproduce, where, extras |
-| Errors | Paste as text in triple backticks, not as a screenshot |
+| Errors | Paste as text between lines of three backticks, not as a screenshot |
 | Scope | One problem per issue |
 | Security problems | Never in a public issue |
 | After submitting | Answer questions, be patient, do not chase |
