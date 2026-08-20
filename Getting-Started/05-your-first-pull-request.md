@@ -173,7 +173,16 @@ The `*` is now on `add-my-name`. You are ready to make changes.
 ---
 ## Step 5: Add yourself to CONTRIBUTORS.md
 
-Open `CONTRIBUTORS.md` in a text editor:
+If you installed VS Code in
+[guide 02](./02-installing-and-configuring-git.md), open the file with
+that, on any operating system:
+
+```bash
+code CONTRIBUTORS.md
+```
+
+Otherwise use the editor your computer came with. Open
+`CONTRIBUTORS.md` in a text editor:
 
 ### Windows (Git Bash)
 

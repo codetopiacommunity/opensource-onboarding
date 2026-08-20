@@ -79,7 +79,16 @@ Switched to a new branch 'practice/merge-conflict'
 ---
 ## Step 2: Make your change
 
-Open `docs/conflict-practice.md`:
+If you installed VS Code in
+[guide 02](./02-installing-and-configuring-git.md), open the file with
+that, on any operating system:
+
+```bash
+code docs/conflict-practice.md
+```
+
+Otherwise use the editor your computer came with. Open
+`docs/conflict-practice.md`:
 
 ### Windows (Git Bash)
 

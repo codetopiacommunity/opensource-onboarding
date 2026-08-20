@@ -123,6 +123,81 @@ That is the whole setup. You only do this once per machine, and Git
 will remember it from now on.
 
 ---
+## Step 3: Install a text editor
+
+From guide 05 onwards you will be opening files and changing what is
+inside them. For that you need a **text editor**.
+
+A text editor is a program that edits plain text and nothing else. That
+sounds like a limitation and is actually the point.
+
+**Do not use Microsoft Word, Google Docs, or Pages for this.** They are
+word processors, not text editors. When you type in a word processor it
+quietly adds invisible formatting: curly quotation marks instead of
+straight ones, automatic capital letters, special dashes. You cannot
+see any of it, and it will break code and confuse Git. Notepad and
+TextEdit are text editors and are fine. Word is not.
+
+You already have a basic one, which is why guide 05 opens files with
+`notepad` on Windows and `open -e` on macOS. That will get you through
+this course. But installing a proper editor takes five minutes and
+makes everything afterwards easier, so it is worth doing now.
+
+### Recommended: Visual Studio Code
+
+**VS Code** is free, works on Windows, macOS and Linux, and is itself
+open source, which makes it a fitting tool for this. It is the editor
+most developers use.
+
+1. Go to
+   <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">code.visualstudio.com</a>
+2. Click the big download button. The site works out which version you
+   need.
+3. Open the downloaded file and follow the installer, accepting the
+   default options.
+
+<!-- IMAGE: The VS Code download page at code.visualstudio.com with the main download button highlighted. Target path: images/vscode-download.png -->
+
+> [!TIP]
+> On Windows, the installer offers a checkbox along the lines of "Add
+> to PATH". Leave it ticked. It is what lets you open files from the
+> terminal.
+
+### Check it worked
+
+Close your terminal, open a new one, and run:
+
+```bash
+code --version
+```
+
+What you should see: three short lines, the first being a version
+number like `1.92.0`.
+
+From now on you can open any file in VS Code from the terminal:
+
+```bash
+code CONTRIBUTORS.md
+```
+
+And you can open a whole project folder at once, which is usually what
+you want:
+
+```bash
+code .
+```
+
+The `.` means "the folder I am in right now".
+
+> [!NOTE]
+> If `code --version` says command not found, VS Code is installed but
+> your terminal cannot see it yet. On Windows, re-run the installer and
+> make sure the PATH box is ticked. On macOS, open VS Code, press
+> `Cmd + Shift + P`, type `shell command`, and choose "Install 'code'
+> command in PATH". Or simply skip it and keep using `notepad` or
+> `open -e`. Nothing in this course depends on it.
+
+---
 ## Quick reference: Git commands you learned
 
 | Command | What it does |
@@ -131,9 +206,16 @@ will remember it from now on.
 | `git config --global user.name "Name"` | Set your Git name |
 | `git config --global user.email "email"` | Set your Git email |
 | `git config --global --list` | See your saved Git settings |
+| `code filename` | Open a file in VS Code |
+| `code .` | Open the current folder in VS Code |
 
 ---
 ## Stuck?
+
+**`code` is not recognised, but VS Code is definitely installed.**
+Your terminal has not picked it up. Close it, open a new one, and try
+again. If it still fails, see the note at the end of step 3. This is
+optional, so do not let it hold you up.
 
 **You installed Git but `git --version` still is not recognised.**
 Close the terminal window completely and open a new one. A terminal
