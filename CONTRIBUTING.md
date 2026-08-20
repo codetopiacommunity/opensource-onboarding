@@ -10,6 +10,15 @@ If you have not been through the guides yet, start with
 Contributing here uses exactly the same steps you learn there.
 
 ---
+## Before anything else
+
+Everyone contributing here follows the
+<a href="https://community.codetopia.org/code-of-conduct" target="_blank" rel="noopener noreferrer">Codetopia Community Code of Conduct</a>.
+Most of it is what you would do anyway: assume good faith, be patient
+with people who are new, and keep criticism about the work rather than
+the person.
+
+---
 ## What we need most
 
 You do not need to be an expert on Git to improve this guide. In fact,

@@ -408,6 +408,9 @@ find your branch, and click **New pull request** next to it.
 Run `pwd`. You must be inside
 `~/codetopia-community/open-source-practice`, not the folder above it.
 
+Think you have broken something? You have not, and
+[Fixing Mistakes](../FIXING-MISTAKES.md) shows you how to undo it.
+
 Still stuck, or hit something not listed here? Ask. Both of these are
 equally welcome, so use whichever suits you:
 

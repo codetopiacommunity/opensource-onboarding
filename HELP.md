@@ -20,6 +20,14 @@ The most common failure for each step is listed there with the fix.
 That solves most problems without needing to ask anyone.
 
 ---
+## If you think you have broken something
+
+You almost certainly have not, and it is almost certainly reversible.
+[Fixing Mistakes](./FIXING-MISTAKES.md) covers undoing changes,
+unstaging files, fixing commit messages, escaping a merge, and getting
+back to safety when you are completely lost.
+
+---
 ## If it is a word you do not know
 
 Look it up in the [Glossary](./GLOSSARY.md). Not understanding a word

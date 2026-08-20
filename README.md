@@ -37,6 +37,14 @@ fast once the basics click.
   stuck on the exact same thing.
 
 ---
+## Worried about breaking something?
+
+You will not. Git is built to be undone, and
+[Fixing Mistakes](./FIXING-MISTAKES.md) shows you how to reverse
+anything you are likely to do wrong. Skim it once now so you know it
+exists, then come back to it when you need it.
+
+---
 ## A word you do not recognise?
 
 Look it up in the [Glossary](./GLOSSARY.md). Every term these guides
@@ -71,6 +79,15 @@ command failed, or a paragraph confused you, you can fix it and every
 person after you benefits. See [CONTRIBUTING.md](./CONTRIBUTING.md)
 for how, and do not worry if that sounds out of reach right now. It
 will not by the time you finish guide 05.
+
+---
+## How we treat each other
+
+Everyone taking part here, in the repo and in the community, follows
+the
+<a href="https://community.codetopia.org/code-of-conduct" target="_blank" rel="noopener noreferrer">Codetopia Community Code of Conduct</a>.
+It is short, and it comes down to being decent to people who are
+learning. If someone is not, tell a maintainer.
 
 ---
 ## Let's go

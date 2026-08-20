@@ -39,6 +39,13 @@ carefully and give honest, respectful feedback.
 > If everything looks good, say so clearly. "Looks good to me, nothing
 > to change" is a valid and useful review.
 
+> [!IMPORTANT]
+> Review is the first time you give feedback on somebody else's work,
+> so this is the moment the
+> <a href="https://community.codetopia.org/code-of-conduct" target="_blank" rel="noopener noreferrer">Codetopia Community Code of Conduct</a>
+> starts to matter in practice. Comment on the change, never on the
+> person. Somebody wrote that code while learning, exactly like you.
+
 ---
 ## Step 2: Find a pull request to review
 
