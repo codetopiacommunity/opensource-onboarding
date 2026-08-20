@@ -185,7 +185,9 @@ Some rules for screenshots:
 ---
 ## Getting help
 
-Stuck on any of this, or unsure whether an idea is worth doing? See
-[Getting Help](./HELP.md), or ask directly in the
-<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
-Asking first is always welcome. Nobody here will mind.
+Stuck on any of this, or unsure whether an idea is worth doing? Ask in
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+or the
+<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
+whichever you prefer. [Getting Help](./HELP.md) covers both. Asking
+first is always welcome. Nobody here will mind.

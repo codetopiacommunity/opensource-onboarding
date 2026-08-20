@@ -151,9 +151,11 @@ Read [Getting Help](../HELP.md) now, before you need it. It takes two
 minutes and it means you will not be hunting for it while frustrated.
 
 > [!TIP]
-> You will create a GitHub account in guide 04. If you would rather ask
-> your questions on GitHub than on Discord, there is nothing stopping
-> you making one now:
+> There are two places to ask: the Codetopia Community Discord, and
+> GitHub Discussions. Discord is optional and you never need it to
+> finish this course. Discussions only needs the GitHub account you
+> will create in guide 04 anyway, and if you want that route from the
+> very start, you can make the account now at
 > <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">github.com/signup</a>.
 > It is free and takes about two minutes.
 

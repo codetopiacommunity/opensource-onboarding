@@ -1,0 +1,73 @@
+title: "[Guide NN] short description of what is going wrong"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome. Getting stuck is normal and this is exactly the right
+        place to ask. Fill in what you can. If you cannot answer a
+        field, leave it blank and ask anyway.
+
+  - type: dropdown
+    id: guide
+    attributes:
+      label: Which guide are you on?
+      options:
+        - "00 - What Is Open Source?"
+        - "01 - Your Computer and the Terminal"
+        - "02 - Installing and Configuring Git"
+        - "03 - Your First Commit"
+        - "04 - GitHub Account and SSH"
+        - "05 - Your First Pull Request"
+        - "06 - Reviewing a Pull Request"
+        - "07 - Finding and Claiming an Issue"
+        - "08 - Resolving a Merge Conflict"
+        - "09 - Keeping Your Fork in Sync"
+        - "Not sure / something else"
+    validations:
+      required: true
+
+  - type: input
+    id: step
+    attributes:
+      label: Which step?
+      description: The step number, if the guide has one.
+      placeholder: "Step 4"
+
+  - type: textarea
+    id: command
+    attributes:
+      label: What did you type?
+      description: >
+        Copy and paste the exact command, rather than retyping it from
+        memory. Typos are often the answer, and we cannot see one that
+        gets corrected on the way here.
+      render: shell
+
+  - type: textarea
+    id: output
+    attributes:
+      label: What did you get back?
+      description: >
+        Copy and paste the whole output, including the error. A
+        screenshot is fine too if copying is difficult.
+      render: shell
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen instead?
+      description: Also mention anything you already tried.
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: What are you using?
+      options:
+        - "Windows (Git Bash)"
+        - "Windows (something else)"
+        - "macOS"
+        - "Linux"
+        - "Not sure"
+    validations:
+      required: true

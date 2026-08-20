@@ -27,10 +27,14 @@ fast once the basics click.
   should see happen. If what you see does not match, that is useful
   information, not a failure.
 - Stuck? Every guide has a **Stuck?** section at the bottom listing what
-  commonly goes wrong at that step. If that does not cover it,
-  [Getting Help](./HELP.md) shows you where to ask and how to ask so
-  you get a fast answer. Someone else has almost certainly been stuck
-  on the exact same thing.
+  commonly goes wrong at that step. If that does not cover it, ask in
+  <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+  or the
+  <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
+  whichever you prefer. Discord is optional; you never need it to
+  finish this course. [Getting Help](./HELP.md) covers both, and how to
+  ask so you get a fast answer. Someone else has almost certainly been
+  stuck on the exact same thing.
 
 ---
 ## What you will learn

@@ -58,39 +58,56 @@ If none of the above got you moving, ask. Nobody will think less of you
 for it, and a question you found worth asking is usually one somebody
 else is quietly stuck on too.
 
-### The Codetopia Community Discord
+There are two places to ask, and they are equally welcome. Pick
+whichever suits you.
 
-The fastest way to get an answer is the
-<a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>.
-Someone is usually around, and answers tend to come in minutes rather
-than days.
+### Option 1: GitHub Discussions
 
-If you have never used Discord before, here is the whole thing: it is a
-free chat app, it works in your web browser without installing
-anything, and you can sign up with just an email address. Click the
-link above, create an account if you do not have one, and you are in.
-Post your question in the onboarding channel.
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">Ask in Discussions</a>
+using the **Q&A** category. A form walks you through what to include,
+so you do not have to work out how to phrase it.
 
-You do not need to introduce yourself, ask permission, or apologise for
-being new. Just ask.
+Use this if you would rather not add another chat app, if your network
+blocks Discord, if you are on limited mobile data, or if you simply
+prefer taking your time over writing a question. It needs nothing
+except the GitHub account this course gives you anyway.
 
-### On GitHub
+Answers come from a maintainer, usually within a day. Slower than
+Discord, but it never depends on someone happening to be online, and
+your answer stays public and searchable for the next person who hits
+the same wall.
 
-From [guide 04](./Getting-Started/04-github-account-and-ssh.md) onward
-you have a GitHub account, which gives you a second option. Use it when
-your question is about this guide itself rather than about your own
-machine:
+### Option 2: The Codetopia Community Discord
 
-- **Something in a guide is wrong, unclear, or missing a step?**
-  <a href="https://github.com/codetopiacommunity/opensource-onboarding/issues" target="_blank" rel="noopener noreferrer">Open an issue</a>.
-  That is a real contribution, and [CONTRIBUTING.md](./CONTRIBUTING.md)
-  explains how.
-- **Want to fix it yourself?** Even better. Same link, same file.
+The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>
+is the fastest route. Someone is usually around, and answers tend to
+come in minutes. It is also where the rest of the community is, if you
+want that.
+
+Never used Discord? Here is the whole thing: it is a free chat app, it
+runs in your web browser without installing anything, and you sign up
+with just an email address. Click the link, create an account, and post
+in the onboarding channel.
 
 > [!NOTE]
-> Creating a GitHub account is free and takes about two minutes. If you
-> would rather ask questions on GitHub than on Discord, you can create
-> yours now instead of waiting for guide 04:
+> **Discord is entirely optional.** You never need it to finish this
+> course. If you do not want an account, or cannot reach it from your
+> network, Discussions covers everything.
+
+### Reporting a problem with a guide
+
+Different from asking for help: if a guide is wrong, unclear, or
+missing a step,
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/issues" target="_blank" rel="noopener noreferrer">open an issue</a>
+instead. That is a real contribution, and
+[CONTRIBUTING.md](./CONTRIBUTING.md) explains how. Better still, fix it
+yourself.
+
+> [!TIP]
+> Creating a GitHub account is free and takes about two minutes. You
+> will make one in [guide 04](./Getting-Started/04-github-account-and-ssh.md)
+> regardless, but if you want the GitHub-only route from the very
+> start, make it now:
 > <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">github.com/signup</a>.
 
 ---
