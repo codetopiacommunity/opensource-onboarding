@@ -211,6 +211,19 @@ Some rules for screenshots:
 - [ ] The README list is updated if you added or renamed a guide.
 
 ---
+## Licensing of what you contribute
+
+This project is released under the
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International licence</a>.
+By opening a pull request you agree that your contribution is offered
+under that same licence, which is what lets anyone else read, share and
+build on it.
+
+Practically, this means two things. Only contribute writing that is
+yours to give. And if you quote or adapt someone else's work, say where
+it came from, in the pull request and in the text.
+
+---
 ## Getting help
 
 Stuck on any of this, or unsure whether an idea is worth doing? Ask in

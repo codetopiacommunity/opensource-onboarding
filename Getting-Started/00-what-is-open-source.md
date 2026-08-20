@@ -47,6 +47,62 @@ Every open source project has:
   regularly. By the end of this course, that will be you.
 
 ---
+## Being public is not the same as being open source
+
+This catches almost everybody out, so it is worth getting right early.
+
+Putting your work somewhere anyone can see it does **not** make it open
+source. Those are two different things, and only one of them is
+automatic.
+
+Here is why. The moment you write anything, code or prose, the law
+gives you copyright over it without you doing anything at all. The
+default that copyright sets is strict: it is mine, and nobody else may
+copy it, change it, or build on it. That default applies even when the
+work is sitting in public where the whole world can read it.
+
+So how does anyone get permission? The author gives it, in writing, in
+a file. That file is called a **licence**, and by convention it sits in
+the project's top folder in a file named `LICENSE`, with no file
+extension. It says, in legal language, what you are allowed to do with
+the work.
+
+**A project with no licence file is not open source**, however public
+it looks. You may read it, because it is in front of you. You may not
+legally copy it, adapt it, translate it, or ship it in anything of your
+own. Most people who leave the licence off did not mean to close their
+work; they simply did not know this.
+
+You will meet a few licences over and over:
+
+- **MIT** is the most common for code. It says: do almost anything you
+  like, including selling it, just keep my name attached and do not
+  blame me if it breaks.
+- **Apache 2.0** is similar, with extra wording about patents.
+- **GPL** says: do what you like, but anything you build from this must
+  be shared just as openly. Freedom that propagates.
+- **Creative Commons**, usually written **CC**, is for writing, images
+  and other non-code work rather than software.
+
+Two things to take from this.
+
+**When you arrive at a project**, look for the `LICENSE` file before
+you invest real time. GitHub shows it on the right-hand side of the
+front page. No licence is worth asking about, politely, in an issue.
+Often the maintainer just forgot.
+
+**When you publish your own work**, add one. It takes a minute, and
+without it nobody can build on what you made.
+
+> [!NOTE]
+> This course practises what it describes. Scroll to the bottom of the
+> repository's front page and you will find its licence,
+> <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>,
+> which lets anyone share, adapt or translate these guides as long as
+> Codetopia Community is credited. That is what makes this an open
+> source project rather than just a public one.
+
+---
 ## The life of one contribution
 
 Here is how contributing actually works, start to finish.

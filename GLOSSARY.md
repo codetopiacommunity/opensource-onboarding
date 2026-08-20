@@ -104,6 +104,15 @@ Taught in
 A coloured tag a maintainer puts on an issue to sort it, such as `bug`,
 `documentation` or `good first issue`. You do not add these yourself.
 
+**Licence** (spelled **license** in American English, and in the
+filename)
+A file, usually named `LICENSE`, in which the author of a project
+states what other people are allowed to do with it. Without one,
+copyright's strict default applies and nobody may legally reuse the
+work, no matter how public it is. A licence is what makes a project
+open source rather than merely visible. Explained in
+[guide 00](./Getting-Started/00-what-is-open-source.md).
+
 **Maintainer**
 Someone responsible for a project. They review incoming changes and
 decide what gets included. Usually a volunteer doing it in their spare

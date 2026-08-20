@@ -90,6 +90,18 @@ It is short, and it comes down to being decent to people who are
 learning. If someone is not, tell a maintainer.
 
 ---
+## Licence
+
+These guides are © Codetopia Community and released under the
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International licence</a>
+(CC BY 4.0). See [LICENSE](./LICENSE) for the full text.
+
+In plain language: you may share these guides, adapt them, translate
+them, and use them for teaching, including commercially. The one
+condition is that you credit Codetopia Community and say if you changed
+anything. If you run a community and want to build on this, please do.
+
+---
 ## Let's go
 
 Open [00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md)
