@@ -379,23 +379,10 @@ equally welcome, so use whichever suits you:
 useful answer quickly.
 
 ---
-## You are done
+## What's next?
 
-Look at what you can do now.
+You now have every skill the practice repo can teach you. One thing is
+left, and it is the one that turns all of this into something real:
+walking into a project nobody invited you to.
 
-You went from never having opened a terminal to forking a real repo,
-making commits, opening pull requests, reviewing someone else's,
-resolving a merge conflict, keeping a fork in sync, and reporting a
-problem clearly enough that a stranger can act on it. That is the
-complete loop every open source contributor uses, and you have done all
-of it for real.
-
-Go back and read Rosemary's story in
-[guide 00](./00-what-is-open-source.md) one more time. Every step in it
-is now something you have done yourself.
-
-You are ready to contribute to Codetopia Community's actual projects.
-Check the how-tos for more guides as the library grows, and ask in
-Discussions or Discord if you want to know what to pick up next.
-
-🔗 [How-To Guides](https://community.codetopia.org/howtos)
+🔗 [Finding Your First Real Project](./11-finding-your-first-real-project.md)

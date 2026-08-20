@@ -187,6 +187,8 @@ of it, in order:
   resolving conflicts, and keeping your copy of a project up to date.
 - **Guide 10** closes the loop, back where Rosemary's story started:
   writing a clear issue of your own.
+- **Guide 11** sends you out of the practice repo and into a real
+  project, chosen by you.
 
 By the end, Rosemary's story is your story.
 

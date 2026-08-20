@@ -1,0 +1,261 @@
+# Finding Your First Real Project
+
+Everything so far has happened in a practice repo, where nothing could
+go wrong and someone was expecting you.
+
+Real projects are not different in how they work. Every command is the
+same, every step is the same. What is different is that nobody is
+waiting for you, and nobody knows you are coming. This guide is about
+crossing that gap.
+
+---
+## What you will do in this guide
+
+- Find projects that actually want new contributors
+- Tell an active, welcoming project from an abandoned one
+- Work out what to do first when you arrive somewhere new
+- Know what to expect, including the parts that sting
+
+Nothing to install. This one happens in your browser.
+
+---
+## Step 1: Start with something you already use
+
+The best first project is one you have a reason to care about.
+
+Think about what you already use: an app, a website, a tool from this
+course. VS Code is open source. So is Firefox. So is nearly everything
+underneath the software you touch daily.
+
+This matters for a practical reason, not a sentimental one. To improve
+something, you have to notice what is wrong with it, and you only
+notice that in things you actually use. Someone who uses a tool weekly
+will spot a confusing instruction that a stranger reading the code
+never would.
+
+> [!TIP]
+> No idea what you use that is open source? Search for the name of any
+> app you like plus the word "github". You will be surprised how often
+> something comes up.
+
+---
+## Step 2: Search for issues meant for newcomers
+
+Most projects mark the issues that suit a first-time contributor. The
+usual label is **good first issue**.
+
+GitHub has a page collecting them from across the site:
+
+```
+https://github.com/topics/good-first-issue
+```
+
+You can also search issues directly. Go to
+<a href="https://github.com/issues" target="_blank" rel="noopener noreferrer">github.com/issues</a>
+and type this into the search box:
+
+```
+is:issue is:open label:"good first issue" no:assignee
+```
+
+Reading that in plain English: show me issues, that are still open,
+that are labelled as good for a first-timer, that nobody has been
+assigned to yet.
+
+<!-- IMAGE: GitHub's issue search results page showing a list of issues labelled "good first issue" from various projects. Target path: images/good-first-issue-search.png -->
+
+Add a word to narrow it down to something you care about, for example
+`documentation`, or the name of a language you are learning.
+
+> [!NOTE]
+> "Good first issue" means the maintainer thinks it is small and
+> self-contained. It does not mean easy, and it does not mean you are
+> expected to already know how. If you open one and it is beyond you,
+> close the tab and pick another. That costs nobody anything.
+
+---
+## Step 3: Check the project is alive and welcoming
+
+Before you spend an evening on a change, spend two minutes on the
+project. This is the step most people skip, and it is why so many first
+pull requests are never answered.
+
+Look for these, all visible from the front page of the repo:
+
+**Recent activity.** Look at when the last commit was. GitHub shows it
+next to the file list. Weeks ago is fine. Two years ago means nobody is
+home, and your work will sit unread.
+
+**Merged pull requests from other people.** Click the **Pull requests**
+tab, then **Closed**. Are outside contributions actually getting
+merged, and how long did they take? A wall of ignored pull requests
+tells you what would happen to yours.
+
+**A `CONTRIBUTING.md` file.** Its presence means somebody thought about
+newcomers. Read it. It overrides anything in this course.
+
+**A code of conduct.** A sign the project takes how people treat each
+other seriously.
+
+**How maintainers reply.** Open any recent issue and read the replies.
+Are they patient with people who are confused? You will be one of those
+people soon.
+
+> [!IMPORTANT]
+> If a project looks abandoned or the maintainers are short with
+> people, walk away. There are millions of projects. Nothing about
+> your first contribution should involve enduring someone's bad mood.
+
+---
+## Step 4: Read before you write
+
+You have found a live project and an issue you like. Read three things
+before touching anything.
+
+1. **The `README`.** What the project is, and how to get it running.
+2. **The `CONTRIBUTING.md`.** How this project wants changes proposed.
+   Every project differs: branch naming, commit style, whether to open
+   an issue first. Follow theirs, not ours.
+3. **The issue itself, including every comment.** Somebody may already
+   be working on it, or a maintainer may have said how they want it
+   solved.
+
+Then say you are picking it up, exactly as you did in guide 07. A short
+comment is enough:
+
+```
+I would like to work on this one.
+```
+
+Wait to be assigned, or at least for a reply, before starting.
+
+---
+## Step 5: Make the change, the way you already know
+
+From here you are on ground you have already covered. Fork, clone,
+branch, change, commit, push, open a pull request. It is
+[guide 05](./05-your-first-pull-request.md) again, on someone else's
+project.
+
+Two adjustments for real projects:
+
+**Keep the first one small.** A typo, a broken link, a confusing
+paragraph. Not because that is all you can do, but because a small
+first pull request is quick to review, and it teaches you this
+project's process while the stakes are low.
+
+**Describe it in their terms.** Link the issue with `Closes #N`.
+Explain what you changed and why. Assume the reviewer has not read the
+issue in a week.
+
+---
+## Step 6: What to expect afterwards
+
+Be ready for these, because all of them are normal and none of them are
+about you.
+
+**Silence for a while.** Maintainers are volunteers. Days is normal,
+weeks happens. A single polite comment after a couple of weeks is
+acceptable. More than that is not.
+
+**Requested changes.** The most likely outcome, and it is good news: it
+means someone read your work and wants it merged. Make the changes and
+push again to the same branch. The pull request updates itself.
+
+**Being asked to do it a different way.** Maintainers know things about
+their project that you do not. Ask why if you do not understand, and
+assume there is a reason.
+
+**Rejection.** Sometimes a change is not wanted, and it will not always
+be explained kindly. It is not a verdict on you. Thank them, close it,
+move on. Everybody who contributes regularly has had this happen.
+
+**Nothing at all, ever.** Some projects are quietly abandoned. Your
+work is not wasted: it is on your GitHub profile, it is yours, and you
+learned the same amount either way.
+
+---
+## Step 7: Do it again
+
+The first contribution is the hard one, because everything is
+unfamiliar at once. The second is far easier, and by the fifth you will
+be doing it without thinking.
+
+Two things worth knowing.
+
+**Staying with one project beats scattering.** Once you know a
+project's people and process, your third contribution there takes a
+fraction of the effort of your first somewhere new. This is also how
+you end up trusted with bigger work.
+
+**Everything counts.** Documentation, translations, reproducing
+somebody's bug report, answering a question from someone newer than
+you. It is all contribution, and the projects that survive are the ones
+where people do this.
+
+---
+## Quick reference
+
+| What you are doing | Where to look |
+|---|---|
+| Finding beginner issues | `label:"good first issue" no:assignee` on GitHub |
+| Checking a project is alive | Date of the last commit |
+| Checking it is welcoming | Merged PRs from outsiders, tone in issues |
+| Learning its rules | Its `README` and `CONTRIBUTING.md` |
+| Claiming work | Comment on the issue, wait to be assigned |
+
+---
+## Stuck?
+
+**Everything looks too hard.**
+You are reading code, which is the hardest way in. Filter for
+documentation instead. Every project has docs that need work, the fix
+is usually plain English, and it is a real contribution.
+
+**You cannot find a project you care about.**
+Start from a problem instead of a project. The last time software
+annoyed you, that thing is probably open source.
+
+**You claimed an issue and then got stuck on it.**
+Say so on the issue, plainly. "I am stuck on X, has anyone got a
+pointer?" is completely normal. Going quiet is the only bad option,
+because it blocks the issue for everyone else.
+
+**Your pull request has been ignored for weeks.**
+Comment once, politely. If nothing comes back, let it go and put your
+effort into a project that answers. That is information about them, not
+about you.
+
+Still stuck, or hit something not listed here? Ask. Both of these are
+equally welcome, so use whichever suits you:
+
+- <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>,
+  if you would rather not use a chat app. It needs nothing but the
+  GitHub account this course gives you anyway.
+- The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
+  if you want an answer in minutes. Optional, and free.
+
+[Getting Help](../HELP.md) explains both, and how to ask so you get a
+useful answer quickly.
+
+---
+## You are done
+
+Look at what you can do now.
+
+You went from never having opened a terminal to forking a real repo,
+making commits, opening pull requests, reviewing someone else's work,
+resolving a merge conflict, keeping a fork in sync, reporting a problem
+clearly enough for a stranger to act on, and finding your way into a
+project nobody introduced you to.
+
+Go back and read Rosemary's story in
+[guide 00](./00-what-is-open-source.md) one more time. Every step of it
+is now something you have done yourself.
+
+The rest is repetition, and you already know how it goes. Check the
+how-tos as the library grows, and tell us in Discussions or Discord
+when you land your first real contribution. Somebody in the community
+will want to celebrate it with you.
+
+🔗 [How-To Guides](https://community.codetopia.org/howtos)

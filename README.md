@@ -65,11 +65,12 @@ starting. They are there for the moment you need them.
 8. [Resolving a Merge Conflict](./Getting-Started/08-resolving-a-merge-conflict.md)
 9. [Keeping Your Fork in Sync](./Getting-Started/09-keeping-your-fork-in-sync.md)
 10. [Reporting a Good Issue](./Getting-Started/10-reporting-a-good-issue.md)
+11. [Finding Your First Real Project](./Getting-Started/11-finding-your-first-real-project.md)
 
 By the end, you will have opened a real pull request, reviewed someone
 else's, resolved a merge conflict, reported a problem clearly enough
-for a stranger to act on, and know how to keep your fork in sync with
-the original project.
+for a stranger to act on, learned how to keep your fork in sync, and
+know how to find your way into a real project on your own.
 
 ---
 ## Found something to fix?
