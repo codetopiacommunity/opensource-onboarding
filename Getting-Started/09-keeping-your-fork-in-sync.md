@@ -207,15 +207,11 @@ equally welcome, so use whichever suits you:
 useful answer quickly.
 
 ---
-## You are done
+## What's next?
 
-You went from never having opened a terminal to forking a real repo,
-opening pull requests, reviewing someone else's, resolving a merge
-conflict, and keeping a fork in sync with the original project. That
-is the complete workflow every open source contributor uses every day.
+You now have the whole working loop: fork, branch, commit, pull
+request, review, conflict, sync. One piece is left, and it is the one
+that starts most people's first contribution to a project they have
+never touched before. Writing the issue in the first place.
 
-You are ready to contribute to Codetopia Community's actual projects.
-Check the community how-tos for more guides as the library grows, and
-ask in Discord if you want to know what to work on next.
-
-🔗 [How-To Guides](https://community.codetopia.org/howtos)
+🔗 [Reporting a Good Issue](./10-reporting-a-good-issue.md)

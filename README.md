@@ -49,10 +49,12 @@ fast once the basics click.
 7. [Finding and Claiming an Issue](./Getting-Started/07-finding-and-claiming-an-issue.md)
 8. [Resolving a Merge Conflict](./Getting-Started/08-resolving-a-merge-conflict.md)
 9. [Keeping Your Fork in Sync](./Getting-Started/09-keeping-your-fork-in-sync.md)
+10. [Reporting a Good Issue](./Getting-Started/10-reporting-a-good-issue.md)
 
 By the end, you will have opened a real pull request, reviewed someone
-else's, resolved a merge conflict, and know how to keep your fork in
-sync with the original project.
+else's, resolved a merge conflict, reported a problem clearly enough
+for a stranger to act on, and know how to keep your fork in sync with
+the original project.
 
 ---
 ## Found something to fix?

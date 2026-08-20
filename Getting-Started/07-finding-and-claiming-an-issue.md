@@ -37,6 +37,11 @@ title, a description, and the name of the file where the problem is.
 
 Read through them carefully.
 
+Somebody wrote each one of these. In
+[guide 10](./10-reporting-a-good-issue.md) you learn to write them
+yourself, which is how most people make their first contribution to a
+project they have never touched before.
+
 > [!TIP]
 > Check the comments on each issue before picking one. If someone has
 > already commented saying they are working on it, pick a different one.

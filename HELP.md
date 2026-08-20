@@ -61,6 +61,18 @@ else is quietly stuck on too.
 There are two places to ask, and they are equally welcome. Pick
 whichever suits you.
 
+First, a quick sanity check on where your thing belongs:
+
+| What you have | Where it goes |
+|---|---|
+| "This is broken" or "this should exist" | An **issue** |
+| "Why does this work this way?" | **GitHub Discussions** |
+| "I am stuck right now, is anyone around?" | **Discord**, or Discussions |
+
+The test is whether somebody would need to *do* something about it. If
+yes, it belongs in an issue, where it can be tracked until it is done.
+If it is just a question, it does not.
+
 ### Option 1: GitHub Discussions
 
 <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">Ask in Discussions</a>

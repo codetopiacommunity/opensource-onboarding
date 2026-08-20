@@ -33,6 +33,25 @@ Small, focused changes get reviewed and merged quickly. Large ones sit
 around waiting.
 
 ---
+## Where things go
+
+Before you open anything, a quick check on which of these you have:
+
+| What you have | Where it goes |
+|---|---|
+| "This is broken" or "this should exist" | An **issue** |
+| "Why does this work this way?" | **GitHub Discussions** |
+| "I am stuck right now, is anyone around?" | **Discord**, or Discussions |
+
+The test is whether somebody would need to *do* something about it. If
+yes, it belongs in an issue, where it can be tracked until it is done.
+If it is just a question, it does not.
+
+[Guide 10](./Getting-Started/10-reporting-a-good-issue.md) walks
+through writing an issue properly, and [HELP.md](./HELP.md) covers
+asking questions.
+
+---
 ## How to contribute
 
 If a step here is unfamiliar, the guide that teaches it is linked next

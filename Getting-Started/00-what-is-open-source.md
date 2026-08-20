@@ -129,6 +129,8 @@ of it, in order:
   pull request.
 - **Guides 07 to 09** make you self-sufficient: claiming issues,
   resolving conflicts, and keeping your copy of a project up to date.
+- **Guide 10** closes the loop, back where Rosemary's story started:
+  writing a clear issue of your own.
 
 By the end, Rosemary's story is your story.
 
