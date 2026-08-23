@@ -9,13 +9,39 @@ You do not need to be a programmer to start. You do not need to know
 what half those words mean yet. That is what this guide is for.
 
 ---
+## Yes, this is long
+
+We are not going to pretend otherwise. Reading is part of the work
+here, and it will take you longer than the faster routes that skip the
+parts you will need later.
+
+Here is why it is worth it. Search for any of this and you get
+thousands of results: tutorials written for a version of Git that
+changed years ago, answers that assume you already know the thing you
+are trying to learn, and a growing pile of confident generated text
+that is subtly wrong in ways that are hard to spot while the subject is
+still new to you. Telling the good from the bad is a skill of its own,
+and it is not one you may have yet. That sorting is what quietly costs
+people weeks, and what makes some of them quit believing the fault was
+theirs.
+
+What is here was chosen by people who have been through it, put in an
+order that builds, and cut down to what you actually need. Nothing is
+padded to look thorough. If something is in a guide, it is because
+leaving it out would have left you stuck later.
+
+So read it rather than skim it, and type the commands as you go instead
+of saving them for later. It moves faster than it looks.
+
+---
 ## Who this is for
 
-Anyone in Codetopia Community who wants to learn open source
-contribution from the ground up. You could be brand new to computers
-beyond browsing the web, or you could already know some of this and
-just want a refresher. Either way, start at the beginning. It moves
-fast once the basics click.
+Anyone who wants to learn open source contribution from the ground up.
+It was written for Codetopia Community, but none of it is members only.
+If you found your way here from somewhere else, it is yours to use. You
+could be brand new to computers beyond browsing the web, or you could
+already know some of this and just want a refresher. Either way, start
+at the beginning. It moves fast once the basics click.
 
 ---
 ## How this works
