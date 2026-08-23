@@ -114,21 +114,24 @@ person who hits the same wall.
 
 ### Discord, if you want it
 
-The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>
-is where the rest of the community is, and where your Q&A question turns
-up for someone to pick up. Join if you want company while you work, or
-if you want to start helping other people once you are through a guide
-yourself. Answering somebody else's question is one of the easiest
-first contributions there is.
+The Codetopia Community Discord is where the rest of the community is,
+and where your Q&A question turns up for someone to pick up. It is worth
+joining if you want company while you work, or if you want to start
+helping other people once you are through a guide yourself. Answering
+somebody else's question is one of the easiest first contributions
+there is.
 
-Never used Discord? Here is the whole thing: it is a free chat app, it
-runs in your web browser without installing anything, and you sign up
-with just an email address.
+Getting in is not a plain Discord signup, though. The server is unlocked
+by a Codetopia portal account, so that comes first.
+<a href="https://community.codetopia.org/howtos/Getting-Started/01-join-the-community" target="_blank" rel="noopener noreferrer">Join the Community</a>
+walks you through it in order: portal account, then Discord.
 
 > [!NOTE]
 > **Discord is entirely optional.** You never need it to finish this
-> course, and you never need it to get an answer. Questions asked in
-> Discussions reach the people who help either way.
+> course, to get an answer, or to contribute. Plenty of people work
+> through the guides and send pull requests without ever joining the
+> server. Questions asked in Discussions reach the people who help
+> either way.
 
 ### Reporting a problem with a guide
 
