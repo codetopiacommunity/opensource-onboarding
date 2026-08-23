@@ -200,6 +200,11 @@ Some rules for screenshots:
 - Use PNG, and keep files under about 500 KB.
 - Always write alt text that describes what is in the image, for
   people using a screen reader.
+- Keep every screenshot in one guide consistent with the others: same
+  theme, same account, same machine. Use whichever GitHub theme you
+  already use, there is no need to switch to match anyone. The point is
+  that a reader never watches the interface change halfway through a
+  guide, or the username swap between one step and the next.
 
 ---
 ## Before you open your pull request
