@@ -30,9 +30,9 @@ specific line in `docs/conflict-practice.md`.
 > it is a branch on the original `codetopiacommunity/open-source-practice`
 > repo, it will be present in your fork as long as you forked the repo
 > after it was added. If you run `git fetch origin` in Step 4 and do
-> not see `simulated-upstream-change` listed, post in the
-> <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Discord community</a>
-> and someone will help you sort it out.
+> not see `simulated-upstream-change` listed, ask in
+> <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+> using the **Q&A** category and someone will help you sort it out.
 
 In this guide, you will edit that same line to a different value.
 When you then merge the two branches together, Git will see that both
@@ -339,14 +339,12 @@ merged. It is safe, and it is there for exactly this.
 Think you have broken something? You have not, and
 [Fixing Mistakes](../FIXING-MISTAKES.md) shows you how to undo it.
 
-Still stuck, or hit something not listed here? Ask. Both of these are
-equally welcome, so use whichever suits you:
-
-- <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>,
-  if you would rather not use a chat app. It needs nothing but the
-  GitHub account this course gives you anyway.
-- The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
-  if you want an answer in minutes. Optional, and free.
+Still stuck, or hit something not listed here? Ask in
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+using the **Q&A** category. It needs nothing but the GitHub account
+this course gives you anyway, and your question turns up in the
+community Discord by itself, so there is nowhere else you need to post.
+Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
 useful answer quickly.

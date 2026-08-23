@@ -98,7 +98,18 @@ Now run this with your actual email:
 git config --global user.email "your@email.com"
 ```
 
-Now confirm both were saved:
+One more, exactly as written:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+This one tells Git what to call the first branch in any new project you
+start. Without it, Git picks a different name and prints a block of
+`hint:` text every time you start a project, which looks alarming and is
+not. You will meet branches properly in guide 05.
+
+Now confirm all three were saved:
 
 ```bash
 git config --global --list
@@ -109,6 +120,7 @@ What you should see:
 ```
 user.name=Your Name
 user.email=your@email.com
+init.defaultbranch=main
 ```
 
 What it means: Git has saved your identity. Every commit you make from
@@ -205,6 +217,7 @@ The `.` means "the folder I am in right now".
 | `git --version` | Check if Git is installed |
 | `git config --global user.name "Name"` | Set your Git name |
 | `git config --global user.email "email"` | Set your Git email |
+| `git config --global init.defaultBranch main` | Name the first branch in new projects |
 | `git config --global --list` | See your saved Git settings |
 | `code filename` | Open a file in VS Code |
 | `code .` | Open the current folder in VS Code |
@@ -233,14 +246,12 @@ it anyway and press Enter.
 The settings did not save. Run both `git config` commands again, and
 keep the quotes around your name and email exactly as shown.
 
-Still stuck, or hit something not listed here? Ask. Both of these are
-equally welcome, so use whichever suits you:
-
-- <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>,
-  if you would rather not use a chat app. It needs nothing but the
-  GitHub account this course gives you anyway.
-- The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
-  if you want an answer in minutes. Optional, and free.
+Still stuck, or hit something not listed here? Ask in
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+using the **Q&A** category. It needs nothing but the GitHub account
+this course gives you anyway, and your question turns up in the
+community Discord by itself, so there is nowhere else you need to post.
+Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
 useful answer quickly.

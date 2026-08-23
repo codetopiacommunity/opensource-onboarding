@@ -194,14 +194,12 @@ Your fork's `main` has commits your local one does not, usually from
 committing directly on `main` earlier. Ask in the Discord before
 force pushing, so you do not lose work.
 
-Still stuck, or hit something not listed here? Ask. Both of these are
-equally welcome, so use whichever suits you:
-
-- <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>,
-  if you would rather not use a chat app. It needs nothing but the
-  GitHub account this course gives you anyway.
-- The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
-  if you want an answer in minutes. Optional, and free.
+Still stuck, or hit something not listed here? Ask in
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+using the **Q&A** category. It needs nothing but the GitHub account
+this course gives you anyway, and your question turns up in the
+community Discord by itself, so there is nowhere else you need to post.
+Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
 useful answer quickly.
