@@ -50,7 +50,7 @@ Before you open anything, a quick check on which of these you have:
 |---|---|
 | "This is broken" or "this should exist" | An **issue** |
 | "Why does this work this way?" | **GitHub Discussions** |
-| "I am stuck right now, is anyone around?" | **Discord**, or Discussions |
+| "I am stuck right now, is anyone around?" | **GitHub Discussions** |
 
 The test is whether somebody would need to *do* something about it. If
 yes, it belongs in an issue, where it can be tracked until it is done.

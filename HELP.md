@@ -80,8 +80,8 @@ If none of the above got you moving, ask. Nobody will think less of you
 for it, and a question you found worth asking is usually one somebody
 else is quietly stuck on too.
 
-There are two places to ask, and they are equally welcome. Pick
-whichever suits you.
+Ask in GitHub Discussions. That is the one place you need, and you do
+not have to ask anywhere else afterwards.
 
 First, a quick sanity check on where your thing belongs:
 
@@ -89,44 +89,46 @@ First, a quick sanity check on where your thing belongs:
 |---|---|
 | "This is broken" or "this should exist" | An **issue** |
 | "Why does this work this way?" | **GitHub Discussions** |
-| "I am stuck right now, is anyone around?" | **Discord**, or Discussions |
+| "I am stuck right now, is anyone around?" | **GitHub Discussions** |
 
 The test is whether somebody would need to *do* something about it. If
 yes, it belongs in an issue, where it can be tracked until it is done.
 If it is just a question, it does not.
 
-### Option 1: GitHub Discussions
+### Where to ask: GitHub Discussions
 
 <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">Ask in Discussions</a>
 using the **Q&A** category. A form walks you through what to include,
 so you do not have to work out how to phrase it.
 
-Use this if you would rather not add another chat app, if your network
-blocks Discord, if you are on limited mobile data, or if you simply
-prefer taking your time over writing a question. It needs nothing
-except the GitHub account this course gives you anyway.
+The moment you post, your question also appears in the community
+Discord, where people are watching for exactly that. You do not need a
+Discord account for that to happen, and you do not need to ask there as
+well. Replies come back on the discussion itself, so that is the page
+to keep an eye on.
 
-Answers come from a maintainer, usually within a day. Slower than
-Discord, but it never depends on someone happening to be online, and
-your answer stays public and searchable for the next person who hits
-the same wall.
+It needs nothing except the GitHub account this course gives you
+anyway, it never depends on you happening to be online at the same time
+as a helper, and your answer stays public and searchable for the next
+person who hits the same wall.
 
-### Option 2: The Codetopia Community Discord
+### Discord, if you want it
 
 The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>
-is the fastest route. Someone is usually around, and answers tend to
-come in minutes. It is also where the rest of the community is, if you
-want that.
+is where the rest of the community is, and where your Q&A question turns
+up for someone to pick up. Join if you want company while you work, or
+if you want to start helping other people once you are through a guide
+yourself. Answering somebody else's question is one of the easiest
+first contributions there is.
 
 Never used Discord? Here is the whole thing: it is a free chat app, it
 runs in your web browser without installing anything, and you sign up
-with just an email address. Click the link, create an account, and post
-in the onboarding channel.
+with just an email address.
 
 > [!NOTE]
 > **Discord is entirely optional.** You never need it to finish this
-> course. If you do not want an account, or cannot reach it from your
-> network, Discussions covers everything.
+> course, and you never need it to get an answer. Questions asked in
+> Discussions reach the people who help either way.
 
 ### Reporting a problem with a guide
 
