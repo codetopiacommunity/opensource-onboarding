@@ -63,12 +63,21 @@ asking questions.
 ---
 ## How to contribute
 
+Do this on your own computer, not in the GitHub web editor. Editing a
+file in the browser is quicker, but going through the real workflow is
+the entire point of this repo, and it is the thing you are here to
+learn. If you have not worked through the guides that teach it yet,
+start there and come back. Nothing here is going anywhere.
+
 If a step here is unfamiliar, the guide that teaches it is linked next
 to it.
 
-1. **Open an issue first** describing what you want to change, unless
-   it is an obvious typo. This saves you from doing work that turns
-   out to duplicate someone else's.
+1. **Say you are taking it.** If an issue already describes what you
+   want to do, comment on it before you start. That stops two people
+   spending an evening on the same thing, and if it is trickier than it
+   looks, somebody can warn you before you begin rather than after. If
+   nothing covers what you have in mind, open an issue first, unless it
+   is an obvious typo.
    ([Guide 07](./Getting-Started/07-finding-and-claiming-an-issue.md))
 2. **Fork this repo and clone your fork** to your computer.
    ([Guide 05](./Getting-Started/05-your-first-pull-request.md))
@@ -205,6 +214,11 @@ Some rules for screenshots:
   already use, there is no need to switch to match anyone. The point is
   that a reader never watches the interface change halfway through a
   guide, or the username swap between one step and the next.
+
+Use whatever screenshot tool your computer already has. To crop, any
+image editor will do, including Photos on Windows and Preview on macOS.
+You do not need to blur anything properly either: drawing a filled
+rectangle over an email address is fine, and easier to get right.
 
 ---
 ## Before you open your pull request
