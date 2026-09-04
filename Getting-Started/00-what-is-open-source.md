@@ -1,3 +1,6 @@
+---
+Guide 01 of 12
+
 # What Is Open Source?
 
 Before you type a single command, it is worth knowing what you are

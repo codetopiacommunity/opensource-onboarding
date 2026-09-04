@@ -1,3 +1,6 @@
+---
+Guide 05 of 12
+
 # GitHub Account and SSH
 
 You installed Git and made your first commit on your local machine.
@@ -130,6 +133,24 @@ Select all of it and copy it.
 ```bash
 ssh -T git@github.com
 ```
+
+The first time only, it stops and asks you something like this:
+
+```
+The authenticity of host 'github.com (140.82.121.4)' can't be
+established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+Nothing is wrong. Your computer has never talked to GitHub before and
+is checking you meant to. Type the word `yes` and press Enter.
+
+> [!IMPORTANT]
+> Type `yes` in full. A single `y`, or just pressing Enter, will not
+> work, and it will ask you again.
+
+You only see this once. After that your computer remembers GitHub.
 
 What you should see:
 
@@ -343,14 +364,12 @@ Either there is a typo in your username, or you copied the address of
 the original repo rather than your fork. The address must have your own
 username in it.
 
-Still stuck, or hit something not listed here? Ask. Both of these are
-equally welcome, so use whichever suits you:
-
-- <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>,
-  if you would rather not use a chat app. It needs nothing but the
-  GitHub account this course gives you anyway.
-- The <a href="https://discord.gg/md6e2fmfEw" target="_blank" rel="noopener noreferrer">Codetopia Community Discord</a>,
-  if you want an answer in minutes. Optional, and free.
+Still stuck, or hit something not listed here? Ask in
+<a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>
+using the **Q&A** category. It needs nothing but the GitHub account
+this course gives you anyway, and your question turns up in the
+community Discord by itself, so there is nowhere else you need to post.
+Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
 useful answer quickly.
