@@ -271,7 +271,7 @@ type: short description
 ```
 
 The description should be lowercase and say what the change does, not
-what you did. The types you will use most often:
+What you did. The types you will use most often:
 
 | Type | When to use it |
 |---|---|
