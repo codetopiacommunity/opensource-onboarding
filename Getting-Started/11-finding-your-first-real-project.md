@@ -1,3 +1,6 @@
+---
+Guide 12 of 12
+
 # Finding Your First Real Project
 
 Everything so far has happened in a practice repo, where nothing could

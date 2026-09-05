@@ -1,3 +1,6 @@
+---
+Guide 02 of 12
+
 # Your Computer and the Terminal
 
 Welcome to open source onboarding. This is not a course. No videos, no

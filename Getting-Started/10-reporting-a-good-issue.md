@@ -1,3 +1,6 @@
+---
+Guide 11 of 12
+
 # Reporting a Good Issue
 
 In guide 07 you fixed a problem someone else had written down. Now you
@@ -329,7 +332,7 @@ what the project wants to take on. Ask politely why, if you want to
 understand. Then move on to the next one.
 
 > [!TIP]
-> Do not post the same report in the Discord as well. Pick one place.
+> Do post the same report in the Discord as well. Pick one place.
 > Two copies means two half conversations, and neither has the full
 > picture.
 
@@ -379,8 +382,9 @@ useful answer quickly.
 ---
 ## What's next?
 
-You now have every skill the practice repo can teach you. One thing is
-left, and it is the one that turns all of this into something real:
-walking into a project nobody invited you to.
+You now have the whole working loop: fork, branch, commit, pull
+request, review, conflict, sync. One piece is left, and it is the one
+that starts most people's first contribution to a project they have
+never touched before. Writing the issue in the first place.
 
-🔗 [Finding Your First Real Project](./11-finding-your-first-real-project.md)
+🔗 [Reporting a Good Issue](./10-reporting-a-good-issue.md)

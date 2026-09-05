@@ -1,3 +1,6 @@
+---
+Guide 07 of 12
+
 # Reviewing a Pull Request
 
 You opened your first pull request. Now you are on the other side: the

@@ -1,3 +1,6 @@
+---
+Guide 09 of 12
+
 # Resolving a Merge Conflict
 
 At some point, two people edit the same line in the same file. Git

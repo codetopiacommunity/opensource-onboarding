@@ -1,3 +1,6 @@
+---
+Guide 10 of 12
+
 # Keeping Your Fork in Sync
 
 You have now used `origin` and `upstream` throughout the previous

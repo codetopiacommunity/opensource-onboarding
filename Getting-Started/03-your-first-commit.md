@@ -1,3 +1,6 @@
+---
+Guide 04 of 12
+
 # Your First Commit
 
 Git is installed and knows who you are. Time to actually use it.

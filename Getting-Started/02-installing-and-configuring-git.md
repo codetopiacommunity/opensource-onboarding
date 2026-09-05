@@ -1,3 +1,6 @@
+---
+Guide 03 of 12
+
 # Installing and Configuring Git
 
 You got comfortable moving around in the terminal. Now you meet Git.

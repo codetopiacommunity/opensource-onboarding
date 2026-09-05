@@ -1,3 +1,6 @@
+---
+Guide 08 of 12
+
 # Finding and Claiming an Issue
 
 You have opened a pull request and reviewed one. Now you make a more
