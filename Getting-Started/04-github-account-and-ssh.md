@@ -337,41 +337,44 @@ repo.
 ---
 ## Step 7: Say hello in Discussions
 
-Your GitHub account is the only thing you need for the other half of
-this course: the place you go when something goes wrong.
+Your account is the only thing you need for the part of this course
+nobody plans for: the place you go when something goes wrong.
 
 **GitHub Discussions** is a question and answer forum attached to a
-repo, on its **Discussions** tab, alongside Code and Issues. It is
-where every **Stuck?** section in these guides sends you, and it is the
+repo. It sits on the repo's **Discussions** tab, in the same row along
+the top of the page as **Code**, **Issues** and **Pull requests**.
+Every **Stuck?** section in these guides sends you there, and it is the
 only place you need to post: a question there reaches the community
-Discord on its own, and replies come back on the discussion.
+Discord by itself, and replies come back on the discussion.
 
 Post something now, while nothing is wrong. It takes a minute, and it
-means the first time you use it is not the night you are stuck at
-midnight with an error you have never seen.
+means the first time you use it is not the night you are stuck with an
+error you have never seen before.
 
-Open the Discussions tab:
+1. Check that you are signed in to GitHub. You are if your profile
+   picture shows in the top right corner of the page.
+2. Go to `https://github.com/codetopiacommunity/opensource-onboarding`
+3. Click the **Discussions** tab along the top of the page
+4. Click the green **New discussion** button on the right
+5. Choose a category: **General** to say hello, or **Q&A** if you
+   already have a question you want answered
+6. Fill in the title box, then write two or three lines underneath it:
+   who you are, where you have got to, and what brought you here
+7. Click **Start discussion** at the bottom
 
-```
-https://github.com/codetopiacommunity/opensource-onboarding/discussions
-```
+<!-- IMAGE: The Discussions tab of the onboarding repo on GitHub, with the green "New discussion" button highlighted on the right hand side. Target path: images/discussions-new-button.png -->
 
-Click **New discussion**. Pick **General** and say hello: who you are,
-where you are up to, and what brought you here. Two lines is plenty. If
-you already have a question, pick **Q&A** instead and ask it.
+What you should see: your post gets its own page, with your username
+and the date at the top and an empty reply box underneath it. Anyone
+can answer it now, and GitHub emails you when somebody does.
 
-<!-- IMAGE: The New discussion form on GitHub, with the category dropdown open showing the General and Q&A categories. Target path: images/new-discussion-form.png -->
-
-Click **Start discussion**.
-
-What you should see: your post appears with your username and the date,
-and anyone can reply underneath it. That is the whole mechanism. You
-now know where to go and you have already been there once.
+That is the whole mechanism. You know where to go, and you have been
+there once already.
 
 > [!NOTE]
-> Nobody minds a beginner question, and there is no such thing as one
-> that is too basic. A question you thought was silly is usually one
-> several other people were quietly stuck on and did not ask.
+> There is no such thing as a question that is too basic here. The one
+> you think is silly is usually the one several other people were
+> quietly stuck on and did not ask.
 
 ---
 ## Quick reference
