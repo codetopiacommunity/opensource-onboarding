@@ -94,6 +94,27 @@ to it.
    ([Guide 06](./Getting-Started/06-reviewing-a-pull-request.md))
 
 ---
+## Adding or renaming a guide
+
+The guides in `Getting-Started/` are numbered from `00`, and the links
+at the top and bottom of each one are generated rather than typed by
+hand. If you add a guide, rename one, or change its `# Title`, run this
+from the top of the repo:
+
+```bash
+python3 scripts/build-nav.py
+```
+
+Then commit the files it changes. It rewrites the previous and next
+links and the progress bar in every guide, so one new guide does not
+mean editing twelve files by hand.
+
+You do not need to run it for ordinary edits like fixing a typo. If you
+forget, the automatic check on your pull request will say so, and it
+tells you the same command. That is not you being told off: it is the
+check doing its job.
+
+---
 ## Commit messages
 
 Use a short prefix, then a description in the present tense of what
