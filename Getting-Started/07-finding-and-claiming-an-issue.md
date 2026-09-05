@@ -11,6 +11,13 @@ You have opened a pull request and reviewed one. Now you make a more
 targeted contribution: finding a real problem in the repo, claiming it
 so no one else duplicates your work, and submitting a fix.
 
+An [issue](../GLOSSARY.md#issue) is a public note attached to a project
+saying "here is something that needs attention": a bug, a typo, a
+confusing instruction. Each one gets a number like `#42`, and anyone
+can read it, comment on it, or pick it up. You write one yourself in
+[guide 10](./10-reporting-a-good-issue.md). Here you fix one somebody
+else wrote.
+
 This is the most common way people contribute to open source in
 practice. Most projects do not expect you to invent new features from
 scratch. They have a list of known problems waiting for someone to
@@ -274,7 +281,9 @@ community Discord by itself, so there is nowhere else you need to post.
 Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
-useful answer quickly.
+useful answer quickly. If what stopped you was a word rather than a
+command, the [Glossary](../GLOSSARY.md) has every term these guides
+use, in plain language.
 
 ---
 ## What's next?

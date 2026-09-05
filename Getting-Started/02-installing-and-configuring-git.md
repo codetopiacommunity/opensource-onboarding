@@ -261,7 +261,9 @@ community Discord by itself, so there is nowhere else you need to post.
 Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
-useful answer quickly.
+useful answer quickly. If what stopped you was a word rather than a
+command, the [Glossary](../GLOSSARY.md) has every term these guides
+use, in plain language.
 
 ---
 ## What's next?
