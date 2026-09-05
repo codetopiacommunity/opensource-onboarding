@@ -181,8 +181,8 @@ The `*` is now on `add-my-name`. You are ready to make changes.
 ## Step 5: Add yourself to CONTRIBUTORS.md
 
 If you installed VS Code in
-[guide 02](./02-installing-and-configuring-git.md), open the file with
-that, on any operating system:
+[Installing and Configuring Git](./02-installing-and-configuring-git.md),
+open the file with that, on any operating system:
 
 ```bash
 code CONTRIBUTORS.md
@@ -317,9 +317,9 @@ GitHub.
 > one look at what you are about to send with `git status` and
 > `git diff`, and check there are no passwords, keys or personal
 > details in it. See
-> [never commit secrets](./03-your-first-commit.md) in guide 03. Making
-> this a habit now costs you five seconds a time and will save you one
-> day.
+> [never commit secrets, in Your First Commit](./03-your-first-commit.md).
+> Making this a habit now costs you five seconds a time and will save
+> you one day.
 
 Pushing means sending your local commits up to GitHub so they are
 visible online.
@@ -434,7 +434,7 @@ with upstream, then push again.
 **Git asks for a username and password when you push.**
 Your repo is using HTTPS rather than SSH. Run `git remote -v`. If the
 address starts with `https://`, re-clone using the `git@github.com:`
-address from guide 04.
+address from [GitHub Account and SSH](./04-github-account-and-ssh.md).
 
 **`nothing to commit, working tree clean` after you edited the file.**
 The change was never saved. Go back to the editor, save, and check

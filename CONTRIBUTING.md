@@ -6,7 +6,7 @@ explanation that confused you, you can fix it. That fix helps every
 person who comes after you.
 
 If you have not been through the guides yet, start with
-[00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md).
+[What Is Open Source?](./Getting-Started/00-what-is-open-source.md).
 Contributing here uses exactly the same steps you learn there.
 
 If you meet a word on this page you do not know, the
@@ -65,9 +65,9 @@ The test is whether somebody would need to *do* something about it. If
 yes, it belongs in an issue, where it can be tracked until it is done.
 If it is just a question, it does not.
 
-[Guide 10](./Getting-Started/10-reporting-a-good-issue.md) walks
-through writing an issue properly, and [HELP.md](./HELP.md) covers
-asking questions.
+[Reporting a Good Issue](./Getting-Started/10-reporting-a-good-issue.md)
+walks through writing an issue properly, and [HELP.md](./HELP.md)
+covers asking questions.
 
 ---
 ## How to contribute
@@ -87,9 +87,9 @@ to it.
    looks, somebody can warn you before you begin rather than after. If
    nothing covers what you have in mind, open an issue first, unless it
    is an obvious typo.
-   ([Guide 07](./Getting-Started/07-finding-and-claiming-an-issue.md))
+   ([Finding and Claiming an Issue](./Getting-Started/07-finding-and-claiming-an-issue.md))
 2. **Fork this repo and clone your fork** to your computer.
-   ([Guide 05](./Getting-Started/05-your-first-pull-request.md))
+   ([Your First Pull Request](./Getting-Started/05-your-first-pull-request.md))
 3. **Create a branch** named for what you are doing:
    `fix/broken-link-guide-04`, `docs/clarify-ssh-step`.
 4. **Make your change** and read it back once before committing.
@@ -97,10 +97,10 @@ to it.
 6. **Push your branch** and open a pull request explaining what you
    changed and why. If it closes an issue, write `Closes #N` in the
    description.
-   ([Guide 05](./Getting-Started/05-your-first-pull-request.md))
+   ([Your First Pull Request](./Getting-Started/05-your-first-pull-request.md))
 7. **Respond to review comments.** A maintainer will read your change
    and may suggest a tweak. That is normal, and it is not criticism.
-   ([Guide 06](./Getting-Started/06-reviewing-a-pull-request.md))
+   ([Reviewing a Pull Request](./Getting-Started/06-reviewing-a-pull-request.md))
 
 ---
 ## Adding or renaming a guide
@@ -176,6 +176,14 @@ nothing to commit, working tree clean
 
 **Use second person and plain language.** "You will see", not "the
 user will observe".
+
+**Refer to a guide by its name, not its number.** Write
+`[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md)`,
+not "guide 05". The number tells a reader nothing about what is in it,
+so they have to follow the link before they can decide whether they
+want to. The file numbers exist to keep the files in order, and the
+navigation strips at the top and bottom of each guide are generated,
+so leave those alone.
 
 **Wrap prose at about 70 characters.** Keep links, tables, and code
 blocks on one line even when they run longer.

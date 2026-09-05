@@ -184,7 +184,7 @@ reviewer's comment to let them know the fix is in.
 
 **`upstream does not appear to be a git repository`.**
 The upstream remote is missing on this machine. Add it again following
-[guide 04, step 6](./04-github-account-and-ssh.md). Check with
+[GitHub Account and SSH, step 6](./04-github-account-and-ssh.md). Check with
 `git remote -v`, which should list both `origin` and `upstream`.
 
 **`git merge upstream/main` says `Already up to date`.**
@@ -193,8 +193,8 @@ last synced.
 
 **A conflict appears while syncing or rebasing.**
 Resolve it exactly the way you did in
-[guide 08](./08-resolving-a-merge-conflict.md). The markers and the fix
-are identical, whatever command produced them.
+[Resolving a Merge Conflict](./08-resolving-a-merge-conflict.md). The
+markers and the fix are identical, whatever command produced them.
 
 **`git push origin main` is rejected.**
 Your fork's `main` has commits your local one does not, usually from

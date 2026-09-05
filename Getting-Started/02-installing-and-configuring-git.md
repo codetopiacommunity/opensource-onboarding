@@ -111,10 +111,11 @@ One more, exactly as written:
 git config --global init.defaultBranch main
 ```
 
-This one tells Git what to call the first branch in any new project you
-start. Without it, Git picks a different name and prints a block of
-`hint:` text every time you start a project, which looks alarming and is
-not. You will meet branches properly in guide 05.
+This one tells Git what to call the first branch in any new project
+you start. Without it, Git picks a different name and prints a block
+of `hint:` text every time you start a project, which looks alarming
+and is not. You will meet branches properly in
+[Your First Pull Request](./05-your-first-pull-request.md).
 
 Now confirm all three were saved:
 
@@ -144,8 +145,9 @@ will remember it from now on.
 ---
 ## Step 3: Install a text editor
 
-From guide 05 onwards you will be opening files and changing what is
-inside them. For that you need a **text editor**.
+From [Your First Pull Request](./05-your-first-pull-request.md)
+onwards you will be opening files and changing what is inside them.
+For that you need a **text editor**.
 
 A text editor is a program that edits plain text and nothing else. That
 sounds like a limitation and is actually the point.
@@ -157,10 +159,11 @@ straight ones, automatic capital letters, special dashes. You cannot
 see any of it, and it will break code and confuse Git. Notepad and
 TextEdit are text editors and are fine. Word is not.
 
-You already have a basic one, which is why guide 05 opens files with
-`notepad` on Windows and `open -e` on macOS. That will get you through
-this course. But installing a proper editor takes five minutes and
-makes everything afterwards easier, so it is worth doing now.
+You already have a basic one, which is why
+[Your First Pull Request](./05-your-first-pull-request.md) opens files
+with `notepad` on Windows and `open -e` on macOS. That will get you
+through this course. But installing a proper editor takes five minutes
+and makes everything afterwards easier, so it is worth doing now.
 
 ### Recommended: Visual Studio Code
 

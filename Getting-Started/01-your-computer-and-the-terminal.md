@@ -295,8 +295,10 @@ here.
 ## Stuck?
 
 **You cannot find a terminal on your computer.**
-On Windows, search the Start menu for **Git Bash** (guide 02 installs
-it). On macOS, press `Cmd + Space` and type `Terminal`. On Linux, try
+On Windows, search the Start menu for **Git Bash**
+([Installing and Configuring Git](./02-installing-and-configuring-git.md)
+installs it). On macOS, press `Cmd + Space` and type `Terminal`. On
+Linux, try
 `Ctrl + Alt + T`.
 
 **`cd Desktop` says `No such file or directory`.**

@@ -7,8 +7,10 @@
 
 # Reporting a Good Issue
 
-In guide 07 you fixed a problem someone else had written down. Now you
-write one yourself.
+In
+[Finding and Claiming an Issue](./07-finding-and-claiming-an-issue.md)
+you fixed a problem someone else had written down. Now you write one
+yourself.
 
 This is worth learning properly, because it is how most people make
 their first contribution to a project they have never touched before.
@@ -17,8 +19,8 @@ not need permission from anyone. Spotting something and describing it
 clearly is genuinely useful work.
 
 Remember Rosemary from
-[guide 00](./00-what-is-open-source.md)? Her whole contribution started
-with one issue. This is that step.
+[What Is Open Source?](./00-what-is-open-source.md)? Her whole
+contribution started with one issue. This is that step.
 
 ---
 ## What an issue actually is

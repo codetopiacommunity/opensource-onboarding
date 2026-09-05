@@ -50,7 +50,7 @@ These four account for most of what goes wrong, in any guide.
 The program is not installed, or your terminal was open before you
 installed it. Close the terminal completely, open a new one, and try
 again. If it still fails, the install did not finish. Go back to
-[guide 02](./Getting-Started/02-installing-and-configuring-git.md).
+[Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md).
 
 **`No such file or directory`**
 You are not in the folder you think you are in. Run `pwd` to see where
@@ -60,7 +60,7 @@ does not exist" problem is really a "wrong folder" problem.
 **`Permission denied (publickey)`**
 GitHub does not recognise your computer. Your SSH key is either not
 created, not added to GitHub, or not loaded. Work back through
-[guide 04, step 2](./Getting-Started/04-github-account-and-ssh.md).
+[GitHub Account and SSH, step 2](./Getting-Started/04-github-account-and-ssh.md).
 
 **The command seems frozen and nothing happens**
 Some commands wait for input rather than hanging. If you see a `>` on a
@@ -149,7 +149,7 @@ yourself.
 
 > [!TIP]
 > Creating a GitHub account is free and takes about two minutes. You
-> will make one in [guide 04](./Getting-Started/04-github-account-and-ssh.md)
+> will make one in [GitHub Account and SSH](./Getting-Started/04-github-account-and-ssh.md)
 > regardless, but if you want the GitHub-only route from the very
 > start, make it now:
 > <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">github.com/signup</a>.
@@ -171,7 +171,7 @@ Compare these two questions:
 
 > git isn't working, help
 
-> I'm on guide 03, step 6. I ran `git add hello.txt` and got
+> I'm on Your First Commit, step 6. I ran `git add hello.txt` and got
 > `fatal: not a git repository`. I expected it to stage the file.
 > I ran `git init` in step 3 and it seemed to work.
 

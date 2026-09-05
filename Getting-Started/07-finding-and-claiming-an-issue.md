@@ -11,12 +11,12 @@ You have opened a pull request and reviewed one. Now you make a more
 targeted contribution: finding a real problem in the repo, claiming it
 so no one else duplicates your work, and submitting a fix.
 
-An [issue](../GLOSSARY.md#issue) is a public note attached to a project
-saying "here is something that needs attention": a bug, a typo, a
-confusing instruction. Each one gets a number like `#42`, and anyone
-can read it, comment on it, or pick it up. You write one yourself in
-[guide 10](./10-reporting-a-good-issue.md). Here you fix one somebody
-else wrote.
+An [issue](../GLOSSARY.md#issue) is a public note attached to a
+project saying "here is something that needs attention": a bug, a
+typo, a confusing instruction. Each one gets a number like `#42`, and
+anyone can read it, comment on it, or pick it up. You write one
+yourself in [Reporting a Good Issue](./10-reporting-a-good-issue.md).
+Here you fix one somebody else wrote.
 
 This is the most common way people contribute to open source in
 practice. Most projects do not expect you to invent new features from
@@ -52,9 +52,9 @@ title, a description, and the name of the file where the problem is.
 Read through them carefully.
 
 Somebody wrote each one of these. In
-[guide 10](./10-reporting-a-good-issue.md) you learn to write them
-yourself, which is how most people make their first contribution to a
-project they have never touched before.
+[Reporting a Good Issue](./10-reporting-a-good-issue.md) you learn to
+write them yourself, which is how most people make their first
+contribution to a project they have never touched before.
 
 > [!TIP]
 > Check the comments on each issue before picking one. If someone has
@@ -96,11 +96,12 @@ from fixing the same issue and submitting conflicting pull requests.
 Before starting any work, bring your local repo up to date with the
 latest changes from the original repo.
 
-Remember from guide 04: `upstream` is your remote connection to the
-original repo. Any new commits that other contributors have merged
-since you last synced are sitting in `upstream`. You need to pull them
-in before branching off, otherwise your branch will be based on an
-outdated version of the project.
+Remember from
+[GitHub Account and SSH](./04-github-account-and-ssh.md): `upstream`
+is your remote connection to the original repo. Any new commits that
+other contributors have merged since you last synced are sitting in
+`upstream`. You need to pull them in before branching off, otherwise
+your branch will be based on an outdated version of the project.
 
 Navigate to your local clone:
 
@@ -223,8 +224,9 @@ git push origin fix/typo-in-about
 ---
 ## Step 7: Open a pull request
 
-Go to your fork on GitHub and open a pull request the same way you
-did in guide 05. Click the yellow **Compare and pull request** banner.
+Go to your fork on GitHub and open a pull request the same way you did
+in [Your First Pull Request](./05-your-first-pull-request.md). Click
+the yellow **Compare and pull request** banner.
 
 In the pull request description, include the issue number:
 
@@ -263,7 +265,7 @@ Normal, and no harm done. Pick another one. Issues get added regularly.
 **`git fetch upstream` says `'upstream' does not appear to be a git
 repository`.**
 You have not added the upstream remote on this machine. Go back to
-[guide 04, step 6](./04-github-account-and-ssh.md), then try again.
+[GitHub Account and SSH, step 6](./04-github-account-and-ssh.md), then try again.
 
 **Your branch contains changes you did not make.**
 You branched before syncing, so you picked up an old state. Run

@@ -36,7 +36,8 @@ Go to https://github.com and sign up.
 
 <!-- IMAGE: The GitHub sign-up page at github.com showing the username, email, and password fields. Target path: images/github-signup.png -->
 
-Use the same email you used when configuring Git in guide 02.
+Use the same email you used when configuring Git in
+[Installing and Configuring Git](./02-installing-and-configuring-git.md).
 This matters: GitHub uses your email to link your commits to your
 account.
 
