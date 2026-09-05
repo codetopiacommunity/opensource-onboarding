@@ -9,6 +9,10 @@ If you have not been through the guides yet, start with
 [00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md).
 Contributing here uses exactly the same steps you learn there.
 
+If you meet a word on this page you do not know, the
+[Glossary](./GLOSSARY.md) explains every term these guides use, in
+plain language. Nothing below assumes you have memorised any of it.
+
 ---
 ## Before anything else
 
@@ -44,13 +48,18 @@ around waiting.
 ---
 ## Where things go
 
-Before you open anything, a quick check on which of these you have:
+Before you open anything, a quick check on which of these you have.
+Both places below are parts of GitHub you may never have used. An
+[issue](./GLOSSARY.md#issue) is a public note on a project saying
+something needs attention, and
+[GitHub Discussions](./GLOSSARY.md#github-discussions) is its question
+and answer forum. Each sits on its own tab at the top of the repo.
 
 | What you have | Where it goes |
 |---|---|
-| "This is broken" or "this should exist" | An **issue** |
-| "Why does this work this way?" | **GitHub Discussions** |
-| "I am stuck right now, is anyone around?" | **GitHub Discussions** |
+| "This is broken" or "this should exist" | An **issue**, on the **Issues** tab |
+| "Why does this work this way?" | **GitHub Discussions**, on the **Discussions** tab |
+| "I am stuck right now, is anyone around?" | **GitHub Discussions**, same place |
 
 The test is whether somebody would need to *do* something about it. If
 yes, it belongs in an issue, where it can be tracked until it is done.
@@ -142,7 +151,10 @@ reads as one voice.
 
 **Write for someone who has never done this before.** No assumed
 knowledge. If you use a term for the first time, explain it in the
-same sentence.
+same sentence, and link it to its [Glossary](./GLOSSARY.md) entry:
+`[issue](./GLOSSARY.md#issue)`. A reader who has landed on one page
+from a search engine has not read the twelve guides before it, and
+should not have to.
 
 **Say what to type and what should happen.** Every command gets a
 fenced code block, followed by a "What you should see" description of
@@ -204,7 +216,10 @@ Each numbered guide in `Getting-Started/` follows the same shape:
 
 If you add a new guide, number it in sequence, link it from the
 `What you will learn` list in the README, and update the `What's
-next?` link at the end of the guide before it.
+next?` link at the end of the guide before it. Then run
+`python3 scripts/build-nav.py` to regenerate the strips at the top and
+bottom of every guide, as described in
+[Adding or renaming a guide](#adding-or-renaming-a-guide) above.
 
 ---
 ## Adding images
@@ -249,6 +264,8 @@ rectangle over an email address is fine, and easier to get right.
 - [ ] Every new link has been clicked and works.
 - [ ] Prose wraps at about 70 characters.
 - [ ] The README list is updated if you added or renamed a guide.
+- [ ] Any term a newcomer might not know links to the Glossary the
+      first time you use it.
 
 ---
 ## Licensing of what you contribute

@@ -9,12 +9,13 @@ doing. Nothing here expects you to already know something else.
 
 Words are listed alphabetically. Jump straight to one:
 
-[Backtick](#backtick) · [Branch](#branch) · [Clone](#clone) ·
-[Command](#command) · [Command line](#command-line) ·
+[Backtick](#backtick) · [Branch](#branch) · [Checks](#checks) ·
+[Clone](#clone) · [Command](#command) · [Command line](#command-line) ·
 [Commit](#commit) · [Contributor](#contributor) ·
 [Directory](#directory) · [Environment](#environment) ·
 [Fetch](#fetch) · [Fork](#fork) · [Git](#git) ·
 [Git Bash](#git-bash) · [GitHub](#github) ·
+[GitHub Discussions](#github-discussions) ·
 [.gitignore](#gitignore) · [Home directory](#home-directory) ·
 [Issue](#issue) · [Label](#label) · [Licence](#licence) ·
 [Maintainer](#maintainer) · [Markdown](#markdown) ·
@@ -26,10 +27,6 @@ Words are listed alphabetically. Jump straight to one:
 [Review](#review) · [Secret](#secret) · [SSH key](#ssh-key) ·
 [Stage](#stage) · [Sync](#sync) · [Terminal](#terminal) ·
 [upstream](#upstream) · [URL](#url)
-
----
-
----
 
 ---
 
@@ -49,6 +46,15 @@ your branch, and only when it is ready does it get combined back in.
 Every project has one main branch, usually called `main`, which holds
 the version everyone agrees on. Taught in
 [guide 05](./Getting-Started/05-your-first-pull-request.md).
+
+### Checks
+
+The automatic tests a project runs on your pull request, shown as a
+list of ticks and crosses near the bottom of the pull request page. A
+cross does not mean you have broken the project. It means one check
+disagrees with something in your change, and it tells you which one
+and why. Fix it, push again, and they run again. Nobody is watching
+you fail.
 
 ### Clone
 
@@ -123,6 +129,15 @@ so use it. Installed in
 A website that stores repositories online so people can work on them
 together. Git is the tool; GitHub is the place. You can use Git without
 GitHub, and many people do.
+
+### GitHub Discussions
+
+A question and answer forum attached to a project, found on its
+**Discussions** tab. Questions belong here; an **Issue** is for
+something somebody needs to *do* about it. Anyone with a GitHub
+account can post, and on this project a question posted here reaches
+the community Discord on its own, so there is nowhere else you need to
+ask. See [Getting Help](./HELP.md).
 
 ### `.gitignore`
 

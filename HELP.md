@@ -83,13 +83,18 @@ else is quietly stuck on too.
 Ask in GitHub Discussions. That is the one place you need, and you do
 not have to ask anywhere else afterwards.
 
-First, a quick sanity check on where your thing belongs:
+First, a quick sanity check on where your thing belongs. Both are
+parts of GitHub with their own tab at the top of the repo: an
+[issue](./GLOSSARY.md#issue) is a public note saying something needs
+attention, and
+[GitHub Discussions](./GLOSSARY.md#github-discussions) is the question
+and answer forum.
 
 | What you have | Where it goes |
 |---|---|
-| "This is broken" or "this should exist" | An **issue** |
-| "Why does this work this way?" | **GitHub Discussions** |
-| "I am stuck right now, is anyone around?" | **GitHub Discussions** |
+| "This is broken" or "this should exist" | An **issue**, on the **Issues** tab |
+| "Why does this work this way?" | **GitHub Discussions**, on the **Discussions** tab |
+| "I am stuck right now, is anyone around?" | **GitHub Discussions**, same place |
 
 The test is whether somebody would need to *do* something about it. If
 yes, it belongs in an issue, where it can be tracked until it is done.

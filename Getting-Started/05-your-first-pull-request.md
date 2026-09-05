@@ -404,6 +404,14 @@ merge it, approve it, or ask you to fix something.
 > push again. Your PR updates automatically every time you push to
 > that branch.
 
+> [!NOTE]
+> Some projects run [checks](../GLOSSARY.md#checks) on every pull
+> request: automatic tests that appear as a list of ticks and crosses
+> near the bottom of the page. A cross is not you breaking the project,
+> and it is not a telling off. It means one check disagrees with
+> something in your change, and it says which one and why. Fix it, push
+> again, and the checks run again on their own.
+
 ---
 ## Quick reference
 
@@ -451,7 +459,9 @@ community Discord by itself, so there is nowhere else you need to post.
 Replies come back on the discussion.
 
 [Getting Help](../HELP.md) explains both, and how to ask so you get a
-useful answer quickly.
+useful answer quickly. If what stopped you was a word rather than a
+command, the [Glossary](../GLOSSARY.md) has every term these guides
+use, in plain language.
 
 ---
 ## What's next?
