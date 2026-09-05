@@ -128,6 +128,13 @@ you forget, the automatic [checks](./GLOSSARY.md#checks) on your pull
 request will say so, and they name the same command. That is not you
 being told off: it is the check doing its job.
 
+One of those checks confirms that every link inside this repo goes
+somewhere real. It leaves links to other websites alone, because those
+can break without anybody here touching anything, and a check that
+fails for reasons outside the change is a check people learn to ignore.
+Maintainers can test those by hand with
+`python3 scripts/check-links.py --external`.
+
 ---
 ## Commit messages
 

@@ -70,6 +70,19 @@ def guides():
     return found
 
 
+def link(label, href):
+    """A Markdown link, or the anchor form for external ones.
+
+    House style opens external links in a new tab so a reader never loses
+    their place in the course. Links to files in this repo stay plain
+    Markdown.
+    """
+    if href.startswith(("http://", "https://")):
+        return (f'<a href="{href}" target="_blank" '
+                f'rel="noopener noreferrer">{label}</a>')
+    return f"[{label}]({href})"
+
+
 def strip(index, entries, newline):
     """The one-line prev / position / next strip for guide `index`."""
     total = len(entries)
@@ -79,14 +92,14 @@ def strip(index, entries, newline):
     else:
         prev_path, label = entries[index - 1]
         href = "./" + os.path.basename(prev_path)
-    back = f"[← {label}]({href})"
+    back = link(f"← {label}", href)
 
     if index == total - 1:
         label, href = AFTER_LAST
     else:
         next_path, label = entries[index + 1]
         href = "./" + os.path.basename(next_path)
-    forward = f"[{label} →]({href})"
+    forward = link(f"{label} →", href)
 
     # The middle of the strip is the guide you are on, named rather than
     # numbered, to match how the rest of the docs refer to guides. The file
