@@ -28,6 +28,7 @@ to contribute.
 - Clone your fork to your machine
 - Understand what `origin` and `upstream` mean
 - Add the original repository as a second remote
+- Post your first message in GitHub Discussions
 
 ---
 ## Step 1: Create a GitHub account
@@ -334,6 +335,45 @@ to `origin`. And your pull requests go from `origin` into the original
 repo.
 
 ---
+## Step 7: Say hello in Discussions
+
+Your GitHub account is the only thing you need for the other half of
+this course: the place you go when something goes wrong.
+
+**GitHub Discussions** is a question and answer forum attached to a
+repo, on its **Discussions** tab, alongside Code and Issues. It is
+where every **Stuck?** section in these guides sends you, and it is the
+only place you need to post: a question there reaches the community
+Discord on its own, and replies come back on the discussion.
+
+Post something now, while nothing is wrong. It takes a minute, and it
+means the first time you use it is not the night you are stuck at
+midnight with an error you have never seen.
+
+Open the Discussions tab:
+
+```
+https://github.com/codetopiacommunity/opensource-onboarding/discussions
+```
+
+Click **New discussion**. Pick **General** and say hello: who you are,
+where you are up to, and what brought you here. Two lines is plenty. If
+you already have a question, pick **Q&A** instead and ask it.
+
+<!-- IMAGE: The New discussion form on GitHub, with the category dropdown open showing the General and Q&A categories. Target path: images/new-discussion-form.png -->
+
+Click **Start discussion**.
+
+What you should see: your post appears with your username and the date,
+and anyone can reply underneath it. That is the whole mechanism. You
+now know where to go and you have already been there once.
+
+> [!NOTE]
+> Nobody minds a beginner question, and there is no such thing as one
+> that is too basic. A question you thought was silly is usually one
+> several other people were quietly stuck on and did not ask.
+
+---
 ## Quick reference
 
 | Term | What it means |
@@ -344,6 +384,7 @@ repo.
 | Clone | Downloading a GitHub repo to your local machine |
 | `origin` | The remote pointing to your fork |
 | `upstream` | The remote pointing to the original repo |
+| GitHub Discussions | The repo's question and answer forum, where you ask when stuck |
 
 ---
 ## Stuck?

@@ -227,6 +227,16 @@ So here is the plan for when it happens:
 Read [Getting Help](../HELP.md) now, before you need it. It takes two
 minutes and it means you will not be hunting for it while frustrated.
 
+Where you ask is **GitHub Discussions**: a question and answer forum
+attached to this repo, on its **Discussions** tab, right next to Code
+and Issues. You post a question, anybody can answer, and the thread
+stays public so that the next person stuck on the same thing finds it
+already answered. It is the only place you need to post.
+
+You will put a message there yourself in
+[GitHub Account and SSH](./04-github-account-and-ssh.md), so that the
+first time you use it is not the night you are stuck and frustrated.
+
 > [!TIP]
 > There are two places to ask: the Codetopia Community Discord, and
 > GitHub Discussions. Discord is optional and you never need it to
