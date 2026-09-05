@@ -78,6 +78,10 @@ starting. They are there for the moment you need them.
 ---
 ## What you will learn
 
+Twelve guides, numbered 00 to 11. The numbering starts at zero because
+that is how the files are named, so guide 00 is the first one and guide
+11 is the last. Work through them in order.
+
 0. [What Is Open Source?](./Getting-Started/00-what-is-open-source.md)
 1. [Your Computer and the Terminal](./Getting-Started/01-your-computer-and-the-terminal.md)
 2. [Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md)
