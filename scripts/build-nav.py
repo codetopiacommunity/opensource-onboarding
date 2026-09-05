@@ -3,7 +3,7 @@
 
 Each guide in Getting-Started/ carries a strip like this:
 
-    [<- Previous Guide](./02-previous.md) . **Guide 03** . [Next Guide ->](./04-next.md)
+    [<- Previous Guide](./02-previous.md) . **This Guide** . [Next Guide ->](./04-next.md)
 
     `########....` 33% of the way through
 
@@ -88,15 +88,16 @@ def strip(index, entries, newline):
         href = "./" + os.path.basename(next_path)
     forward = f"[{label} →]({href})"
 
-    # Guides are numbered from 00 to match their filenames, which is also how
-    # every cross-reference in the repo refers to them ("see guide 04").
-    # Progress is a percentage so there is never a second, competing count.
+    # The middle of the strip is the guide you are on, named rather than
+    # numbered, to match how the rest of the docs refer to guides. The file
+    # numbers exist to sort the files, not to be read.
+    # Progress is a percentage so there is never a competing count.
     filled = index + 1
     bar = CELL_FULL * filled + CELL_EMPTY * (total - filled)
     percent = round(filled * 100 / total)
 
     return (
-        f"{back} · **Guide {index:02d}** · {forward}{newline}"
+        f"{back} · **{entries[index][1]}** · {forward}{newline}"
         f"{newline}"
         f"`{bar}` {percent}% of the way through"
     )
