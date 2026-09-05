@@ -177,6 +177,14 @@ nothing to commit, working tree clean
 **Use second person and plain language.** "You will see", not "the
 user will observe".
 
+**Refer to a guide by its name, not its number.** Write
+`[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md)`,
+not "guide 05". The number tells a reader nothing about what is in it,
+so they have to follow the link before they can decide whether they
+want to. The file numbers exist to keep the files in order, and the
+navigation strips at the top and bottom of each guide are generated,
+so leave those alone.
+
 **Wrap prose at about 70 characters.** Keep links, tables, and code
 blocks on one line even when they run longer.
 
