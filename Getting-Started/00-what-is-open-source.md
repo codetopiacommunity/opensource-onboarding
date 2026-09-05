@@ -183,19 +183,25 @@ open source needs.
 Now look back at Rosemary's story. This course teaches you every step
 of it, in order:
 
-- **Guides 01 to 03** give you the tools: the terminal, Git, and your
-  first commit.
-- **Guide 04** takes you online with a GitHub account.
-- **Guide 05** is the big one: you open a real pull request, just like
-  Rosemary.
-- **Guide 06** puts you on the other side, reviewing someone else's
-  pull request.
-- **Guides 07 to 09** make you self-sufficient: claiming issues,
-  resolving conflicts, and keeping your copy of a project up to date.
-- **Guide 10** closes the loop, back where Rosemary's story started:
-  writing a clear issue of your own.
-- **Guide 11** sends you out of the practice repo and into a real
-  project, chosen by you.
+- **[Your Computer and the Terminal](./01-your-computer-and-the-terminal.md)**
+  through **[Your First Commit](./03-your-first-commit.md)** give you the
+  tools: the terminal, Git, and your first commit.
+- **[GitHub Account and SSH](./04-github-account-and-ssh.md)** takes you
+  online with a GitHub account.
+- **[Your First Pull Request](./05-your-first-pull-request.md)** is the
+  big one: you open a real pull request, just like Rosemary.
+- **[Reviewing a Pull Request](./06-reviewing-a-pull-request.md)** puts
+  you on the other side, reviewing someone else's pull request.
+- **[Finding and Claiming an Issue](./07-finding-and-claiming-an-issue.md)**
+  through **[Keeping Your Fork in Sync](./09-keeping-your-fork-in-sync.md)**
+  make you self-sufficient: claiming issues, resolving conflicts, and
+  keeping your copy of a project up to date.
+- **[Reporting a Good Issue](./10-reporting-a-good-issue.md)** closes the
+  loop, back where Rosemary's story started: writing a clear issue of
+  your own.
+- **[Finding Your First Real Project](./11-finding-your-first-real-project.md)**
+  sends you out of the practice repo and into a real project, chosen by
+  you.
 
 By the end, Rosemary's story is your story.
 
@@ -225,8 +231,10 @@ minutes and it means you will not be hunting for it while frustrated.
 > There are two places to ask: the Codetopia Community Discord, and
 > GitHub Discussions. Discord is optional and you never need it to
 > finish this course. Discussions only needs the GitHub account you
-> will create in guide 04 anyway, and if you want that route from the
-> very start, you can make the account now at
+> will create in
+> [GitHub Account and SSH](./04-github-account-and-ssh.md) anyway, and
+> if you want that route from the very start, you can make the account
+> now at
 > <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">github.com/signup</a>.
 > It is free and takes about two minutes.
 

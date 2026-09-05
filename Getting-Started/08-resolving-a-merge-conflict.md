@@ -87,8 +87,8 @@ Switched to a new branch 'practice/merge-conflict'
 ## Step 2: Make your change
 
 If you installed VS Code in
-[guide 02](./02-installing-and-configuring-git.md), open the file with
-that, on any operating system:
+[Installing and Configuring Git](./02-installing-and-configuring-git.md),
+open the file with that, on any operating system:
 
 ```bash
 code docs/conflict-practice.md

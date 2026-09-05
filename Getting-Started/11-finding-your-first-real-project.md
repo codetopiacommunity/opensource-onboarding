@@ -127,8 +127,9 @@ before touching anything.
    be working on it, or a maintainer may have said how they want it
    solved.
 
-Then say you are picking it up, exactly as you did in guide 07. A short
-comment is enough:
+Then say you are picking it up, exactly as you did in
+[Finding and Claiming an Issue](./07-finding-and-claiming-an-issue.md).
+A short comment is enough:
 
 ```
 I would like to work on this one.
@@ -141,8 +142,8 @@ Wait to be assigned, or at least for a reply, before starting.
 
 From here you are on ground you have already covered. Fork, clone,
 branch, change, commit, push, open a pull request. It is
-[guide 05](./05-your-first-pull-request.md) again, on someone else's
-project.
+[Your First Pull Request](./05-your-first-pull-request.md) again, on
+someone else's project.
 
 Two adjustments for real projects:
 
@@ -257,8 +258,8 @@ clearly enough for a stranger to act on, and finding your way into a
 project nobody introduced you to.
 
 Go back and read Rosemary's story in
-[guide 00](./00-what-is-open-source.md) one more time. Every step of it
-is now something you have done yourself.
+[What Is Open Source?](./00-what-is-open-source.md) one more time.
+Every step of it is now something you have done yourself.
 
 The rest is repetition, and you already know how it goes. Check the
 how-tos as the library grows, and tell us in Discussions or Discord

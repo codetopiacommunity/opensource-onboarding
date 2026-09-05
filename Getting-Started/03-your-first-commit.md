@@ -294,8 +294,9 @@ for one. Press `Esc`, then type `:q!` and press Enter. Then run the
 commit again with `-m "my first commit"`.
 
 **Git says `Author identity unknown` or asks who you are.**
-You skipped step 2 of guide 02. Set your name and email, then commit
-again.
+You skipped step 2 of
+[Installing and Configuring Git](./02-installing-and-configuring-git.md).
+Set your name and email, then commit again.
 
 **`git log` will not give you your prompt back.**
 Press `q` to quit. Git shows long output in a viewer you exit with `q`.
