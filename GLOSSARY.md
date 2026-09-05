@@ -139,7 +139,10 @@ A question and answer forum attached to a project, found on its
 something somebody needs to *do* about it. Anyone with a GitHub
 account can post, and on this project a question posted here reaches
 the community Discord on its own, so there is nowhere else you need to
-ask. See [Getting Help](./HELP.md).
+ask. You post your first one in
+[GitHub Account and SSH](./Getting-Started/04-github-account-and-ssh.md),
+and [Getting Help](./HELP.md) covers how to ask so you get a useful
+answer quickly.
 
 ### `.gitignore`
 

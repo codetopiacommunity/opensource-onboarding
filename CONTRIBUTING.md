@@ -108,7 +108,7 @@ to it.
 The guides in `Getting-Started/` are numbered from `00`, and the links
 at the top and bottom of each one are generated rather than typed by
 hand. If you add a guide, rename one, or change its `# Title`, run this
-from the top of the repo:
+in the folder you cloned, the one with `README.md` sitting in it:
 
 ```bash
 python3 scripts/build-nav.py
@@ -118,10 +118,22 @@ Then commit the files it changes. It rewrites the previous and next
 links and the progress bar in every guide, so one new guide does not
 mean editing twelve files by hand.
 
-You do not need to run it for ordinary edits like fixing a typo. If you
-forget, the automatic check on your pull request will say so, and it
-tells you the same command. That is not you being told off: it is the
-check doing its job.
+That command needs Python, which this course never installs and you do
+not otherwise need. If you get `python3: command not found`, do not go
+and install anything for this. Say so in your pull request and a
+maintainer will run it for you. It takes them ten seconds.
+
+You do not need any of this for ordinary edits like fixing a typo. If
+you forget, the automatic [checks](./GLOSSARY.md#checks) on your pull
+request will say so, and they name the same command. That is not you
+being told off: it is the check doing its job.
+
+One of those checks confirms that every link inside this repo goes
+somewhere real. It leaves links to other websites alone, because those
+can break without anybody here touching anything, and a check that
+fails for reasons outside the change is a check people learn to ignore.
+Maintainers can test those by hand with
+`python3 scripts/check-links.py --external`.
 
 ---
 ## Commit messages
