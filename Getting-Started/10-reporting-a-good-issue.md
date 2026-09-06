@@ -1,5 +1,5 @@
 ---
-Guide 11 of 12
+Guide 10 of 11
 
 # Reporting a Good Issue
 

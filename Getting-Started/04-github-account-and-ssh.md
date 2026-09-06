@@ -1,5 +1,5 @@
 ---
-Guide 05 of 12
+Guide 04 of 11
 
 # GitHub Account and SSH
 
@@ -83,15 +83,16 @@ Generating public/private ed25519 key pair.
 Enter file in which to save the key (/home/yourname/.ssh/id_ed25519):
 ```
 
-Press Enter to accept the default location.
+Press Enter twice to skip the passphrase for now. 
 
-It then asks for a passphrase:
-
-```
-Enter passphrase (empty for no passphrase):
-```
-
-Press Enter twice to skip the passphrase for now. Skipping it is fine and means you will not be prompted for a password when you push. If you want extra security on your key later, you can always add a passphrase using `ssh-keygen -p`.
+> [!IMPORTANT]
+> **If you choose to type a passphrase:** The terminal will show absolutely
+> nothing—no letters, no dots, no stars—as you type. This is a security
+> feature to prevent anyone looking over your shoulder. Just type your
+> password and hit Enter, or simply press Enter twice to leave it empty!
+> Skipping it is fine and means you will not be prompted for a password when
+> you push. If you want extra security on your key later, you can always add
+> a passphrase using `ssh-keygen -p`.
 
 What you should see after:
 
@@ -318,9 +319,14 @@ What it means:
 - `upstream` points to the original repo (the one owned by Codetopia
   Community)
 
-Think of it this way: `upstream` is the source of truth for the
-project. `origin` is your personal workspace on GitHub. Your local
-machine is where you do the actual work.
+Think of it this way with a book publisher analogy:
+
+- **`upstream`** is the publisher's master manuscript (the source of
+  truth—you can read it, but you are not allowed to edit it directly).
+- **`origin`** is your personal photocopy of that manuscript on GitHub
+  (your private workspace).
+- **Your local machine** is your desk at home where you do the actual
+  editing before showing it to the publisher.
 
 You will use both throughout the rest of this guide. Every time you
 start new work, you will pull the latest changes from `upstream` first

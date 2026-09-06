@@ -1,5 +1,5 @@
 ---
-Guide 12 of 12
+Guide 11 of 11
 
 # Finding Your First Real Project
 

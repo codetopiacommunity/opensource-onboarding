@@ -1,5 +1,5 @@
 ---
-Guide 03 of 12
+Guide 02 of 11
 
 # Installing and Configuring Git
 
@@ -61,7 +61,12 @@ xcode-select --install
 ```
 
 A popup will appear asking you to install developer tools. Click
-Install and wait for it to finish. It may take a few minutes.
+Install and wait for it to finish. 
+
+> [!NOTE]
+> This download is quite large and can take anywhere from 10 to 30 minutes
+> depending on your internet speed. Do not worry if the progress bar seems
+> to move slowly—it has not frozen!
 
 <!-- IMAGE: macOS popup dialog asking to install developer tools, with the Install button highlighted. Target path: images/02-install-git-macos.png -->
 
@@ -87,15 +92,23 @@ Git needs to know your name and email so it can attach your identity to
 every change you make. This is how open source projects know who
 contributed what.
 
-Run this command with your actual name:
+Run this command, replacing `"Your Name"` with your actual name (keep the
+quotes!):
 
 ```bash
 git config --global user.name "Your Name"
 ```
 
+> [!IMPORTANT]
+> **Keep the double quotes (`" "`) around your name!** Because your name has
+> spaces in it, the computer will get confused and think the spaces mean
+> separate commands. The quotes tell the terminal: "Treat everything inside
+> these quotes as a single piece of text."
+
 What you should see: nothing. No output means it worked.
 
-Now run this with your actual email:
+Now run this with your actual email, replacing `"your@email.com"` with your
+actual email (and keep the quotes here too!):
 
 ```bash
 git config --global user.email "your@email.com"

@@ -1,5 +1,5 @@
 ---
-Guide 09 of 12
+Guide 08 of 11
 
 # Resolving a Merge Conflict
 
@@ -224,18 +224,21 @@ Favorite programming language: JavaScript
 <!-- IMAGE: The conflict-practice.md file open in a text editor showing the conflict markers. The <<<<<<< HEAD section, ======= divider, and >>>>>>> origin/simulated-upstream-change section are all visible with both conflicting lines. Target path: images/conflict-markers-in-file.png -->
 
 Git has rewritten the file to show you both versions side by side,
-with markers to separate them. Here is what each marker means:
+with markers to separate them. Think of it as a temporary "conversation"
+Git inserted between your version and theirs. Here is what each marker means:
 
-- `<<<<<<< HEAD` marks the start of your version. `HEAD` means "what
-  is currently on your branch."
-- Everything between `<<<<<<< HEAD` and `=======` is your change.
-- Everything between `=======` and `>>>>>>>` is the incoming change
-  from the other branch.
-- `>>>>>>> origin/simulated-upstream-change` marks the end.
+- `<<<<<<< HEAD` : This is the **start** of the "conversation." It marks
+  your own version of the file. `HEAD` simply means "your current branch."
+- `=======` : This is the **divider**. Everything above this line is your
+  version; everything below this line is the incoming version from the other
+  branch.
+- `>>>>>>> ...` : This is the **end** of the "conversation." It marks the
+  end of the incoming changes.
 
 Git is not telling you one version is right and the other is wrong.
-It is asking: you both edited this line. Which version should the
-file have?
+It is asking: "You both edited this line. You must manually choose what
+the final version should look like, and delete these markers before
+I will accept it."
 
 ---
 ## Step 7: Resolve the conflict

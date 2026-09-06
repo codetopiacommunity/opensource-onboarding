@@ -1,5 +1,5 @@
 ---
-Guide 04 of 12
+Guide 03 of 11
 
 # Your First Commit
 
@@ -74,8 +74,10 @@ Initialized empty Git repository in /home/yourname/codetopia-community/practice/
 ```
 
 What it means: Git created a hidden folder called `.git` inside your
-practice folder. That folder is where Git stores the full history of
-your changes. You will never need to touch it directly.
+practice folder. (In computer systems, folders starting with a period `.`
+are **hidden** so they do not clutter your file manager). That folder is
+where Git stores the full history of your changes. You will never need to
+touch it directly.
 
 > [!TIP]
 > You only run `git init` once per project. If you run it again by
@@ -104,8 +106,11 @@ What you should see:
 hello.txt
 ```
 
-What it means: `echo` prints text, and `>` sends that text into a file.
-You just created a file from the terminal without opening any editor.
+What it means: `echo` prints text, and the `>` symbol is a **redirection
+operator**. Think of the `>` as an arrow: it takes whatever was printed
+on its left and shoots it into the file name on its right, creating the file
+if it doesn't exist yet! You just created a file from the terminal without
+opening any editor.
 
 ---
 ## Step 5: Check the status
@@ -208,8 +213,11 @@ Date:   Mon Jan 01 00:00:00 2024
 That is your work. Saved. Tracked. Yours. Every commit you ever make
 will show up here.
 
-> [!TIP]
-> Press `q` to exit the `git log` view and return to your prompt.
+> [!IMPORTANT]
+> **How to get back:** When you run `git log`, Git might open a viewer that
+> takes over your terminal. If you see a colon (`:`) or `(END)` at the
+> bottom of your screen, your terminal is paused! **Press the `q` key on
+> your keyboard to instantly quit and return to your normal prompt.**
 
 ---
 ## One rule before you go further: never commit secrets

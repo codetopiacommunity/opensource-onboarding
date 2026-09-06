@@ -1,5 +1,5 @@
 ---
-Guide 02 of 12
+Guide 01 of 11
 
 # Your Computer and the Terminal
 
@@ -14,7 +14,9 @@ any of it. We start with the terminal.
 ## What is a terminal, really?
 
 Most of the time, you talk to your computer through a graphical
-interface (or GUI): you click icons, open folders by double clicking
+interface (or **GUI**—which stands for Graphical User Interface and
+just means the visual windows, icons, and menus you are used to seeing):
+you click icons, open folders by double clicking
 them, and drag files around with your mouse. That is one way to give
 your computer instructions.
 
@@ -54,16 +56,21 @@ Find yours based on your operating system:
 
 ### Windows
 
-Search for **Git Bash** in your Start menu. If you do not have it,
-download Git from https://git-scm.com/downloads and install it. Git
-Bash comes bundled with it.
+Search for **Git Bash** in your Start menu. If you do not have it yet,
+do not worry! You can use the built-in Windows **PowerShell** or **Command
+Prompt** for just this navigation guide. 
+
+However, since the remaining guides will require **Git Bash**, you can
+either jump ahead to download it from https://git-scm.com/downloads now, or
+use your default terminal for this chapter and install it at the start of the
+very next guide, where we walk through it step-by-step.
 
 > [!IMPORTANT]
 > We highly recommend Windows users do everything in this course in
 > **Git Bash**, not Command Prompt and not PowerShell. Those exist,
-> but every command in these guides is written for Git Bash. Typing
-> them into the wrong terminal will produce confusing errors that have
-> nothing to do with you doing something wrong.
+> but every command in these guides from Guide 02 onwards is written for
+> Git Bash. Typing them into the wrong terminal will produce confusing
+> errors that have nothing to do with you doing something wrong.
 
 <!-- IMAGE: Windows Start menu search showing "Git Bash" as the top result under Best match. Target path: images/01-open-terminal-windows.png -->
 
@@ -101,7 +108,7 @@ your computer, the same way you are always inside some folder when you
 open your file explorer. The terminal just does not show you this
 visually, so you have to ask.
 
-Type this exactly and hit Enter:
+Type this exactly, then press the **Enter** key on your keyboard to run it:
 
 ```bash
 pwd
@@ -125,13 +132,16 @@ or on Windows (Git Bash):
 /c/Users/yourname
 ```
 
-What it means: `pwd` stands for "print working directory." It tells you
-the full path of the folder you are currently inside. This is your
-**home folder**, the starting point every time you open the terminal.
+What it means: `pwd` stands for "print working directory." (A
+**directory** is simply the technical computer term for a folder). It
+tells you the full **path** (the exact address or route) of the folder
+you are currently inside. This is your **home folder**, the starting
+point every time you open the terminal.
 
 > [!TIP]
 > If nothing shows up or you see an error, make sure you typed `pwd` in
-> lowercase. Commands are case sensitive.
+> lowercase. Commands are **case-sensitive**—meaning that uppercase letters
+> (A) and lowercase letters (a) are treated as completely different things.
 
 ---
 ## Step 3: Look around

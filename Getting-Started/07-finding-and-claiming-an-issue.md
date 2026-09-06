@@ -1,5 +1,5 @@
 ---
-Guide 08 of 12
+Guide 07 of 11
 
 # Finding and Claiming an Issue
 
@@ -40,6 +40,12 @@ title, a description, and the name of the file where the problem is.
 
 Read through them carefully.
 
+> [!NOTE]
+> Make sure you are looking at the **Issues** tab, not the **Discussions**
+> tab. **Issues** are specific technical tasks to be fixed, whereas
+> **Discussions** are for general questions, ideas, or troubleshooting. We only
+> fix the items listed in the **Issues** tab.
+
 Somebody wrote each one of these. In
 [guide 10](./10-reporting-a-good-issue.md) you learn to write them
 yourself, which is how most people make their first contribution to a
@@ -68,7 +74,12 @@ I would like to work on this one.
 That is all you need to say. A Codetopia Community maintainer will
 assign the issue to you. Once you see your GitHub username appear in
 the "Assignees" section on the right side of the issue page, it is
-yours.
+yours! 
+
+> [!NOTE]
+> If you do not see your name in the "Assignees" box after a while, do not
+> panic. Maintainers are volunteers and might just be offline. Check back
+> in 24 hours.
 
 Do not start working before you are assigned. This prevents two people
 from fixing the same issue and submitting conflicting pull requests.
@@ -123,6 +134,13 @@ Merge those changes into your local `main`:
 ```bash
 git merge upstream/main
 ```
+
+> [!IMPORTANT]
+> **Warning:** If you have previously made changes on your local `main`
+> branch (which you should not have, because we always work on new feature
+> branches!), this merge might fail with a "merge conflict". If this happens,
+> stop, do not try to fix it, and ask for help in Discussions. This confirms
+> you accidentally modified your local `main` branch.
 
 What you should see:
 
