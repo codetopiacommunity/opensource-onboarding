@@ -78,6 +78,10 @@ starting. They are there for the moment you need them.
 ---
 ## What you will learn
 
+Twelve guides. The files are numbered `00` to `11` so they sort into
+the right order on disk, but the guides go by name everywhere else.
+Work through them in order.
+
 0. [What Is Open Source?](./Getting-Started/00-what-is-open-source.md)
 1. [Your Computer and the Terminal](./Getting-Started/01-your-computer-and-the-terminal.md)
 2. [Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md)
@@ -103,7 +107,8 @@ This guide is open source too. If a step did not work for you, a
 command failed, or a paragraph confused you, you can fix it and every
 person after you benefits. See [CONTRIBUTING.md](./CONTRIBUTING.md)
 for how, and do not worry if that sounds out of reach right now. It
-will not by the time you finish guide 05.
+will not by the time you finish
+[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md).
 
 ---
 ## How we treat each other
@@ -129,6 +134,7 @@ anything. If you run a community and want to build on this, please do.
 ---
 ## Let's go
 
-Open [00-what-is-open-source.md](./Getting-Started/00-what-is-open-source.md)
+Open
+[What Is Open Source?](./Getting-Started/00-what-is-open-source.md)
 and start. It is a five minute read with nothing to install, and it
 explains why everything after it is worth doing.

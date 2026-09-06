@@ -4,6 +4,11 @@ This directory contains the core onboarding guides to help you start contributin
 
 ## The Curriculum
 
+Twelve guides. The files are numbered `00` to `11` so they sort into
+the right order on disk, but the guides go by name everywhere else.
+Each one carries links at the top and bottom to move backwards and
+forwards, and a bar showing how far through the course you are.
+
 Work through these guides in order:
 
 0. [What Is Open Source?](./00-what-is-open-source.md)

@@ -165,10 +165,10 @@ If you are in the middle of a merge conflict and want out entirely:
 git merge --abort
 ```
 
-What you should see: nothing printed, and everything back exactly as it
-was before you ran `git merge`. This is completely safe, and it exists
-for precisely this moment. Merge conflicts are covered in
-[guide 08](./Getting-Started/08-resolving-a-merge-conflict.md).
+What you should see: nothing printed, and everything back exactly as
+it was before you ran `git merge`. This is completely safe, and it
+exists for precisely this moment. Merge conflicts are covered in
+[Resolving a Merge Conflict](./Getting-Started/08-resolving-a-merge-conflict.md).
 
 ---
 ## I already pushed something wrong

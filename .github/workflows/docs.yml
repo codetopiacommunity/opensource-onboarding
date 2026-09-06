@@ -1,0 +1,26 @@
+name: Docs
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  navigation:
+    name: Guide navigation is up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The prev/next links and progress bars in Getting-Started/ are
+      # generated. This fails only if a guide was added, renamed, or
+      # retitled without re-running the generator, and the failure message
+      # says exactly which command fixes it.
+      - name: Check the guide navigation strips
+        run: python3 scripts/build-nav.py --check
+
+      # Catches links to renamed files and to `#headings` that have been
+      # reworded, which still work but drop the reader at the top of the
+      # page. Offline only: no external links are fetched.
+      - name: Check internal links resolve
+        run: python3 scripts/check-links.py
