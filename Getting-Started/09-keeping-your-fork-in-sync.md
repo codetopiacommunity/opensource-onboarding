@@ -40,6 +40,16 @@ have nothing to do with your actual work. They are just noise created
 by not syncing first. Reviewers have to deal with them, and you have
 to fix them.
 
+> [!IMPORTANT]
+> **What "outdated" actually looks like:** Imagine you branch off `main` 
+> when the project is at version 1.0. You spend a few days making changes.
+> Meanwhile, the project maintainers merge 5 other PRs, taking the project
+> to version 1.5. When you finally submit your PR, Git sees you are still
+> trying to propose changes based on the old version 1.0, and it gets
+> confused because the files in version 1.5 look totally different! 
+> Syncing pulls in those 5 PRs so your local version is also 1.5 before
+> you even start your work.
+
 The solution is to sync before you start any new piece of work. You
 have been doing this throughout the guides. Here is the full picture
 of what that process actually does.
@@ -200,6 +210,12 @@ markers and the fix are identical, whatever command produced them.
 Your fork's `main` has commits your local one does not, usually from
 committing directly on `main` earlier. Ask in the Discord before
 force pushing, so you do not lose work.
+
+> [!WARNING]
+> **Never use `git push --force` unless a maintainer explicitly tells you to.**
+> A force push will overwrite the history on your fork, meaning if you had 
+> any commits on `main` that weren't merged, they will be gone forever. 
+> It is an irreversible action, which is why Git warns against it.
 
 Still stuck, or hit something not listed here? Ask in
 <a href="https://github.com/codetopiacommunity/opensource-onboarding/discussions/categories/q-a" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>

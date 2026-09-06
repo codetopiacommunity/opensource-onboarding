@@ -24,7 +24,7 @@ Words are listed alphabetically. Jump straight to one:
 [Prompt](#prompt) · [Pull request](#pull-request) · [Push](#push) ·
 [README](#readme) · [Rebase](#rebase) · [Remote](#remote) ·
 [Repository](#repository) · [Reproduce](#reproduce) ·
-[Review](#review) · [Secret](#secret) · [SSH key](#ssh-key) ·
+[Review](#review) · [Secret](#secret) · [Server](#server) · [SSH key](#ssh-key) ·
 [Stage](#stage) · [Sync](#sync) · [Terminal](#terminal) ·
 [upstream](#upstream) · [URL](#url)
 
@@ -298,6 +298,14 @@ API key, an access token, a private SSH key. Never commit one. Git
 history is permanent, so deleting it afterwards does not remove it.
 Explained in
 [Your First Commit](./Getting-Started/03-your-first-commit.md).
+
+### Server
+
+A special, powerful computer that stays online 24/7 to host websites,
+databases, or online services, and send them to your screen when you ask.
+Think of a server as a computer whose only job is to "serve" other computers
+over the internet. Introduced in
+[What is open source](./Getting-Started/00-what-is-open-source.md).
 
 ### SSH key
 

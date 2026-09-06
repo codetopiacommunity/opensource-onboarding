@@ -158,6 +158,13 @@ What it means: Git created a new branch called `add-my-name` and
 switched you to it. Any changes you make now are isolated to this
 branch. They will not touch `main` at all.
 
+> [!IMPORTANT]
+> **Git's magic at work:** When you switch branches, Git actually swaps the
+> files on your physical hard drive in real-time! If you were to switch back
+> to `main` right now, any edits you make on `add-my-name` would temporarily
+> vanish from your screen. Switch back to `add-my-name`, and they instantly
+> return. This is completely normal and is how Git isolates your drafts!
+
 Confirm with:
 
 ```bash
@@ -219,6 +226,11 @@ open -e CONTRIBUTORS.md
 ```bash
 nano CONTRIBUTORS.md
 ```
+
+> [!IMPORTANT]
+> **How to save and exit nano:** Once you add your name, press **`Ctrl + O`**
+> (the letter O, not zero), then press **`Enter`** to save your changes. Then,
+> press **`Ctrl + X`** to exit the nano screen and return to your prompt.
 
 <!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
 

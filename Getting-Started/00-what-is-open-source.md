@@ -7,7 +7,8 @@
 
 # What Is Open Source?
 
-Before you type a single command, it is worth knowing what you are
+Before you type a single **command** (which is just a written instruction
+you type to tell your computer what to do), it is worth knowing what you are
 signing up for and why it is worth your time.
 
 This guide is different from all the others: there is nothing to
@@ -23,8 +24,9 @@ open source software for years without knowing it.
 - **Firefox**, the web browser, is open source.
 - **VS Code**, the most popular code editor in the world, is open
   source.
-- **Linux** runs most of the servers behind the websites you visit
-  every day, and it is the foundation of Android.
+- **Linux** runs most of the **servers** (special, powerful computers
+  that stay online 24/7 to host websites and send them to your screen)
+  behind the websites you visit every day, and it is the foundation of Android.
 - **Wikipedia** runs on open source software written by volunteers.
 
 Open source is not a niche corner of the software world. It is the
@@ -95,8 +97,9 @@ Two things to take from this.
 
 **When you arrive at a project**, look for the `LICENSE` file before
 you invest real time. GitHub shows it on the right-hand side of the
-front page. No licence is worth asking about, politely, in an issue.
-Often the maintainer just forgot.
+front page. If you find a project with **no license**, it is highly worth
+asking the maintainers about it, politely, by opening an issue.
+Often, they simply forgot to add one!
 
 **When you publish your own work**, add one. It takes a minute, and
 without it nobody can build on what you made.

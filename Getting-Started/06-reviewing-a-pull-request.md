@@ -36,7 +36,9 @@ When reviewing a CONTRIBUTORS.md pull request, ask yourself:
 
 - Did they add exactly one line?
 - Does the line follow the correct format: `- [Name](github-profile-url)`?
-- Is the GitHub profile URL a real, working link?
+- Is the GitHub profile URL a real, working link? *(To check, you can
+  right-click the link in their proposed line and open it in a new tab to
+  verify it actually loads their GitHub profile page!)*
 - Did they leave the rest of the file untouched?
 
 You are not expected to be an expert. You are expected to look
@@ -145,7 +147,15 @@ You will see three options:
 
 - **Comment**: leave feedback without approving or blocking the merge
 - **Approve**: you are happy with the changes and they can be merged
-- **Request changes**: something needs fixing before this can be merged
+- **Request changes**: something needs fixing before this can be merged.
+
+> [!TIP]
+> **"Request Changes" is not a failure or a punishment!** It is a normal,
+> healthy part of team collaboration that simply says: *"Hey, let's polish
+> this together before we merge it."* If the issue is very minor (like a
+> simple spelling typo), you can choose to use **Comment** instead, pointing
+> out the typo without formally blocking the pull request. It keeps the tone
+> friendly and encouraging!
 
 Choose based on what you found. Write a short summary in the text box
 and click **Submit review**.
