@@ -72,7 +72,7 @@ very next guide, where we walk through it step-by-step.
 > [!IMPORTANT]
 > We highly recommend Windows users do everything in this course in
 > **Git Bash**, not Command Prompt and not PowerShell. Those exist,
-> but every command in these guides from Guide 02 onwards is written for
+> but every command in these guides from Guide 02 (your computer and the terminal) onwards is written for
 > Git Bash. Typing them into the wrong terminal will produce confusing
 > errors that have nothing to do with you doing something wrong.
 

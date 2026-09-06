@@ -305,7 +305,7 @@ A special, powerful computer that stays online 24/7 to host websites,
 databases, or online services, and send them to your screen when you ask.
 Think of a server as a computer whose only job is to "serve" other computers
 over the internet. Introduced in
-[guide 00](./Getting-Started/00-what-is-open-source.md).
+[What is open source](./Getting-Started/00-what-is-open-source.md).
 
 ### SSH key
 
