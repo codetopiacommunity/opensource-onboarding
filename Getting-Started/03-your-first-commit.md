@@ -213,7 +213,7 @@ Date:   Mon Jan 01 00:00:00 2024
 ```
 
 <!-- IMAGE: Terminal showing git log output with one commit entry, author name, date, and commit message visible. Target path: images/git-log-output.png -->
-
+![Git log output](../images/git-log-output.png)
 That is your work. Saved. Tracked. Yours. Every commit you ever make
 will show up here.
 
