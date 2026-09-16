@@ -35,7 +35,7 @@ to contribute.
 
 Go to https://github.com and sign up.
 
-<!-- IMAGE: The GitHub sign-up page at github.com showing the username, email, and password fields. Target path: images/github-signup.png -->
+![GitHub Signup Page](../images/github-signup.png)
 
 Use the same email you used when configuring Git in
 [Installing and Configuring Git](./02-installing-and-configuring-git.md).
@@ -133,7 +133,7 @@ Select all of it and copy it.
 4. Paste your public key into the Key field
 5. Click **Add SSH key**
 
-<!-- IMAGE: GitHub Settings > SSH and GPG keys page. The "New SSH key" button is highlighted in the top right. Target path: images/ssh-keys-settings.png -->
+![SSH and GPG keys page](../images/ssh-keys-settings.png)
 
 **Test the connection**
 
@@ -189,16 +189,15 @@ A fork is your own personal copy of a repository on GitHub. When you
 fork a repo, GitHub creates an identical copy under your account. You
 can make changes to your fork without affecting the original.
 
-1. Go to `https://github.com/codetopiacommunity/open-source-practice`
+1. Go to `https://github.com/codetopiacommunity/opensource-onboarding`
 2. Click the **Fork** button at the top right of the page
 3. Leave all settings as they are and click **Create fork**
 
-<!-- IMAGE: The open-source-practice repo page on GitHub. The "Fork" button is highlighted in the top-right corner of the page. Target path: images/fork-button.png -->
-
+![Fork Button](../images/fork-button.png)
 What you should see: GitHub takes you to your fork. The URL changes to:
 
 ```
-https://github.com/your-username/open-source-practice
+https://github.com/your-username/opensource-onboarding
 ```
 
 That is now your copy of the repo. It lives under your GitHub account.
@@ -224,21 +223,20 @@ Now clone your fork. Go to your fork on GitHub, click the green
 **Code** button, select **SSH**, and copy the link. It looks like:
 
 ```
-git@github.com:your-username/open-source-practice.git
+git@github.com:your-username/opensource-onboarding.git
 ```
 
-<!-- IMAGE: The green "Code" button dropdown on a GitHub repo page. The "SSH" tab is selected and the SSH clone URL is visible and highlighted. Target path: images/clone-ssh.png -->
-
+![SSH tab](../images/clone-ssh.png)
 Now run:
 
 ```bash
-git clone git@github.com:your-username/open-source-practice.git
+git clone git@github.com:your-username/opensource-onboarding.git
 ```
 
 What you should see:
 
 ```
-Cloning into 'open-source-practice'...
+Cloning into 'opensource-onboarding'...
 remote: Enumerating objects...
 remote: Counting objects...
 Receiving objects: 100%
@@ -250,7 +248,7 @@ have a local copy you can work on.
 Move into the folder:
 
 ```bash
-cd open-source-practice
+cd opensource-onboarding
 ```
 
 > [!TIP]
@@ -273,8 +271,8 @@ git remote -v
 What you should see:
 
 ```
-origin  git@github.com:your-username/open-source-practice.git (fetch)
-origin  git@github.com:your-username/open-source-practice.git (push)
+origin  git@github.com:your-username/opensource-onboarding.git (fetch)
+origin  git@github.com:your-username/opensource-onboarding.git (push)
 ```
 
 A "remote" is just a named connection to a repo that lives somewhere
@@ -289,7 +287,7 @@ your fork.
 ## Step 6: Add upstream
 
 Right now your Git only knows about your fork. But there is also the
-original repo you forked from: `codetopiacommunity/open-source-practice`.
+original repo you forked from: `codetopiacommunity/opensource-onboarding`.
 
 That original repo is called **upstream** by convention. You need a
 connection to it so you can pull in new changes whenever the original
@@ -299,7 +297,7 @@ work.
 Add it as a second remote now:
 
 ```bash
-git remote add upstream git@github.com:codetopiacommunity/open-source-practice.git
+git remote add upstream git@github.com:codetopiacommunity/opensource-onboarding.git
 ```
 
 Verify both remotes are there:
@@ -311,13 +309,13 @@ git remote -v
 What you should see:
 
 ```
-origin    git@github.com:your-username/open-source-practice.git (fetch)
-origin    git@github.com:your-username/open-source-practice.git (push)
-upstream  git@github.com:codetopiacommunity/open-source-practice.git (fetch)
-upstream  git@github.com:codetopiacommunity/open-source-practice.git (push)
+origin    git@github.com:your-username/opensource-onboarding.git (fetch)
+origin    git@github.com:your-username/opensource-onboarding.git (push)
+upstream  git@github.com:codetopiacommunity/opensource-onboarding.git (fetch)
+upstream  git@github.com:codetopiacommunity/opensource-onboarding.git (push)
 ```
 
-<!-- IMAGE: Terminal showing the output of git remote -v with both origin and upstream remotes listed. Target path: images/remotes-origin-upstream.png -->
+![Remote origin and upstream image](../images/remotes-origin-upstream.png)
 
 What it means:
 
@@ -368,7 +366,7 @@ error you have never seen before.
    who you are, where you have got to, and what brought you here
 7. Click **Start discussion** at the bottom
 
-<!-- IMAGE: The Discussions tab of the onboarding repo on GitHub, with the green "New discussion" button highlighted on the right hand side. Target path: images/discussions-new-button.png -->
+![Discussion Page](../images/discussions-new-button.png)
 
 What you should see: your post gets its own page, with your username
 and the date at the top and an empty reply box underneath it. Anyone
