@@ -90,6 +90,7 @@ git push origin main
 ```
 
 <!-- IMAGE: Terminal showing the sync sequence output: git checkout main, git fetch upstream (with "From github.com:..." line), git merge upstream/main ("Already up to date."), git push origin main ("Everything up-to-date"). Target path: images/sync-upstream-output.png -->
+![sync upstream output](<../images/sync-upstream-output.png>)
 
 > [!TIP]
 > This three-step sync (fetch, merge, push) is something you will do
@@ -212,6 +213,7 @@ notepad CONTRIBUTORS.md
 ```
 
 <!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/05-open-contributors-windows.png -->
+![05-open-contributors-windows](../images/05-open-contributors-windows.png)
 
 ### macOS
 
@@ -233,6 +235,7 @@ nano CONTRIBUTORS.md
 > press **`Ctrl + X`** to exit the nano screen and return to your prompt.
 
 <!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
+![open-contributors-linux](../images/05-open-contributors-linux.png)
 
 You will see a short list with one entry already in it. Add your name
 at the bottom, using the same format:
@@ -251,6 +254,7 @@ your actual GitHub username. For example:
 Save the file.
 
 <!-- IMAGE: CONTRIBUTORS.md open in a text editor. The existing Codetopia Community entry is visible and a new line has been added at the bottom in the format "- [Jane Doe](https://github.com/janedoe)". Target path: images/contributors-md-edit.png -->
+![contributors md edit](../images/contributors-md-edit.png)
 
 > [!TIP]
 > Only add your own line. Do not change anyone else's entry or any
