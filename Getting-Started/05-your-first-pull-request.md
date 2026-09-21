@@ -380,6 +380,7 @@ add-my-name had recent pushes. Compare and pull request
 ```
 
 <!-- IMAGE: A GitHub fork page showing the yellow "Compare & pull request" banner appearing at the top after a recent push. Target path: images/compare-pull-request-banner.png -->
+![compare-pull-request-banner](../images/compare-pull-request-banner.png)
 
 Click **Compare and pull request**.
 
@@ -402,6 +403,7 @@ Adds my name to CONTRIBUTORS.md as part of the onboarding exercise.
 ```
 
 <!-- IMAGE: The open pull request form on GitHub. The title field is filled in and the description field has a short explanation. The "Create pull request" button is visible at the bottom. Target path: images/pr-form-filled.png -->
+![pr-form-filled](../images/pr-form-filled.png)
 
 Click **Create pull request**.
 
@@ -409,6 +411,7 @@ What you should see: your PR is now open on the original repo, with
 your title, description, and your change listed below.
 
 <!-- IMAGE: An open pull request page on GitHub showing the PR title, description, the "Open" badge, and the files changed section below. Target path: images/pr-open-page.png -->
+![pr-open-page](../images/pr-open-page.png)
 
 You have officially proposed your changes to the Codetopia Community
 maintainers. Now you wait. A maintainer will review your PR and either
