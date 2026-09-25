@@ -90,6 +90,7 @@ git push origin main
 ```
 
 <!-- IMAGE: Terminal showing the sync sequence output: git checkout main, git fetch upstream (with "From github.com:..." line), git merge upstream/main ("Already up to date."), git push origin main ("Everything up-to-date"). Target path: images/sync-upstream-output.png -->
+![sync upstream output](<../images/sync-upstream-output.png>)
 
 > [!TIP]
 > This three-step sync (fetch, merge, push) is something you will do
@@ -212,6 +213,7 @@ notepad CONTRIBUTORS.md
 ```
 
 <!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/05-open-contributors-windows.png -->
+![05-open-contributors-windows](../images/05-open-contributors-windows.png)
 
 ### macOS
 
@@ -233,6 +235,7 @@ nano CONTRIBUTORS.md
 > press **`Ctrl + X`** to exit the nano screen and return to your prompt.
 
 <!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
+![open-contributors-linux](../images/05-open-contributors-linux.png)
 
 You will see a short list with one entry already in it. Add your name
 at the bottom, using the same format:
@@ -251,6 +254,7 @@ your actual GitHub username. For example:
 Save the file.
 
 <!-- IMAGE: CONTRIBUTORS.md open in a text editor. The existing Codetopia Community entry is visible and a new line has been added at the bottom in the format "- [Jane Doe](https://github.com/janedoe)". Target path: images/contributors-md-edit.png -->
+![contributors md edit](../images/contributors-md-edit.png)
 
 > [!TIP]
 > Only add your own line. Do not change anyone else's entry or any
@@ -376,6 +380,7 @@ add-my-name had recent pushes. Compare and pull request
 ```
 
 <!-- IMAGE: A GitHub fork page showing the yellow "Compare & pull request" banner appearing at the top after a recent push. Target path: images/compare-pull-request-banner.png -->
+![compare-pull-request-banner](../images/compare-pull-request-banner.png)
 
 Click **Compare and pull request**.
 
@@ -398,6 +403,7 @@ Adds my name to CONTRIBUTORS.md as part of the onboarding exercise.
 ```
 
 <!-- IMAGE: The open pull request form on GitHub. The title field is filled in and the description field has a short explanation. The "Create pull request" button is visible at the bottom. Target path: images/pr-form-filled.png -->
+![pr-form-filled](../images/pr-form-filled.png)
 
 Click **Create pull request**.
 
@@ -405,6 +411,7 @@ What you should see: your PR is now open on the original repo, with
 your title, description, and your change listed below.
 
 <!-- IMAGE: An open pull request page on GitHub showing the PR title, description, the "Open" badge, and the files changed section below. Target path: images/pr-open-page.png -->
+![pr-open-page](../images/pr-open-page.png)
 
 You have officially proposed your changes to the Codetopia Community
 maintainers. Now you wait. A maintainer will review your PR and either

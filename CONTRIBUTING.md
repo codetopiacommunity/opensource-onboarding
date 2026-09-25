@@ -319,3 +319,5 @@ Stuck on any of this, or unsure whether an idea is worth doing? Ask in
 using the **Q&A** category. It reaches the community Discord on its own,
 so there is nowhere else you need to post. [Getting Help](./HELP.md)
 covers how. Asking first is always welcome. Nobody here will mind.
+
+[Hope Decardi-Nelson](https://github.com/blackbox24)
