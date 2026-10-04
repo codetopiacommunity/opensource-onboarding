@@ -214,7 +214,7 @@ number like `1.92.0`.
 From now on you can open any file in VS Code from the terminal:
 
 ```bash
-code CONTRIBUTORS.md
+code README.md
 ```
 
 And you can open a whole project folder at once, which is usually what

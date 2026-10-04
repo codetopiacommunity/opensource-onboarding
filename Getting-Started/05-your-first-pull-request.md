@@ -45,7 +45,7 @@ Confirm you are in the right place:
 ls
 ```
 
-You should see files like `README.md`, `CONTRIBUTORS.md`, and a `docs/`
+You should see `README.md`, a `contributors/` folder and a `docs/`
 folder.
 
 > [!TIP]
@@ -186,79 +186,96 @@ The `*` is now on `add-my-name`. You are ready to make changes.
 > spaces. `add-my-name` is good. `my new branch` will cause errors.
 
 ---
-## Step 5: Add yourself to CONTRIBUTORS.md
+## Step 5: Add your file to the contributors folder
+
+Everyone who goes through this course has one small file about
+themselves in the `contributors` folder, named after their GitHub
+username. Because each person only touches their own file, nobody's
+pull request ever clashes with anyone else's.
+
+First make sure your file exists. Replace `your-username` with your
+actual GitHub username:
+
+```bash
+touch contributors/your-username.md
+```
+
+If you already did
+<a href="https://community.codetopia.org/howtos/Contributing/05-your-first-fix" target="_blank" rel="noopener noreferrer">Your First Pull Request</a>
+in the browser, the file is already there and this changes nothing.
+If not, it creates an empty file.
 
 If you installed VS Code in
 [Installing and Configuring Git](./02-installing-and-configuring-git.md),
 open the file with that, on any operating system:
 
 ```bash
-code CONTRIBUTORS.md
+code contributors/your-username.md
 ```
 
-Otherwise use the editor your computer came with. Open
-`CONTRIBUTORS.md` in a text editor:
+Otherwise use the editor your computer came with:
 
 > [!NOTE]
 > The `.md` on the end means this is a **Markdown** file, the simple
 > formatting used all over GitHub. You do not need to learn it to
-> finish this step, just copy the pattern of the lines already in the
-> file. When you want it explained,
-> [Markdown](../MARKDOWN.md) covers the whole thing in a few minutes.
+> finish this step, just copy the pattern below. When you want it
+> explained, [Markdown](../MARKDOWN.md) covers the whole thing in a few
+> minutes.
 
 ### Windows (Git Bash)
 
 ```bash
-notepad CONTRIBUTORS.md
+notepad contributors/your-username.md
 ```
 
-<!-- IMAGE: CONTRIBUTORS.md open in Notepad on Windows. Target path: images/05-open-contributors-windows.png -->
-![05-open-contributors-windows](../images/05-open-contributors-windows.png)
+<!-- IMAGE: contributors/your-username.md open in Notepad on Windows. Target path: images/05-open-contributors-windows.png -->
 
 ### macOS
 
 ```bash
-open -e CONTRIBUTORS.md
+open -e contributors/your-username.md
 ```
 
-<!-- IMAGE: CONTRIBUTORS.md open in TextEdit on macOS. Target path: images/05-open-contributors-macos.png -->
+<!-- IMAGE: contributors/your-username.md open in TextEdit on macOS. Target path: images/05-open-contributors-macos.png -->
 
 ### Linux
 
 ```bash
-nano CONTRIBUTORS.md
+nano contributors/your-username.md
 ```
 
 > [!IMPORTANT]
-> **How to save and exit nano:** Once you add your name, press **`Ctrl + O`**
-> (the letter O, not zero), then press **`Enter`** to save your changes. Then,
-> press **`Ctrl + X`** to exit the nano screen and return to your prompt.
+> **How to save and exit nano:** Once you have written your lines, press
+> **`Ctrl + O`** (the letter O, not zero), then press **`Enter`** to save
+> your changes. Then, press **`Ctrl + X`** to exit the nano screen and
+> return to your prompt.
 
-<!-- IMAGE: CONTRIBUTORS.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
-![open-contributors-linux](../images/05-open-contributors-linux.png)
+<!-- IMAGE: contributors/your-username.md open in nano in the Linux terminal. Target path: images/05-open-contributors-linux.png -->
 
-You will see a short list with one entry already in it. Add your name
-at the bottom, using the same format:
-
-```
-- [Your Name](https://github.com/your-username)
-```
-
-Replace `Your Name` with your display name and `your-username` with
-your actual GitHub username. For example:
+**If the file is empty**, write a few lines about yourself:
 
 ```
-- [Jane Doe](https://github.com/janedoe)
+# Your Name
+
+- From: Your city, your country
+- Learning right now: what you are learning
+- Fun fact: one thing about you
+```
+
+**If it already has your details** from the browser guide, add one
+line at the bottom:
+
+```
+- First commit from the terminal: done
 ```
 
 Save the file.
 
-<!-- IMAGE: CONTRIBUTORS.md open in a text editor. The existing Codetopia Community entry is visible and a new line has been added at the bottom in the format "- [Jane Doe](https://github.com/janedoe)". Target path: images/contributors-md-edit.png -->
-![contributors md edit](../images/contributors-md-edit.png)
+<!-- IMAGE: contributors/janedoe.md open in a text editor with the three lines about Jane filled in. Target path: images/contributors-md-edit.png -->
 
 > [!TIP]
-> Only add your own line. Do not change anyone else's entry or any
-> other part of the file.
+> Only edit your own file. Do not change anyone else's file or anything
+> else in the repo.
 
 ---
 ## Step 6: Stage and commit your change
@@ -272,14 +289,17 @@ git status
 What you should see:
 
 ```
-Changes not staged for commit:
-  modified: CONTRIBUTORS.md
+Untracked files:
+  contributors/your-username.md
 ```
+
+If the file was already there from the browser guide, Git says
+`modified: contributors/your-username.md` instead. Both are fine.
 
 Stage the file:
 
 ```bash
-git add CONTRIBUTORS.md
+git add contributors/your-username.md
 ```
 
 Before you commit, a quick note on commit messages. Codetopia
@@ -300,9 +320,8 @@ What you did. The types you will use most often:
 | `docs` | Documentation changes |
 | `chore` | Maintenance, config, or housekeeping |
 
-For a deeper look at commit conventions and branch naming, see the
-[Commit Messages and Branch Naming](https://community.codetopia.org/how-tos/git-and-github/commit-messages-and-branch-naming)
-guide in the community how-tos.
+For a deeper look at commit conventions, see
+<a href="https://www.conventionalcommits.org" target="_blank" rel="noopener noreferrer">Conventional Commits</a>.
 
 Now commit your change. Replace `your-github-username` with your actual GitHub username before running this:
 
@@ -314,8 +333,10 @@ What you should see:
 
 ```
 [add-my-name abc1234] docs: add your-github-username to contributors
- 1 file changed, 1 insertion(+)
+ 1 file changed, 5 insertions(+)
 ```
+
+The number of insertions is however many lines you wrote.
 
 Your change is saved locally on your branch. Next, you send it to
 GitHub.
@@ -399,7 +420,7 @@ Replace `janedoe` with your username.
 One or two sentences saying what you did. For example:
 
 ```
-Adds my name to CONTRIBUTORS.md as part of the onboarding exercise.
+Adds my file to the contributors folder as part of the onboarding exercise.
 ```
 
 <!-- IMAGE: The open pull request form on GitHub. The title field is filled in and the description field has a short explanation. The "Create pull request" button is visible at the bottom. Target path: images/pr-form-filled.png -->
@@ -463,7 +484,7 @@ The change was never saved. Go back to the editor, save, and check
 Refresh the page. If it still is not there, open the **Branches** tab,
 find your branch, and click **New pull request** next to it.
 
-**You cannot find `CONTRIBUTORS.md`.**
+**You cannot find the `contributors` folder.**
 Run `pwd`. You must be inside
 `~/codetopia-community/open-source-practice`, not the folder above it.
 

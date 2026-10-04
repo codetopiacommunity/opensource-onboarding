@@ -32,14 +32,16 @@ community.
 Before you start, understand what you are looking for. A good review
 is not about finding fault. It is about making the work better.
 
-When reviewing a CONTRIBUTORS.md pull request, ask yourself:
+When reviewing a contributors pull request, ask yourself:
 
-- Did they add exactly one line?
-- Does the line follow the correct format: `- [Name](github-profile-url)`?
-- Is the GitHub profile URL a real, working link? *(To check, you can
-  right-click the link in their proposed line and open it in a new tab to
-  verify it actually loads their GitHub profile page!)*
-- Did they leave the rest of the file untouched?
+- Did they add or change exactly one file, inside `contributors/`?
+- Is the file named after their own GitHub username, ending in `.md`?
+  *(To check, open `https://github.com/` followed by the file name
+  without `.md` in a new tab, and make sure it loads their profile.)*
+- Does it follow the pattern: a `#` heading with their name, then a few
+  short lines about them?
+- Did they leave everyone else's files, and the rest of the repo,
+  untouched?
 
 You are not expected to be an expert. You are expected to look
 carefully and give honest, respectful feedback.
@@ -88,10 +90,10 @@ Click on the pull request you chose. You will see:
 
 Click **Files changed**.
 
-<!-- IMAGE: A pull request page on GitHub with the "Files changed" tab selected. CONTRIBUTORS.md is shown with one new green line added at the bottom. Target path: images/files-changed-tab.png -->
+<!-- IMAGE: A pull request page on GitHub with the "Files changed" tab selected. A new file under contributors/ is shown with its lines in green. Target path: images/files-changed-tab.png -->
 
-What you should see: `CONTRIBUTORS.md` with one new line highlighted
-in green. Green means added content. Red means removed content.
+What you should see: one file under `contributors/`, with its lines
+highlighted in green. Green means added content. Red means removed content.
 
 Read it carefully. Check everything from Step 1.
 
