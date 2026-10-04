@@ -201,7 +201,7 @@ touch contributors/your-username.md
 ```
 
 If you already did
-<a href="https://community.codetopia.org/howtos/Contributing/05-your-first-fix" target="_blank" rel="noopener noreferrer">Your First Pull Request</a>
+<a href="https://community.codetopia.org/howtos/Contributing/03-your-first-pull-request" target="_blank" rel="noopener noreferrer">Your First Pull Request</a>
 in the browser, the file is already there and this changes nothing.
 If not, it creates an empty file.
 
