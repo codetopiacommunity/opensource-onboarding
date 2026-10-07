@@ -129,7 +129,7 @@ This one tells Git what to call the first branch in any new project
 you start. Without it, Git picks a different name and prints a block
 of `hint:` text every time you start a project, which looks alarming
 and is not. You will meet branches properly in
-[Your First Pull Request](./05-your-first-pull-request.md).
+[Your First Pull Request from the Terminal](./05-your-first-pull-request.md).
 
 Now confirm all three were saved:
 
@@ -159,7 +159,7 @@ will remember it from now on.
 ---
 ## Step 3: Install a text editor
 
-From [Your First Pull Request](./05-your-first-pull-request.md)
+From [Your First Pull Request from the Terminal](./05-your-first-pull-request.md)
 onwards you will be opening files and changing what is inside them.
 For that you need a **text editor**.
 
@@ -174,7 +174,7 @@ see any of it, and it will break code and confuse Git. Notepad and
 TextEdit are text editors and are fine. Word is not.
 
 You already have a basic one, which is why
-[Your First Pull Request](./05-your-first-pull-request.md) opens files
+[Your First Pull Request from the Terminal](./05-your-first-pull-request.md) opens files
 with `notepad` on Windows and `open -e` on macOS. That will get you
 through this course. But installing a proper editor takes five minutes
 and makes everything afterwards easier, so it is worth doing now.
@@ -214,7 +214,7 @@ number like `1.92.0`.
 From now on you can open any file in VS Code from the terminal:
 
 ```bash
-code CONTRIBUTORS.md
+code README.md
 ```
 
 And you can open a whole project folder at once, which is usually what

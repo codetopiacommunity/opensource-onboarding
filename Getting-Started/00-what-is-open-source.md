@@ -191,7 +191,7 @@ of it, in order:
   tools: the terminal, Git, and your first commit.
 - **[GitHub Account and SSH](./04-github-account-and-ssh.md)** takes you
   online with a GitHub account.
-- **[Your First Pull Request](./05-your-first-pull-request.md)** is the
+- **[Your First Pull Request from the Terminal](./05-your-first-pull-request.md)** is the
   big one: you open a real pull request, just like Rosemary.
 - **[Reviewing a Pull Request](./06-reviewing-a-pull-request.md)** puts
   you on the other side, reviewing someone else's pull request.

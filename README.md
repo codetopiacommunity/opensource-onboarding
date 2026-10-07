@@ -87,7 +87,7 @@ Work through them in order.
 2. [Installing and Configuring Git](./Getting-Started/02-installing-and-configuring-git.md)
 3. [Your First Commit](./Getting-Started/03-your-first-commit.md)
 4. [GitHub Account and SSH](./Getting-Started/04-github-account-and-ssh.md)
-5. [Your First Pull Request](./Getting-Started/05-your-first-pull-request.md)
+5. [Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md)
 6. [Reviewing a Pull Request](./Getting-Started/06-reviewing-a-pull-request.md)
 7. [Finding and Claiming an Issue](./Getting-Started/07-finding-and-claiming-an-issue.md)
 8. [Resolving a Merge Conflict](./Getting-Started/08-resolving-a-merge-conflict.md)
@@ -108,7 +108,7 @@ command failed, or a paragraph confused you, you can fix it and every
 person after you benefits. See [CONTRIBUTING.md](./CONTRIBUTING.md)
 for how, and do not worry if that sounds out of reach right now. It
 will not by the time you finish
-[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md).
+[Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md).
 
 ---
 ## How we treat each other

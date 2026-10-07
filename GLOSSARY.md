@@ -45,7 +45,7 @@ touching the main version. Think of it as a rough draft: you work on
 your branch, and only when it is ready does it get combined back in.
 Every project has one main branch, usually called `main`, which holds
 the version everyone agrees on. Taught in
-[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md).
+[Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md).
 
 ### Checks
 
@@ -244,7 +244,7 @@ A proposal that says "here are my changes, please include them in the
 project." It is where your work gets seen, discussed, and either
 accepted or improved. Opening one does not change anything by itself.
 Taught in
-[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md).
+[Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md).
 
 ### Push
 

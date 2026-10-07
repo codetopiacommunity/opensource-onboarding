@@ -16,7 +16,7 @@ Work through these guides in order:
 2. [Installing and Configuring Git](./02-installing-and-configuring-git.md)
 3. [Your First Commit](./03-your-first-commit.md)
 4. [GitHub Account and SSH](./04-github-account-and-ssh.md)
-5. [Your First Pull Request](./05-your-first-pull-request.md)
+5. [Your First Pull Request from the Terminal](./05-your-first-pull-request.md)
 6. [Reviewing a Pull Request](./06-reviewing-a-pull-request.md)
 7. [Finding and Claiming an Issue](./07-finding-and-claiming-an-issue.md)
 8. [Resolving a Merge Conflict](./08-resolving-a-merge-conflict.md)

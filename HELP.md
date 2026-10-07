@@ -128,7 +128,7 @@ there is.
 
 Getting in is not a plain Discord signup, though. The server is unlocked
 by a Codetopia portal account, so that comes first.
-<a href="https://community.codetopia.org/howtos/Getting-Started/01-join-the-community" target="_blank" rel="noopener noreferrer">Join the Community</a>
+<a href="https://community.codetopia.org/howtos/getting-started/join-the-community" target="_blank" rel="noopener noreferrer">Join the Community</a>
 walks you through it in order: portal account, then Discord.
 
 > [!NOTE]
