@@ -25,9 +25,20 @@ it for the first time.
 
 - Sync your fork with the latest changes from upstream
 - Create a new branch for your change
-- Add your name to the contributors list
+- Add your file to the contributors folder
 - Push your branch to your fork
 - Open a pull request
+
+> [!IMPORTANT]
+> **Already did
+> <a href="https://community.codetopia.org/howtos/contributing/your-first-pull-request" target="_blank" rel="noopener noreferrer">Your First Pull Request</a>
+> in the browser?** Wait until that pull request is merged before you
+> start this guide. To check, open the
+> <a href="https://github.com/codetopiacommunity/open-source-practice/tree/main/contributors" target="_blank" rel="noopener noreferrer">contributors folder</a>:
+> it is merged when your file is listed there. On your pull request,
+> the green **Open** label has also turned into a purple **Merged**
+> label. If you start before that, both of your pull requests add the
+> same file and clash.
 
 ---
 ## Step 1: Go to your cloned repo
