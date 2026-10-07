@@ -89,7 +89,7 @@ to it.
    is an obvious typo.
    ([Finding and Claiming an Issue](./Getting-Started/07-finding-and-claiming-an-issue.md))
 2. **Fork this repo and clone your fork** to your computer.
-   ([Your First Pull Request](./Getting-Started/05-your-first-pull-request.md))
+   ([Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md))
 3. **Create a branch** named for what you are doing:
    `fix/broken-link-guide-04`, `docs/clarify-ssh-step`.
 4. **Make your change** and read it back once before committing.
@@ -97,7 +97,7 @@ to it.
 6. **Push your branch** and open a pull request explaining what you
    changed and why. If it closes an issue, write `Closes #N` in the
    description.
-   ([Your First Pull Request](./Getting-Started/05-your-first-pull-request.md))
+   ([Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md))
 7. **Respond to review comments.** A maintainer will read your change
    and may suggest a tweak. That is normal, and it is not criticism.
    ([Reviewing a Pull Request](./Getting-Started/06-reviewing-a-pull-request.md))
@@ -190,7 +190,7 @@ nothing to commit, working tree clean
 user will observe".
 
 **Refer to a guide by its name, not its number.** Write
-`[Your First Pull Request](./Getting-Started/05-your-first-pull-request.md)`,
+`[Your First Pull Request from the Terminal](./Getting-Started/05-your-first-pull-request.md)`,
 not "guide 05". The number tells a reader nothing about what is in it,
 so they have to follow the link before they can decide whether they
 want to. The file numbers exist to keep the files in order, and the

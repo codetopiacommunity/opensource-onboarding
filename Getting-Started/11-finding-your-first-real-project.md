@@ -142,7 +142,7 @@ Wait to be assigned, or at least for a reply, before starting.
 
 From here you are on ground you have already covered. Fork, clone,
 branch, change, commit, push, open a pull request. It is
-[Your First Pull Request](./05-your-first-pull-request.md) again, on
+[Your First Pull Request from the Terminal](./05-your-first-pull-request.md) again, on
 someone else's project.
 
 Two adjustments for real projects:

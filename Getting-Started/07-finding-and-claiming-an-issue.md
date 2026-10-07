@@ -243,7 +243,7 @@ git push origin fix/typo-in-about
 ## Step 7: Open a pull request
 
 Go to your fork on GitHub and open a pull request the same way you did
-in [Your First Pull Request](./05-your-first-pull-request.md). Click
+in [Your First Pull Request from the Terminal](./05-your-first-pull-request.md). Click
 the yellow **Compare and pull request** banner.
 
 In the pull request description, include the issue number:
